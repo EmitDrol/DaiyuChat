@@ -19,6 +19,13 @@ def markdown_extractor(output,tag='json'):
             return json.loads(str)
         return None
     
+def text_extractor(output, tag='text'):
+    pattern = rf'```{tag}\s*([\s\S]*?)\s*```'
+    matches = re.findall(pattern, output)
+    if matches:
+        str = matches[-1].strip()
+        return str
+    return None
     
 if __name__ == '__main__':
     output = '''

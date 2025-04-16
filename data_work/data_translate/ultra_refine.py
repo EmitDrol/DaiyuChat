@@ -1,15 +1,11 @@
-import sys
+import json
 import time
+import sys
 sys.path.append('./')
-
-
-from model_work.prompts.trans_scene_to_messages import prompt_template_v1 as scene_to_messages_prompt, \
-    prompt_template_v1_extracor as scene_to_messages_extracor
 from model_work.openai_model import BaseOpenaiModel
+from model_work.prompts.ultra_refine import prompt_template,prompt_template_extracor
 from data_work.data_translate.utils.jsonl_processor import process_jsonl
-
-
-def scene_to_message(item, max_retries=8):
+def ultra_refine(item, max_retries=8):
     """
     生成场景消息的函数，添加了重试机制。
     
@@ -20,9 +16,9 @@ def scene_to_message(item, max_retries=8):
     返回:
         dict: 更新后的item，包含生成的场景消息。
     """
-    scene_location = item['scene_location']
+    # scene_location = item['scene_location']
     scene_content = item['scene_content']
-    scene_messges = [{'role': 'Narrator', 'content': f'在{scene_location}'}]
+    scene_messges = item['scene_messages']
 
     # 初始化模型
     BASE_URL = "http://10.130.5.11:8000/v1"
@@ -34,12 +30,10 @@ def scene_to_message(item, max_retries=8):
     while retries <= max_retries:
         try:
             # 调用模型生成响应
-            resp = model.call(scene_to_messages_prompt.format(scene_content), temperature=0.7, timeout=600)
-            messages = scene_to_messages_extracor(resp)
+            resp = model.call(prompt_template.format(json.dumps(scene_content,ensure_ascii=False)), temperature=0.7, timeout=600)
+            new_scene_messges = prompt_template_extracor(resp)
 
-            # 更新场景消息并返回结果
-            scene_messges.extend(messages)
-            item['scene_messages'] = scene_messges
+            item['scene_messages'] = new_scene_messges
             return item
 
         except Exception as e:
@@ -50,7 +44,5 @@ def scene_to_message(item, max_retries=8):
                 print(f"调用模型失败，已达到最大重试次数({max_retries})。错误信息: {str(e)}")
             print(f"调用模型失败，正在进行第 {retries} 次重试。错误信息: {str(e)}")
 
-
 if __name__ == '__main__':
-    path = r'/cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/data_work/data/87版红楼梦剧本.jsonl'
-    process_jsonl(path,scene_to_message,max_workers=64,hard_mode=True)
+    process_jsonl('/cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/data_work/data/87版红楼梦剧本_processed_by_scene_to_message_with_r1_32b_processed_by_msgs2trainingmsgs.jsonl',ultra_refine,max_workers=72,hard_mode=True)
