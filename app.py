@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, send_from_directory
+from flask import Flask, Response, request, jsonify, render_template, send_from_directory
 import openai
 from openai import OpenAI
 import os
@@ -6,26 +6,18 @@ import json
 from datetime import datetime  # 引入时间模块
 
 from myutils.fomat_time import formatted_time
-from sys_prompts.DaiyuLin import prompt as Daiyu_prompt, opening as Daiyu_openning
+from sys_prompts.DaiyuLin_sp import prompt as Daiyu_prompt, opening as Daiyu_openning
 
 app = Flask(__name__)
-
-# 配置 envs
-ali_key = "sk-60c35b95f17f42a0bd50452648b7e07e"
-ali_base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-ali_models = ["qwen2-72b-instruct", "qwen2-7b-instruct"]
-
-deepseek_key = "sk-368172d0f1284782b87d8a1e5bfd4586"
-deepseek_base_url = "https://api.deepseek.com"
-deepseek_models = ["deepseek-chat"]
 
 sys_prompt = Daiyu_prompt
 opening_message = Daiyu_openning
 
 ## =========================== ##
-api_key = ali_key
-base_url = ali_base_url
-model = ali_models[0]
+api_key = "empty"
+base_url = "http://10.130.5.11:8000/v1"
+model = 'daiyu_20250426_042114'
+
 ## =========================== ##
 
 if base_url:
@@ -76,23 +68,34 @@ def chat():
         messages = [{"role": "system", "content": sys_prompt}]
         messages += user_messages
 
-        # 调用 OpenAI GPT 模型
-        client = OpenAI(base_url=base_url, api_key=api_key)
-        response = client.chat.completions.create(
+        # 初始化 OpenAI 客户端
+        client = openai.OpenAI(base_url=base_url, api_key=api_key)
+
+        # 使用流式调用 OpenAI GPT 模型
+        response_generator = client.chat.completions.create(
             temperature=0.7,
             model=model,
             messages=messages,
+            stream=True  # 启用流式传输
         )
-        # 获取模型的回复
-        model_reply = response.choices[0].message.content.strip()
 
-        # 保存对话到 JSONL 文件
-        save_dialogue_to_jsonl(user_messages, model_reply)
+        def generate():
+            full_reply = ""
+            for chunk in response_generator:
+                if chunk.choices and chunk.choices[0].delta.content:
+                    content = chunk.choices[0].delta.content
+                    full_reply += content
+                    yield content  # 流式返回每个片段
+            # 保存完整对话到 JSONL 文件
+            save_dialogue_to_jsonl(user_messages, full_reply)
 
-        return jsonify({"reply": model_reply})
+        # 返回流式响应
+        return Response(generate(), content_type='text/plain')
+
     except Exception as e:
         print(e)
         return jsonify({"error": f"An error occurred: {str(e)}"}), 500
+
 
 
 @app.route('/resource/<path:filename>')
@@ -101,4 +104,4 @@ def resource(filename):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=56674)

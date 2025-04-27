@@ -1,5 +1,8 @@
-prompt_template = """你的任务是将以下messages改写得更符合以下sys_prompt。要求1.以```json```包裹你的输出。2.去除usermessage中被[]包裹的tag，以自然语言形式融入content。3.确保assistant的content符合sys_prompt，并适量丰富。3.不要修改system message。
-<sys_prompt># 你是林黛玉。是贾府的一位小姐，性格多愁善感，聪慧灵秀，擅长诗词歌赋。你说话细腻委婉，言辞间常带有淡淡的忧愁和诗意。
+prompt_template_assistant = """你的任务是将根据sys_prompt、前文对话，后文对话将当前message扩写且更符合sys_prompt。保证回复包含思考，动作，语言三部分内容，避免过短回复。
+<sys_prompt>
+# 你是林黛玉。是贾府的一位小姐，性格多愁善感，聪慧灵秀，擅长诗词歌赋。你说话细腻委婉，言辞间常带有淡淡的忧愁和诗意。
+
+要求: 回复至少包含、<action></action>、无特殊包裹的对话语言,和<thinking></thinking>三类型部分各一次
 
 ## 人物背景
 
@@ -32,8 +35,38 @@ prompt_template = """你的任务是将以下messages改写得更符合以下sys
 - **情节一致性**：保持林黛玉的人物设定，避免与原著性格冲突。
 - **沉浸性**：不可透露你知道任何不符合清时代的知识，不可透露你是你《红楼梦》中的人物，所以你不知道《红楼梦》，不可以说出《红楼梦》三个字。
 - **心理活动**：请在回复中穿插以<thinking></thinking>包裹一句话来描述你的内心活动。
-- **动作**：请在回复中穿插以<action></action>包裹一句话来描述你的动作。请要保证动作连贯，放下或拿起某物则之后的对话中都保持放下或拿起。</sys_prompt>
-<messages>{}</messages>"""
+- **动作**：请在回复中穿插以<action></action>包裹一句话来描述你的动作。请要保证动作连贯，放下或拿起某物则之后的对话中都保持放下或拿起。
+</sys_prompt>
+<前文对话>
+{before}
+</前文对话>
+<后文对话>
+{back}
+</后文对话>
+<当前message>
+{now}
+</当前message>
+请输出以```json```包裹的扩写后的当前message!"""
+
+
+prompt_template_user="""你的任务是将根据前文对话，后文对话将当前message改写得更符合上下文.
+要求已第二人称称呼黛玉（即assistant），保证对话的沉浸性。
+<前文对话>
+{before}
+</前文对话>
+<后文对话>
+{back}
+</后文对话>
+<当前message>
+{now}
+</当前message>
+请输出以```json```包裹的改写后的当前message!"""
+
+def format_prompt(before, back, now):
+  if now['role'] == 'assistant':
+    return prompt_template_assistant.format(before=before, back=back, now=now)
+  elif now['role'] == 'user':
+    return prompt_template_user.format(before=before, back=back, now=now)
 
 from data_work.data_utils.extractor import markdown_extractor
 prompt_template_extracor = markdown_extractor

@@ -22,12 +22,15 @@ def scene_to_message(item, max_retries=8):
     """
     scene_location = item['scene_location']
     scene_content = item['scene_content']
+    if '黛玉' not in scene_content:
+        return None
     scene_messges = [{'role': 'Narrator', 'content': f'在{scene_location}'}]
 
+    from model_work.api_cfg import DEEPSEEK_API_KEY,DEEPSEEK_BASE_URL,DeepseekModels
     # 初始化模型
-    BASE_URL = "http://10.130.5.11:8000/v1"
-    API_KEY = "empty"
-    model_name = "R1_32B"
+    BASE_URL = DEEPSEEK_BASE_URL
+    API_KEY = DEEPSEEK_API_KEY
+    model_name = DeepseekModels.deepseekv3.MODEL_NAME
     model = BaseOpenaiModel(base_url=BASE_URL, api_key=API_KEY, model_name=model_name)
 
     retries = 0
@@ -53,4 +56,4 @@ def scene_to_message(item, max_retries=8):
 
 if __name__ == '__main__':
     path = r'/cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/data_work/data/87版红楼梦剧本.jsonl'
-    process_jsonl(path,scene_to_message,max_workers=64,hard_mode=True)
+    process_jsonl(path,scene_to_message,max_workers=8,add_mode=True,epochs=8)

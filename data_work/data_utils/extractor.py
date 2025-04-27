@@ -15,8 +15,8 @@ def markdown_extractor(output,tag='json'):
         pattern = rf'```{tag}\s*([\s\S]*?)\s*```'
         matches = re.findall(pattern, output)
         if matches:
-            str = matches[-1].strip()
-            return json.loads(str)
+            extracted_str = matches[-1].strip()
+            return json.loads(extracted_str)
         return None
     
 def text_extractor(output, tag='text'):
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     ```json
     {
         "answer": "你好",
-        "confidence": 0.9
+        "confidence": "你好"
     }
     ```
     '''

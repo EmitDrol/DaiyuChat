@@ -1,0 +1,1222 @@
+20250426_220840
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                                      version    metric         mode    Qwen2_5_7B    daiyu_20250423_183824    Qwen2_5_7B-Instruct    daiyu_20250426_042114
+-------------------------------------------  ---------  -------------  ------  ------------  -----------------------  ---------------------  -----------------------
+Language                                     -          -              -       -             -                        -                      -
+race-high                                    -          -              -       -             -                        -                      -
+ARC-c                                        -          -              -       -             -                        -                      -
+BoolQ                                        -          -              -       -             -                        -                      -
+triviaqa_wiki_1shot                          -          -              -       -             -                        -                      -
+nq_open_1shot                                -          -              -       -             -                        -                      -
+mmmlu_lite                                   -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+Instruction Following                        -          -              -       -             -                        -                      -
+IFEval                                       -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+General Reasoning                            -          -              -       -             -                        -                      -
+drop                                         -          -              -       -             -                        -                      -
+bbeh                                         -          naive_average  gen     -             12.13                    12.96                  11.53
+bbeh                                         -          harmonic_mean  gen     -             3.04                     2.57                   2.71
+bbh                                          -          naive_average  gen     -             55.64                    62.96                  58.08
+GPQA_diamond                                 -          -              -       -             -                        -                      -
+hellaswag                                    809ef1     accuracy       gen     -             32.27                    77.54                  70.52
+TheoremQA                                    -          -              -       -             -                        -                      -
+musr_average                                 -          -              -       -             -                        -                      -
+korbench_single                              -          -              -       -             -                        -                      -
+ARC_Prize_Public_Evaluation                  -          -              -       -             -                        -                      -
+hle_llmjudge                                 -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+Math Calculation                             -          -              -       -             -                        -                      -
+gsm8k                                        -          -              -       -             -                        -                      -
+GaokaoBench                                  -          -              -       -             -                        -                      -
+math_prm800k_500-llmjudge                    6ff468     accuracy       gen     -             70.40                    77.60                  78.20
+cmo_fib                                      -          -              -       -             -                        -                      -
+aime2024                                     -          -              -       -             -                        -                      -
+aime2025                                     -          -              -       -             -                        -                      -
+Mathbench                                    -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+Knowledge                                    -          -              -       -             -                        -                      -
+wikibench-wiki-single_choice_cncircular      -          -              -       -             -                        -                      -
+cmmlu                                        -          accuracy       gen     -             29.16                    77.33                  76.87
+mmlu                                         -          accuracy       gen     -             71.72                    73.90                  75.39
+mmlu_pro                                     -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+Code                                         -          -              -       -             -                        -                      -
+openai_humaneval                             -          -              -       -             -                        -                      -
+sanitized_mbpp                               -          -              -       -             -                        -                      -
+humanevalx                                   -          -              -       -             -                        -                      -
+ds1000                                       -          -              -       -             -                        -                      -
+lcb_code_generation_v4                       -          -              -       -             -                        -                      -
+lcb_code_generation_v5                       -          -              -       -             -                        -                      -
+bigcodebench_hard_instruct                   -          -              -       -             -                        -                      -
+bigcodebench_hard_complete                   -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+Agent                                        -          -              -       -             -                        -                      -
+teval                                        -          -              -       -             -                        -                      -
+SciCode                                      -          -              -       -             -                        -                      -
+SciCode                                      -          -              -       -             -                        -                      -
+qa_dingo_cn                                  -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+supergpqa                                    -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+mmlu                                         -          accuracy       gen     -             71.72                    73.90                  75.39
+mmlu-stem                                    -          accuracy       gen     -             72.75                    76.05                  76.95
+mmlu-social-science                          -          accuracy       gen     -             75.06                    77.13                  78.71
+mmlu-humanities                              -          accuracy       gen     -             69.12                    70.67                  71.91
+mmlu-other                                   -          accuracy       gen     -             69.74                    71.02                  73.53
+                                             -          -              -       -             -                        -                      -
+cmmlu                                        -          accuracy       gen     -             29.16                    77.33                  76.87
+cmmlu-stem                                   -          accuracy       gen     -             27.20                    74.06                  71.51
+cmmlu-social-science                         -          accuracy       gen     -             30.50                    76.88                  77.65
+cmmlu-humanities                             -          accuracy       gen     -             30.91                    78.97                  79.20
+cmmlu-other                                  -          accuracy       gen     -             27.92                    80.28                  79.79
+cmmlu-china-specific                         -          accuracy       gen     -             25.89                    74.67                  75.67
+                                             -          -              -       -             -                        -                      -
+mmlu_pro                                     -          -              -       -             -                        -                      -
+mmlu_pro_biology                             -          -              -       -             -                        -                      -
+mmlu_pro_business                            -          -              -       -             -                        -                      -
+mmlu_pro_chemistry                           -          -              -       -             -                        -                      -
+mmlu_pro_computer_science                    -          -              -       -             -                        -                      -
+mmlu_pro_economics                           -          -              -       -             -                        -                      -
+mmlu_pro_engineering                         -          -              -       -             -                        -                      -
+mmlu_pro_health                              -          -              -       -             -                        -                      -
+mmlu_pro_history                             -          -              -       -             -                        -                      -
+mmlu_pro_law                                 -          -              -       -             -                        -                      -
+mmlu_pro_math                                -          -              -       -             -                        -                      -
+mmlu_pro_philosophy                          -          -              -       -             -                        -                      -
+mmlu_pro_physics                             -          -              -       -             -                        -                      -
+mmlu_pro_psychology                          -          -              -       -             -                        -                      -
+mmlu_pro_other                               -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+humanevalx-python                            -          -              -       -             -                        -                      -
+humanevalx-cpp                               -          -              -       -             -                        -                      -
+humanevalx-go                                -          -              -       -             -                        -                      -
+humanevalx-java                              -          -              -       -             -                        -                      -
+humanevalx-js                                -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+ds1000_Pandas                                -          -              -       -             -                        -                      -
+ds1000_Numpy                                 -          -              -       -             -                        -                      -
+ds1000_Tensorflow                            -          -              -       -             -                        -                      -
+ds1000_Scipy                                 -          -              -       -             -                        -                      -
+ds1000_Sklearn                               -          -              -       -             -                        -                      -
+ds1000_Pytorch                               -          -              -       -             -                        -                      -
+ds1000_Matplotlib                            -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+mmmlu_lite                                   -          -              -       -             -                        -                      -
+openai_mmmlu_lite_AR-XY                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_BN-BD                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_DE-DE                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_ES-LA                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_FR-FR                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_HI-IN                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_ID-ID                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_IT-IT                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_JA-JP                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_KO-KR                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_PT-BR                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_SW-KE                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_YO-NG                      -          -              -       -             -                        -                      -
+openai_mmmlu_lite_ZH-CN                      -          -              -       -             -                        -                      -
+                                             -          -              -       -             -                        -                      -
+###### MathBench-A: Application Part ######  -          -              -       -             -                        -                      -
+college                                      -          -              -       -             -                        -                      -
+high                                         -          -              -       -             -                        -                      -
+middle                                       -          -              -       -             -                        -                      -
+primary                                      -          -              -       -             -                        -                      -
+arithmetic                                   -          -              -       -             -                        -                      -
+mathbench-a (average)                        -          -              -       -             -                        -                      -
+###### MathBench-T: Theory Part ######       -          -              -       -             -                        -                      -
+college_knowledge                            -          -              -       -             -                        -                      -
+high_knowledge                               -          -              -       -             -                        -                      -
+middle_knowledge                             -          -              -       -             -                        -                      -
+primary_knowledge                            -          -              -       -             -                        -                      -
+mathbench-t (average)                        -          -              -       -             -                        -                      -
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,Qwen2_5_7B,daiyu_20250423_183824,Qwen2_5_7B-Instruct,daiyu_20250426_042114
+Language,-,-,-,-,-,-,-
+race-high,-,-,-,-,-,-,-
+ARC-c,-,-,-,-,-,-,-
+BoolQ,-,-,-,-,-,-,-
+triviaqa_wiki_1shot,-,-,-,-,-,-,-
+nq_open_1shot,-,-,-,-,-,-,-
+mmmlu_lite,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+Instruction Following,-,-,-,-,-,-,-
+IFEval,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+General Reasoning,-,-,-,-,-,-,-
+drop,-,-,-,-,-,-,-
+bbeh,-,naive_average,gen,-,12.13,12.96,11.53
+bbeh,-,harmonic_mean,gen,-,3.04,2.57,2.71
+bbh,-,naive_average,gen,-,55.64,62.96,58.08
+GPQA_diamond,-,-,-,-,-,-,-
+hellaswag,809ef1,accuracy,gen,-,32.27,77.54,70.52
+TheoremQA,-,-,-,-,-,-,-
+musr_average,-,-,-,-,-,-,-
+korbench_single,-,-,-,-,-,-,-
+ARC_Prize_Public_Evaluation,-,-,-,-,-,-,-
+hle_llmjudge,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+Math Calculation,-,-,-,-,-,-,-
+gsm8k,-,-,-,-,-,-,-
+GaokaoBench,-,-,-,-,-,-,-
+math_prm800k_500-llmjudge,6ff468,accuracy,gen,-,70.40,77.60,78.20
+cmo_fib,-,-,-,-,-,-,-
+aime2024,-,-,-,-,-,-,-
+aime2025,-,-,-,-,-,-,-
+Mathbench,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+Knowledge,-,-,-,-,-,-,-
+wikibench-wiki-single_choice_cncircular,-,-,-,-,-,-,-
+cmmlu,-,accuracy,gen,-,29.16,77.33,76.87
+mmlu,-,accuracy,gen,-,71.72,73.90,75.39
+mmlu_pro,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+Code,-,-,-,-,-,-,-
+openai_humaneval,-,-,-,-,-,-,-
+sanitized_mbpp,-,-,-,-,-,-,-
+humanevalx,-,-,-,-,-,-,-
+ds1000,-,-,-,-,-,-,-
+lcb_code_generation_v4,-,-,-,-,-,-,-
+lcb_code_generation_v5,-,-,-,-,-,-,-
+bigcodebench_hard_instruct,-,-,-,-,-,-,-
+bigcodebench_hard_complete,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+Agent,-,-,-,-,-,-,-
+teval,-,-,-,-,-,-,-
+SciCode,-,-,-,-,-,-,-
+SciCode,-,-,-,-,-,-,-
+qa_dingo_cn,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+supergpqa,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+mmlu,-,accuracy,gen,-,71.72,73.90,75.39
+mmlu-stem,-,accuracy,gen,-,72.75,76.05,76.95
+mmlu-social-science,-,accuracy,gen,-,75.06,77.13,78.71
+mmlu-humanities,-,accuracy,gen,-,69.12,70.67,71.91
+mmlu-other,-,accuracy,gen,-,69.74,71.02,73.53
+,-,-,-,-,-,-,-
+cmmlu,-,accuracy,gen,-,29.16,77.33,76.87
+cmmlu-stem,-,accuracy,gen,-,27.20,74.06,71.51
+cmmlu-social-science,-,accuracy,gen,-,30.50,76.88,77.65
+cmmlu-humanities,-,accuracy,gen,-,30.91,78.97,79.20
+cmmlu-other,-,accuracy,gen,-,27.92,80.28,79.79
+cmmlu-china-specific,-,accuracy,gen,-,25.89,74.67,75.67
+,-,-,-,-,-,-,-
+mmlu_pro,-,-,-,-,-,-,-
+mmlu_pro_biology,-,-,-,-,-,-,-
+mmlu_pro_business,-,-,-,-,-,-,-
+mmlu_pro_chemistry,-,-,-,-,-,-,-
+mmlu_pro_computer_science,-,-,-,-,-,-,-
+mmlu_pro_economics,-,-,-,-,-,-,-
+mmlu_pro_engineering,-,-,-,-,-,-,-
+mmlu_pro_health,-,-,-,-,-,-,-
+mmlu_pro_history,-,-,-,-,-,-,-
+mmlu_pro_law,-,-,-,-,-,-,-
+mmlu_pro_math,-,-,-,-,-,-,-
+mmlu_pro_philosophy,-,-,-,-,-,-,-
+mmlu_pro_physics,-,-,-,-,-,-,-
+mmlu_pro_psychology,-,-,-,-,-,-,-
+mmlu_pro_other,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+humanevalx-python,-,-,-,-,-,-,-
+humanevalx-cpp,-,-,-,-,-,-,-
+humanevalx-go,-,-,-,-,-,-,-
+humanevalx-java,-,-,-,-,-,-,-
+humanevalx-js,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+ds1000_Pandas,-,-,-,-,-,-,-
+ds1000_Numpy,-,-,-,-,-,-,-
+ds1000_Tensorflow,-,-,-,-,-,-,-
+ds1000_Scipy,-,-,-,-,-,-,-
+ds1000_Sklearn,-,-,-,-,-,-,-
+ds1000_Pytorch,-,-,-,-,-,-,-
+ds1000_Matplotlib,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+mmmlu_lite,-,-,-,-,-,-,-
+openai_mmmlu_lite_AR-XY,-,-,-,-,-,-,-
+openai_mmmlu_lite_BN-BD,-,-,-,-,-,-,-
+openai_mmmlu_lite_DE-DE,-,-,-,-,-,-,-
+openai_mmmlu_lite_ES-LA,-,-,-,-,-,-,-
+openai_mmmlu_lite_FR-FR,-,-,-,-,-,-,-
+openai_mmmlu_lite_HI-IN,-,-,-,-,-,-,-
+openai_mmmlu_lite_ID-ID,-,-,-,-,-,-,-
+openai_mmmlu_lite_IT-IT,-,-,-,-,-,-,-
+openai_mmmlu_lite_JA-JP,-,-,-,-,-,-,-
+openai_mmmlu_lite_KO-KR,-,-,-,-,-,-,-
+openai_mmmlu_lite_PT-BR,-,-,-,-,-,-,-
+openai_mmmlu_lite_SW-KE,-,-,-,-,-,-,-
+openai_mmmlu_lite_YO-NG,-,-,-,-,-,-,-
+openai_mmmlu_lite_ZH-CN,-,-,-,-,-,-,-
+,-,-,-,-,-,-,-
+###### MathBench-A: Application Part ######,-,-,-,-,-,-,-
+college,-,-,-,-,-,-,-
+high,-,-,-,-,-,-,-
+middle,-,-,-,-,-,-,-
+primary,-,-,-,-,-,-,-
+arithmetic,-,-,-,-,-,-,-
+mathbench-a (average),-,-,-,-,-,-,-
+###### MathBench-T: Theory Part ######,-,-,-,-,-,-,-
+college_knowledge,-,-,-,-,-,-,-
+high_knowledge,-,-,-,-,-,-,-
+middle_knowledge,-,-,-,-,-,-,-
+primary_knowledge,-,-,-,-,-,-,-
+mathbench-t (average),-,-,-,-,-,-,-
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+markdown format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| dataset | version | metric | mode | Qwen2_5_7B | daiyu_20250423_183824 | Qwen2_5_7B-Instruct | daiyu_20250426_042114 |
+|----- | ----- | ----- | ----- | ----- | ----- | ----- | -----|
+| Language | - | - | - | - | - | - | - |
+| race-high | - | - | - | - | - | - | - |
+| ARC-c | - | - | - | - | - | - | - |
+| BoolQ | - | - | - | - | - | - | - |
+| triviaqa_wiki_1shot | - | - | - | - | - | - | - |
+| nq_open_1shot | - | - | - | - | - | - | - |
+| mmmlu_lite | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| Instruction Following | - | - | - | - | - | - | - |
+| IFEval | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| General Reasoning | - | - | - | - | - | - | - |
+| drop | - | - | - | - | - | - | - |
+| bbeh | - | naive_average | gen | - | 12.13 | 12.96 | 11.53 |
+| bbeh | - | harmonic_mean | gen | - | 3.04 | 2.57 | 2.71 |
+| bbh | - | naive_average | gen | - | 55.64 | 62.96 | 58.08 |
+| GPQA_diamond | - | - | - | - | - | - | - |
+| hellaswag | 809ef1 | accuracy | gen | - | 32.27 | 77.54 | 70.52 |
+| TheoremQA | - | - | - | - | - | - | - |
+| musr_average | - | - | - | - | - | - | - |
+| korbench_single | - | - | - | - | - | - | - |
+| ARC_Prize_Public_Evaluation | - | - | - | - | - | - | - |
+| hle_llmjudge | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| Math Calculation | - | - | - | - | - | - | - |
+| gsm8k | - | - | - | - | - | - | - |
+| GaokaoBench | - | - | - | - | - | - | - |
+| math_prm800k_500-llmjudge | 6ff468 | accuracy | gen | - | 70.40 | 77.60 | 78.20 |
+| cmo_fib | - | - | - | - | - | - | - |
+| aime2024 | - | - | - | - | - | - | - |
+| aime2025 | - | - | - | - | - | - | - |
+| Mathbench | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| Knowledge | - | - | - | - | - | - | - |
+| wikibench-wiki-single_choice_cncircular | - | - | - | - | - | - | - |
+| cmmlu | - | accuracy | gen | - | 29.16 | 77.33 | 76.87 |
+| mmlu | - | accuracy | gen | - | 71.72 | 73.90 | 75.39 |
+| mmlu_pro | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| Code | - | - | - | - | - | - | - |
+| openai_humaneval | - | - | - | - | - | - | - |
+| sanitized_mbpp | - | - | - | - | - | - | - |
+| humanevalx | - | - | - | - | - | - | - |
+| ds1000 | - | - | - | - | - | - | - |
+| lcb_code_generation_v4 | - | - | - | - | - | - | - |
+| lcb_code_generation_v5 | - | - | - | - | - | - | - |
+| bigcodebench_hard_instruct | - | - | - | - | - | - | - |
+| bigcodebench_hard_complete | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| Agent | - | - | - | - | - | - | - |
+| teval | - | - | - | - | - | - | - |
+| SciCode | - | - | - | - | - | - | - |
+| SciCode | - | - | - | - | - | - | - |
+| qa_dingo_cn | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+| supergpqa | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| mmlu | - | accuracy | gen | - | 71.72 | 73.90 | 75.39 |
+| mmlu-stem | - | accuracy | gen | - | 72.75 | 76.05 | 76.95 |
+| mmlu-social-science | - | accuracy | gen | - | 75.06 | 77.13 | 78.71 |
+| mmlu-humanities | - | accuracy | gen | - | 69.12 | 70.67 | 71.91 |
+| mmlu-other | - | accuracy | gen | - | 69.74 | 71.02 | 73.53 |
+|  | - | - | - | - | - | - | - |
+| cmmlu | - | accuracy | gen | - | 29.16 | 77.33 | 76.87 |
+| cmmlu-stem | - | accuracy | gen | - | 27.20 | 74.06 | 71.51 |
+| cmmlu-social-science | - | accuracy | gen | - | 30.50 | 76.88 | 77.65 |
+| cmmlu-humanities | - | accuracy | gen | - | 30.91 | 78.97 | 79.20 |
+| cmmlu-other | - | accuracy | gen | - | 27.92 | 80.28 | 79.79 |
+| cmmlu-china-specific | - | accuracy | gen | - | 25.89 | 74.67 | 75.67 |
+|  | - | - | - | - | - | - | - |
+| mmlu_pro | - | - | - | - | - | - | - |
+| mmlu_pro_biology | - | - | - | - | - | - | - |
+| mmlu_pro_business | - | - | - | - | - | - | - |
+| mmlu_pro_chemistry | - | - | - | - | - | - | - |
+| mmlu_pro_computer_science | - | - | - | - | - | - | - |
+| mmlu_pro_economics | - | - | - | - | - | - | - |
+| mmlu_pro_engineering | - | - | - | - | - | - | - |
+| mmlu_pro_health | - | - | - | - | - | - | - |
+| mmlu_pro_history | - | - | - | - | - | - | - |
+| mmlu_pro_law | - | - | - | - | - | - | - |
+| mmlu_pro_math | - | - | - | - | - | - | - |
+| mmlu_pro_philosophy | - | - | - | - | - | - | - |
+| mmlu_pro_physics | - | - | - | - | - | - | - |
+| mmlu_pro_psychology | - | - | - | - | - | - | - |
+| mmlu_pro_other | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| humanevalx-python | - | - | - | - | - | - | - |
+| humanevalx-cpp | - | - | - | - | - | - | - |
+| humanevalx-go | - | - | - | - | - | - | - |
+| humanevalx-java | - | - | - | - | - | - | - |
+| humanevalx-js | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| ds1000_Pandas | - | - | - | - | - | - | - |
+| ds1000_Numpy | - | - | - | - | - | - | - |
+| ds1000_Tensorflow | - | - | - | - | - | - | - |
+| ds1000_Scipy | - | - | - | - | - | - | - |
+| ds1000_Sklearn | - | - | - | - | - | - | - |
+| ds1000_Pytorch | - | - | - | - | - | - | - |
+| ds1000_Matplotlib | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| mmmlu_lite | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_AR-XY | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_BN-BD | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_DE-DE | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_ES-LA | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_FR-FR | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_HI-IN | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_ID-ID | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_IT-IT | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_JA-JP | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_KO-KR | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_PT-BR | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_SW-KE | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_YO-NG | - | - | - | - | - | - | - |
+| openai_mmmlu_lite_ZH-CN | - | - | - | - | - | - | - |
+|  | - | - | - | - | - | - | - |
+| ###### MathBench-A: Application Part ###### | - | - | - | - | - | - | - |
+| college | - | - | - | - | - | - | - |
+| high | - | - | - | - | - | - | - |
+| middle | - | - | - | - | - | - | - |
+| primary | - | - | - | - | - | - | - |
+| arithmetic | - | - | - | - | - | - | - |
+| mathbench-a (average) | - | - | - | - | - | - | - |
+| ###### MathBench-T: Theory Part ###### | - | - | - | - | - | - | - |
+| college_knowledge | - | - | - | - | - | - | - |
+| high_knowledge | - | - | - | - | - | - | - |
+| middle_knowledge | - | - | - | - | - | - | - |
+| primary_knowledge | - | - | - | - | - | - | - |
+| mathbench-t (average) | - | - | - | - | - | - | - |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: Qwen2_5_7B
+hellaswag: {}
+math_prm800k_500-llmjudge: {}
+bbeh_boolean_expressions: {}
+bbeh_disambiguation_qa: {}
+bbeh_geometric_shapes: {}
+bbeh_hyperbaton: {}
+bbeh_movie_recommendation: {}
+bbeh_nycc: {}
+bbeh_shuffled_objects: {}
+bbeh_boardgame_qa: {}
+bbeh_buggy_tables: {}
+bbeh_causal_understanding: {}
+bbeh_dyck_languages: {}
+bbeh_linguini: {}
+bbeh_multistep_arithmetic: {}
+bbeh_object_counting: {}
+bbeh_object_properties: {}
+bbeh_sarc_triples: {}
+bbeh_spatial_reasoning: {}
+bbeh_sportqa: {}
+bbeh_temporal_sequence: {}
+bbeh_time_arithmetic: {}
+bbeh_web_of_lies: {}
+bbeh_word_sorting: {}
+bbeh_zebra_puzzles: {}
+bbh-temporal_sequences: {}
+bbh-disambiguation_qa: {}
+bbh-date_understanding: {}
+bbh-tracking_shuffled_objects_three_objects: {}
+bbh-penguins_in_a_table: {}
+bbh-geometric_shapes: {}
+bbh-snarks: {}
+bbh-ruin_names: {}
+bbh-tracking_shuffled_objects_seven_objects: {}
+bbh-tracking_shuffled_objects_five_objects: {}
+bbh-logical_deduction_three_objects: {}
+bbh-hyperbaton: {}
+bbh-logical_deduction_five_objects: {}
+bbh-logical_deduction_seven_objects: {}
+bbh-movie_recommendation: {}
+bbh-salient_translation_error_detection: {}
+bbh-reasoning_about_colored_objects: {}
+bbh-multistep_arithmetic_two: {}
+bbh-navigate: {}
+bbh-dyck_languages: {}
+bbh-word_sorting: {}
+bbh-sports_understanding: {}
+bbh-boolean_expressions: {}
+bbh-object_counting: {}
+bbh-formal_fallacies: {}
+bbh-causal_judgement: {}
+bbh-web_of_lies: {}
+cmmlu-agronomy: {}
+cmmlu-anatomy: {}
+cmmlu-ancient_chinese: {}
+cmmlu-arts: {}
+cmmlu-astronomy: {}
+cmmlu-business_ethics: {}
+cmmlu-chinese_civil_service_exam: {}
+cmmlu-chinese_driving_rule: {}
+cmmlu-chinese_food_culture: {}
+cmmlu-chinese_foreign_policy: {}
+cmmlu-chinese_history: {}
+cmmlu-chinese_literature: {}
+cmmlu-chinese_teacher_qualification: {}
+cmmlu-clinical_knowledge: {}
+cmmlu-college_actuarial_science: {}
+cmmlu-college_education: {}
+cmmlu-college_engineering_hydrology: {}
+cmmlu-college_law: {}
+cmmlu-college_mathematics: {}
+cmmlu-college_medical_statistics: {}
+cmmlu-college_medicine: {}
+cmmlu-computer_science: {}
+cmmlu-computer_security: {}
+cmmlu-conceptual_physics: {}
+cmmlu-construction_project_management: {}
+cmmlu-economics: {}
+cmmlu-education: {}
+cmmlu-electrical_engineering: {}
+cmmlu-elementary_chinese: {}
+cmmlu-elementary_commonsense: {}
+cmmlu-elementary_information_and_technology: {}
+cmmlu-elementary_mathematics: {}
+cmmlu-ethnology: {}
+cmmlu-food_science: {}
+cmmlu-genetics: {}
+cmmlu-global_facts: {}
+cmmlu-high_school_biology: {}
+cmmlu-high_school_chemistry: {}
+cmmlu-high_school_geography: {}
+cmmlu-high_school_mathematics: {}
+cmmlu-high_school_physics: {}
+cmmlu-high_school_politics: {}
+cmmlu-human_sexuality: {}
+cmmlu-international_law: {}
+cmmlu-journalism: {}
+cmmlu-jurisprudence: {}
+cmmlu-legal_and_moral_basis: {}
+cmmlu-logical: {}
+cmmlu-machine_learning: {}
+cmmlu-management: {}
+cmmlu-marketing: {}
+cmmlu-marxist_theory: {}
+cmmlu-modern_chinese: {}
+cmmlu-nutrition: {}
+cmmlu-philosophy: {}
+cmmlu-professional_accounting: {}
+cmmlu-professional_law: {}
+cmmlu-professional_medicine: {}
+cmmlu-professional_psychology: {}
+cmmlu-public_relations: {}
+cmmlu-security_study: {}
+cmmlu-sociology: {}
+cmmlu-sports_science: {}
+cmmlu-traditional_chinese_medicine: {}
+cmmlu-virology: {}
+cmmlu-world_history: {}
+cmmlu-world_religions: {}
+lukaemon_mmlu_college_biology: {}
+lukaemon_mmlu_college_chemistry: {}
+lukaemon_mmlu_college_computer_science: {}
+lukaemon_mmlu_college_mathematics: {}
+lukaemon_mmlu_college_physics: {}
+lukaemon_mmlu_electrical_engineering: {}
+lukaemon_mmlu_astronomy: {}
+lukaemon_mmlu_anatomy: {}
+lukaemon_mmlu_abstract_algebra: {}
+lukaemon_mmlu_machine_learning: {}
+lukaemon_mmlu_clinical_knowledge: {}
+lukaemon_mmlu_global_facts: {}
+lukaemon_mmlu_management: {}
+lukaemon_mmlu_nutrition: {}
+lukaemon_mmlu_marketing: {}
+lukaemon_mmlu_professional_accounting: {}
+lukaemon_mmlu_high_school_geography: {}
+lukaemon_mmlu_international_law: {}
+lukaemon_mmlu_moral_scenarios: {}
+lukaemon_mmlu_computer_security: {}
+lukaemon_mmlu_high_school_microeconomics: {}
+lukaemon_mmlu_professional_law: {}
+lukaemon_mmlu_medical_genetics: {}
+lukaemon_mmlu_professional_psychology: {}
+lukaemon_mmlu_jurisprudence: {}
+lukaemon_mmlu_world_religions: {}
+lukaemon_mmlu_philosophy: {}
+lukaemon_mmlu_virology: {}
+lukaemon_mmlu_high_school_chemistry: {}
+lukaemon_mmlu_public_relations: {}
+lukaemon_mmlu_high_school_macroeconomics: {}
+lukaemon_mmlu_human_sexuality: {}
+lukaemon_mmlu_elementary_mathematics: {}
+lukaemon_mmlu_high_school_physics: {}
+lukaemon_mmlu_high_school_computer_science: {}
+lukaemon_mmlu_high_school_european_history: {}
+lukaemon_mmlu_business_ethics: {}
+lukaemon_mmlu_moral_disputes: {}
+lukaemon_mmlu_high_school_statistics: {}
+lukaemon_mmlu_miscellaneous: {}
+lukaemon_mmlu_formal_logic: {}
+lukaemon_mmlu_high_school_government_and_politics: {}
+lukaemon_mmlu_prehistory: {}
+lukaemon_mmlu_security_studies: {}
+lukaemon_mmlu_high_school_biology: {}
+lukaemon_mmlu_logical_fallacies: {}
+lukaemon_mmlu_high_school_world_history: {}
+lukaemon_mmlu_professional_medicine: {}
+lukaemon_mmlu_high_school_mathematics: {}
+lukaemon_mmlu_college_medicine: {}
+lukaemon_mmlu_high_school_us_history: {}
+lukaemon_mmlu_sociology: {}
+lukaemon_mmlu_econometrics: {}
+lukaemon_mmlu_high_school_psychology: {}
+lukaemon_mmlu_human_aging: {}
+lukaemon_mmlu_us_foreign_policy: {}
+lukaemon_mmlu_conceptual_physics: {}
+bbeh: {}
+bbh: {}
+cmmlu-humanities: {}
+cmmlu-stem: {}
+cmmlu-social-science: {}
+cmmlu-other: {}
+cmmlu-china-specific: {}
+cmmlu: {}
+mmlu-humanities: {}
+mmlu-stem: {}
+mmlu-social-science: {}
+mmlu-other: {}
+mmlu: {}
+mmlu-weighted: {}
+-------------------------------
+Model: daiyu_20250423_183824
+hellaswag: {'accuracy': 32.27444732125075, 'f1': 0.3227444732125075}
+math_prm800k_500-llmjudge: {'accuracy': 70.39999999999999, 'f1': 0.704}
+bbeh_boolean_expressions: {'accuracy': 14.499999999999998, 'f1': 0.145}
+bbeh_disambiguation_qa: {'accuracy': 40.0, 'f1': 0.4000000000000001}
+bbeh_geometric_shapes: {'accuracy': 7.5, 'f1': 0.075}
+bbeh_hyperbaton: {'accuracy': 2.5, 'f1': 0.025000000000000005}
+bbeh_movie_recommendation: {'accuracy': 28.000000000000004, 'f1': 0.28}
+bbeh_nycc: {'accuracy': 7.5, 'f1': 0.075}
+bbeh_shuffled_objects: {'accuracy': 25.0, 'f1': 0.25}
+bbeh_boardgame_qa: {'accuracy': 30.5, 'f1': 0.305}
+bbeh_buggy_tables: {'accuracy': 2.0, 'f1': 0.02}
+bbeh_causal_understanding: {'accuracy': 40.5, 'f1': 0.405}
+bbeh_dyck_languages: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_linguini: {'accuracy': 5.5, 'f1': 0.055}
+bbeh_multistep_arithmetic: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_counting: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_properties: {'accuracy': 4.0, 'f1': 0.04}
+bbeh_sarc_triples: {'accuracy': 11.0, 'f1': 0.11}
+bbeh_spatial_reasoning: {'accuracy': 15.0, 'f1': 0.15}
+bbeh_sportqa: {'accuracy': 1.0, 'f1': 0.01}
+bbeh_temporal_sequence: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_time_arithmetic: {'accuracy': 14.000000000000002, 'f1': 0.14}
+bbeh_web_of_lies: {'accuracy': 9.0, 'f1': 0.09}
+bbeh_word_sorting: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_zebra_puzzles: {'accuracy': 18.0, 'f1': 0.18}
+bbh-temporal_sequences: {'score': 46.400000000000006}
+bbh-disambiguation_qa: {'score': 64.8}
+bbh-date_understanding: {'score': 50.8}
+bbh-tracking_shuffled_objects_three_objects: {'score': 30.8}
+bbh-penguins_in_a_table: {'score': 78.76712328767124}
+bbh-geometric_shapes: {'score': 28.4}
+bbh-snarks: {'score': 75.28089887640449}
+bbh-ruin_names: {'score': 49.6}
+bbh-tracking_shuffled_objects_seven_objects: {'score': 39.6}
+bbh-tracking_shuffled_objects_five_objects: {'score': 52.400000000000006}
+bbh-logical_deduction_three_objects: {'score': 73.6}
+bbh-hyperbaton: {'score': 83.6}
+bbh-logical_deduction_five_objects: {'score': 44.800000000000004}
+bbh-logical_deduction_seven_objects: {'score': 44.800000000000004}
+bbh-movie_recommendation: {'score': 65.2}
+bbh-salient_translation_error_detection: {'score': 36.0}
+bbh-reasoning_about_colored_objects: {'score': 70.8}
+bbh-multistep_arithmetic_two: {'score': 82.0}
+bbh-navigate: {'score': 59.199999999999996}
+bbh-dyck_languages: {'score': 2.4}
+bbh-word_sorting: {'score': 25.6}
+bbh-sports_understanding: {'score': 69.19999999999999}
+bbh-boolean_expressions: {'score': 84.0}
+bbh-object_counting: {'score': 64.0}
+bbh-formal_fallacies: {'score': 57.199999999999996}
+bbh-causal_judgement: {'score': 56.68449197860963}
+bbh-web_of_lies: {'score': 66.4}
+cmmlu-agronomy: {'accuracy': 31.360946745562128, 'f1': 0.3136094674556213}
+cmmlu-anatomy: {'accuracy': 28.37837837837838, 'f1': 0.28378378378378377}
+cmmlu-ancient_chinese: {'accuracy': 4.2682926829268295, 'f1': 0.042682926829268296}
+cmmlu-arts: {'accuracy': 38.125, 'f1': 0.38125}
+cmmlu-astronomy: {'accuracy': 27.27272727272727, 'f1': 0.2727272727272727}
+cmmlu-business_ethics: {'accuracy': 26.794258373205743, 'f1': 0.2679425837320574}
+cmmlu-chinese_civil_service_exam: {'accuracy': 25.0, 'f1': 0.25}
+cmmlu-chinese_driving_rule: {'accuracy': 35.87786259541985, 'f1': 0.3587786259541984}
+cmmlu-chinese_food_culture: {'accuracy': 25.0, 'f1': 0.25}
+cmmlu-chinese_foreign_policy: {'accuracy': 37.38317757009346, 'f1': 0.37383177570093457}
+cmmlu-chinese_history: {'accuracy': 34.6749226006192, 'f1': 0.34674922600619196}
+cmmlu-chinese_literature: {'accuracy': 10.784313725490197, 'f1': 0.10784313725490197}
+cmmlu-chinese_teacher_qualification: {'accuracy': 30.726256983240223, 'f1': 0.30726256983240224}
+cmmlu-clinical_knowledge: {'accuracy': 32.06751054852321, 'f1': 0.3206751054852321}
+cmmlu-college_actuarial_science: {'accuracy': 9.433962264150944, 'f1': 0.09433962264150943}
+cmmlu-college_education: {'accuracy': 37.38317757009346, 'f1': 0.37383177570093457}
+cmmlu-college_engineering_hydrology: {'accuracy': 45.28301886792453, 'f1': 0.4528301886792453}
+cmmlu-college_law: {'accuracy': 26.851851851851855, 'f1': 0.26851851851851855}
+cmmlu-college_mathematics: {'accuracy': 28.57142857142857, 'f1': 0.2857142857142857}
+cmmlu-college_medical_statistics: {'accuracy': 23.58490566037736, 'f1': 0.2358490566037736}
+cmmlu-college_medicine: {'accuracy': 30.036630036630036, 'f1': 0.30036630036630035}
+cmmlu-computer_science: {'accuracy': 24.509803921568626, 'f1': 0.24509803921568626}
+cmmlu-computer_security: {'accuracy': 26.31578947368421, 'f1': 0.2631578947368421}
+cmmlu-conceptual_physics: {'accuracy': 30.612244897959183, 'f1': 0.30612244897959184}
+cmmlu-construction_project_management: {'accuracy': 19.424460431654676, 'f1': 0.19424460431654678}
+cmmlu-economics: {'accuracy': 49.685534591194966, 'f1': 0.4968553459119497}
+cmmlu-education: {'accuracy': 26.380368098159508, 'f1': 0.26380368098159507}
+cmmlu-electrical_engineering: {'accuracy': 34.883720930232556, 'f1': 0.3488372093023256}
+cmmlu-elementary_chinese: {'accuracy': 29.365079365079367, 'f1': 0.29365079365079366}
+cmmlu-elementary_commonsense: {'accuracy': 24.242424242424242, 'f1': 0.24242424242424243}
+cmmlu-elementary_information_and_technology: {'accuracy': 31.512605042016805, 'f1': 0.31512605042016806}
+cmmlu-elementary_mathematics: {'accuracy': 40.0, 'f1': 0.4000000000000001}
+cmmlu-ethnology: {'accuracy': 31.851851851851855, 'f1': 0.31851851851851853}
+cmmlu-food_science: {'accuracy': 21.678321678321677, 'f1': 0.21678321678321674}
+cmmlu-genetics: {'accuracy': 26.704545454545453, 'f1': 0.26704545454545453}
+cmmlu-global_facts: {'accuracy': 24.832214765100673, 'f1': 0.2483221476510067}
+cmmlu-high_school_biology: {'accuracy': 13.017751479289942, 'f1': 0.1301775147928994}
+cmmlu-high_school_chemistry: {'accuracy': 3.0303030303030303, 'f1': 0.030303030303030304}
+cmmlu-high_school_geography: {'accuracy': 42.3728813559322, 'f1': 0.423728813559322}
+cmmlu-high_school_mathematics: {'accuracy': 39.63414634146341, 'f1': 0.39634146341463417}
+cmmlu-high_school_physics: {'accuracy': 29.09090909090909, 'f1': 0.2909090909090909}
+cmmlu-high_school_politics: {'accuracy': 30.76923076923077, 'f1': 0.3076923076923077}
+cmmlu-human_sexuality: {'accuracy': 15.873015873015872, 'f1': 0.15873015873015872}
+cmmlu-international_law: {'accuracy': 27.56756756756757, 'f1': 0.2756756756756757}
+cmmlu-journalism: {'accuracy': 27.906976744186046, 'f1': 0.27906976744186046}
+cmmlu-jurisprudence: {'accuracy': 27.980535279805352, 'f1': 0.2798053527980535}
+cmmlu-legal_and_moral_basis: {'accuracy': 32.242990654205606, 'f1': 0.32242990654205606}
+cmmlu-logical: {'accuracy': 27.64227642276423, 'f1': 0.2764227642276423}
+cmmlu-machine_learning: {'accuracy': 31.147540983606557, 'f1': 0.3114754098360656}
+cmmlu-management: {'accuracy': 38.095238095238095, 'f1': 0.38095238095238093}
+cmmlu-marketing: {'accuracy': 32.22222222222222, 'f1': 0.32222222222222224}
+cmmlu-marxist_theory: {'accuracy': 55.55555555555556, 'f1': 0.5555555555555556}
+cmmlu-modern_chinese: {'accuracy': 9.482758620689655, 'f1': 0.09482758620689655}
+cmmlu-nutrition: {'accuracy': 27.586206896551722, 'f1': 0.27586206896551724}
+cmmlu-philosophy: {'accuracy': 39.04761904761905, 'f1': 0.3904761904761905}
+cmmlu-professional_accounting: {'accuracy': 45.714285714285715, 'f1': 0.45714285714285713}
+cmmlu-professional_law: {'accuracy': 26.540284360189574, 'f1': 0.26540284360189575}
+cmmlu-professional_medicine: {'accuracy': 28.723404255319153, 'f1': 0.2872340425531915}
+cmmlu-professional_psychology: {'accuracy': 33.62068965517241, 'f1': 0.33620689655172414}
+cmmlu-public_relations: {'accuracy': 18.39080459770115, 'f1': 0.1839080459770115}
+cmmlu-security_study: {'accuracy': 36.2962962962963, 'f1': 0.36296296296296304}
+cmmlu-sociology: {'accuracy': 32.30088495575221, 'f1': 0.3230088495575221}
+cmmlu-sports_science: {'accuracy': 22.424242424242426, 'f1': 0.22424242424242424}
+cmmlu-traditional_chinese_medicine: {'accuracy': 39.45945945945946, 'f1': 0.3945945945945946}
+cmmlu-virology: {'accuracy': 27.218934911242602, 'f1': 0.27218934911242604}
+cmmlu-world_history: {'accuracy': 43.47826086956522, 'f1': 0.43478260869565216}
+cmmlu-world_religions: {'accuracy': 18.75, 'f1': 0.1875}
+lukaemon_mmlu_college_biology: {'accuracy': 84.02777777777779, 'f1': 0.8402777777777778}
+lukaemon_mmlu_college_chemistry: {'accuracy': 51.0, 'f1': 0.51}
+lukaemon_mmlu_college_computer_science: {'accuracy': 71.0, 'f1': 0.7100000000000001}
+lukaemon_mmlu_college_mathematics: {'accuracy': 63.0, 'f1': 0.63}
+lukaemon_mmlu_college_physics: {'accuracy': 73.52941176470588, 'f1': 0.735294117647059}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 68.96551724137932, 'f1': 0.6896551724137931}
+lukaemon_mmlu_astronomy: {'accuracy': 75.6578947368421, 'f1': 0.7565789473684209}
+lukaemon_mmlu_anatomy: {'accuracy': 71.11111111111111, 'f1': 0.7111111111111111}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 57.99999999999999, 'f1': 0.58}
+lukaemon_mmlu_machine_learning: {'accuracy': 58.03571428571429, 'f1': 0.5803571428571429}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 72.45283018867924, 'f1': 0.7245283018867924}
+lukaemon_mmlu_global_facts: {'accuracy': 50.0, 'f1': 0.5}
+lukaemon_mmlu_management: {'accuracy': 82.52427184466019, 'f1': 0.8252427184466019}
+lukaemon_mmlu_nutrition: {'accuracy': 70.91503267973856, 'f1': 0.7091503267973857}
+lukaemon_mmlu_marketing: {'accuracy': 85.04273504273505, 'f1': 0.8504273504273504}
+lukaemon_mmlu_professional_accounting: {'accuracy': 59.21985815602837, 'f1': 0.5921985815602837}
+lukaemon_mmlu_high_school_geography: {'accuracy': 82.82828282828282, 'f1': 0.8282828282828283}
+lukaemon_mmlu_international_law: {'accuracy': 79.33884297520662, 'f1': 0.7933884297520661}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 42.3463687150838, 'f1': 0.42346368715083793}
+lukaemon_mmlu_computer_security: {'accuracy': 76.0, 'f1': 0.76}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 84.87394957983193, 'f1': 0.8487394957983193}
+lukaemon_mmlu_professional_law: {'accuracy': 47.392438070404175, 'f1': 0.47392438070404175}
+lukaemon_mmlu_medical_genetics: {'accuracy': 75.0, 'f1': 0.75}
+lukaemon_mmlu_professional_psychology: {'accuracy': 71.24183006535948, 'f1': 0.7124183006535948}
+lukaemon_mmlu_jurisprudence: {'accuracy': 78.70370370370371, 'f1': 0.7870370370370371}
+lukaemon_mmlu_world_religions: {'accuracy': 83.04093567251462, 'f1': 0.8304093567251462}
+lukaemon_mmlu_philosophy: {'accuracy': 69.77491961414792, 'f1': 0.6977491961414791}
+lukaemon_mmlu_virology: {'accuracy': 47.59036144578313, 'f1': 0.4759036144578313}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 68.4729064039409, 'f1': 0.6847290640394089}
+lukaemon_mmlu_public_relations: {'accuracy': 63.63636363636363, 'f1': 0.6363636363636364}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 74.61538461538461, 'f1': 0.7461538461538462}
+lukaemon_mmlu_human_sexuality: {'accuracy': 74.04580152671755, 'f1': 0.7404580152671756}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 91.7989417989418, 'f1': 0.917989417989418}
+lukaemon_mmlu_high_school_physics: {'accuracy': 70.19867549668875, 'f1': 0.7019867549668874}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 86.0, 'f1': 0.8599999999999999}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 72.12121212121212, 'f1': 0.7212121212121212}
+lukaemon_mmlu_business_ethics: {'accuracy': 73.0, 'f1': 0.7299999999999999}
+lukaemon_mmlu_moral_disputes: {'accuracy': 67.34104046242774, 'f1': 0.6734104046242775}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 75.92592592592592, 'f1': 0.7592592592592593}
+lukaemon_mmlu_miscellaneous: {'accuracy': 84.16347381864622, 'f1': 0.8416347381864623}
+lukaemon_mmlu_formal_logic: {'accuracy': 53.17460317460318, 'f1': 0.5317460317460317}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 88.08290155440415, 'f1': 0.8808290155440415}
+lukaemon_mmlu_prehistory: {'accuracy': 74.38271604938271, 'f1': 0.7438271604938271}
+lukaemon_mmlu_security_studies: {'accuracy': 64.89795918367346, 'f1': 0.6489795918367347}
+lukaemon_mmlu_high_school_biology: {'accuracy': 83.54838709677419, 'f1': 0.8354838709677419}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 76.07361963190185, 'f1': 0.7607361963190185}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 78.90295358649789, 'f1': 0.7890295358649789}
+lukaemon_mmlu_professional_medicine: {'accuracy': 75.73529411764706, 'f1': 0.7573529411764706}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 81.48148148148148, 'f1': 0.8148148148148148}
+lukaemon_mmlu_college_medicine: {'accuracy': 64.16184971098265, 'f1': 0.6416184971098265}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 75.98039215686273, 'f1': 0.7598039215686274}
+lukaemon_mmlu_sociology: {'accuracy': 85.57213930348259, 'f1': 0.8557213930348259}
+lukaemon_mmlu_econometrics: {'accuracy': 46.49122807017544, 'f1': 0.4649122807017544}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 83.4862385321101, 'f1': 0.8348623853211009}
+lukaemon_mmlu_human_aging: {'accuracy': 66.81614349775785, 'f1': 0.6681614349775785}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 81.0, 'f1': 0.81}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 74.46808510638297, 'f1': 0.7446808510638298}
+bbeh: {'accuracy': 3.0444836560731448, 'f1': 1.0, 'naive_average': 12.130434782608695, 'harmonic_mean': 3.0444836560731448}
+bbh: {'score': 55.641944968247614, 'naive_average': 55.641944968247614}
+cmmlu-humanities: {'accuracy': 30.910030926625268, 'f1': 0.30910030926625265, 'naive_average': 30.910030926625268}
+cmmlu-stem: {'accuracy': 27.198489532712205, 'f1': 0.27198489532712206, 'naive_average': 27.198489532712205}
+cmmlu-social-science: {'accuracy': 30.500466641479647, 'f1': 0.3050046664147964, 'naive_average': 30.500466641479647}
+cmmlu-other: {'accuracy': 27.921724690468743, 'f1': 0.27921724690468736, 'naive_average': 27.921724690468743}
+cmmlu-china-specific: {'accuracy': 25.887339393211985, 'f1': 0.25887339393211983, 'naive_average': 25.887339393211985}
+cmmlu: {'accuracy': 29.164788963758497, 'f1': 0.2916478896375849, 'naive_average': 29.164788963758497}
+mmlu-humanities: {'accuracy': 69.12105737953453, 'f1': 0.6912105737953453, 'naive_average': 69.12105737953453}
+mmlu-stem: {'accuracy': 72.7485173804035, 'f1': 0.7274851738040349, 'naive_average': 72.7485173804035}
+mmlu-social-science: {'accuracy': 75.06433990798214, 'f1': 0.7506433990798215, 'naive_average': 75.06433990798214}
+mmlu-other: {'accuracy': 69.74014234635834, 'f1': 0.6974014234635834, 'naive_average': 69.74014234635834}
+mmlu: {'accuracy': 71.72262290456244, 'f1': 0.7172262290456246, 'naive_average': 71.72262290456244}
+mmlu-weighted: {'accuracy': 69.58410482837202, 'f1': 0.6958410482837203, 'weighted_average': 69.58410482837202}
+-------------------------------
+Model: Qwen2_5_7B-Instruct
+hellaswag: {'accuracy': 77.54431388169687, 'f1': 0.7754431388169688}
+math_prm800k_500-llmjudge: {'accuracy': 77.60000000000001, 'f1': 0.776}
+bbeh_boolean_expressions: {'accuracy': 17.5, 'f1': 0.175}
+bbeh_disambiguation_qa: {'accuracy': 41.66666666666667, 'f1': 0.4166666666666667}
+bbeh_geometric_shapes: {'accuracy': 36.0, 'f1': 0.36}
+bbeh_hyperbaton: {'accuracy': 2.0, 'f1': 0.02}
+bbeh_movie_recommendation: {'accuracy': 31.5, 'f1': 0.315}
+bbeh_nycc: {'accuracy': 8.5, 'f1': 0.085}
+bbeh_shuffled_objects: {'accuracy': 12.5, 'f1': 0.125}
+bbeh_boardgame_qa: {'accuracy': 30.5, 'f1': 0.305}
+bbeh_buggy_tables: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_causal_understanding: {'accuracy': 42.0, 'f1': 0.41999999999999993}
+bbeh_dyck_languages: {'accuracy': 1.0, 'f1': 0.01}
+bbeh_linguini: {'accuracy': 6.0, 'f1': 0.06}
+bbeh_multistep_arithmetic: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_counting: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_properties: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_sarc_triples: {'accuracy': 15.0, 'f1': 0.15}
+bbeh_spatial_reasoning: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_sportqa: {'accuracy': 9.5, 'f1': 0.095}
+bbeh_temporal_sequence: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_time_arithmetic: {'accuracy': 20.0, 'f1': 0.20000000000000004}
+bbeh_web_of_lies: {'accuracy': 3.5000000000000004, 'f1': 0.035}
+bbeh_word_sorting: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_zebra_puzzles: {'accuracy': 17.0, 'f1': 0.17}
+bbh-temporal_sequences: {'score': 74.0}
+bbh-disambiguation_qa: {'score': 51.6}
+bbh-date_understanding: {'score': 55.60000000000001}
+bbh-tracking_shuffled_objects_three_objects: {'score': 91.60000000000001}
+bbh-penguins_in_a_table: {'score': 89.72602739726028}
+bbh-geometric_shapes: {'score': 30.0}
+bbh-snarks: {'score': 76.40449438202246}
+bbh-ruin_names: {'score': 57.599999999999994}
+bbh-tracking_shuffled_objects_seven_objects: {'score': 80.4}
+bbh-tracking_shuffled_objects_five_objects: {'score': 89.2}
+bbh-logical_deduction_three_objects: {'score': 74.4}
+bbh-hyperbaton: {'score': 60.4}
+bbh-logical_deduction_five_objects: {'score': 62.4}
+bbh-logical_deduction_seven_objects: {'score': 52.800000000000004}
+bbh-movie_recommendation: {'score': 64.0}
+bbh-salient_translation_error_detection: {'score': 43.2}
+bbh-reasoning_about_colored_objects: {'score': 77.2}
+bbh-multistep_arithmetic_two: {'score': 87.6}
+bbh-navigate: {'score': 63.2}
+bbh-dyck_languages: {'score': 0.8}
+bbh-word_sorting: {'score': 20.4}
+bbh-sports_understanding: {'score': 66.0}
+bbh-boolean_expressions: {'score': 79.60000000000001}
+bbh-object_counting: {'score': 46.0}
+bbh-formal_fallacies: {'score': 60.4}
+bbh-causal_judgement: {'score': 54.54545454545454}
+bbh-web_of_lies: {'score': 90.8}
+cmmlu-agronomy: {'accuracy': 69.8224852071006, 'f1': 0.6982248520710059}
+cmmlu-anatomy: {'accuracy': 85.8108108108108, 'f1': 0.8581081081081081}
+cmmlu-ancient_chinese: {'accuracy': 45.73170731707317, 'f1': 0.4573170731707317}
+cmmlu-arts: {'accuracy': 96.25, 'f1': 0.9625000000000001}
+cmmlu-astronomy: {'accuracy': 56.36363636363636, 'f1': 0.5636363636363636}
+cmmlu-business_ethics: {'accuracy': 66.98564593301435, 'f1': 0.6698564593301436}
+cmmlu-chinese_civil_service_exam: {'accuracy': 70.625, 'f1': 0.70625}
+cmmlu-chinese_driving_rule: {'accuracy': 96.18320610687023, 'f1': 0.9618320610687023}
+cmmlu-chinese_food_culture: {'accuracy': 72.05882352941177, 'f1': 0.7205882352941176}
+cmmlu-chinese_foreign_policy: {'accuracy': 73.83177570093457, 'f1': 0.7383177570093457}
+cmmlu-chinese_history: {'accuracy': 82.97213622291022, 'f1': 0.8297213622291022}
+cmmlu-chinese_literature: {'accuracy': 66.17647058823529, 'f1': 0.6617647058823529}
+cmmlu-chinese_teacher_qualification: {'accuracy': 89.3854748603352, 'f1': 0.8938547486033519}
+cmmlu-clinical_knowledge: {'accuracy': 75.52742616033755, 'f1': 0.7552742616033755}
+cmmlu-college_actuarial_science: {'accuracy': 45.28301886792453, 'f1': 0.4528301886792453}
+cmmlu-college_education: {'accuracy': 83.17757009345794, 'f1': 0.8317757009345794}
+cmmlu-college_engineering_hydrology: {'accuracy': 82.0754716981132, 'f1': 0.8207547169811321}
+cmmlu-college_law: {'accuracy': 68.51851851851852, 'f1': 0.6851851851851852}
+cmmlu-college_mathematics: {'accuracy': 58.0952380952381, 'f1': 0.580952380952381}
+cmmlu-college_medical_statistics: {'accuracy': 69.81132075471697, 'f1': 0.6981132075471698}
+cmmlu-college_medicine: {'accuracy': 83.51648351648352, 'f1': 0.8351648351648353}
+cmmlu-computer_science: {'accuracy': 86.27450980392157, 'f1': 0.8627450980392157}
+cmmlu-computer_security: {'accuracy': 87.71929824561403, 'f1': 0.8771929824561403}
+cmmlu-conceptual_physics: {'accuracy': 89.1156462585034, 'f1': 0.891156462585034}
+cmmlu-construction_project_management: {'accuracy': 68.34532374100719, 'f1': 0.6834532374100719}
+cmmlu-economics: {'accuracy': 83.64779874213836, 'f1': 0.8364779874213837}
+cmmlu-education: {'accuracy': 77.30061349693251, 'f1': 0.7730061349693251}
+cmmlu-electrical_engineering: {'accuracy': 81.3953488372093, 'f1': 0.8139534883720931}
+cmmlu-elementary_chinese: {'accuracy': 76.19047619047619, 'f1': 0.7619047619047619}
+cmmlu-elementary_commonsense: {'accuracy': 78.78787878787878, 'f1': 0.7878787878787878}
+cmmlu-elementary_information_and_technology: {'accuracy': 94.53781512605042, 'f1': 0.9453781512605042}
+cmmlu-elementary_mathematics: {'accuracy': 80.8695652173913, 'f1': 0.808695652173913}
+cmmlu-ethnology: {'accuracy': 76.29629629629629, 'f1': 0.762962962962963}
+cmmlu-food_science: {'accuracy': 73.42657342657343, 'f1': 0.7342657342657343}
+cmmlu-genetics: {'accuracy': 69.31818181818183, 'f1': 0.6931818181818182}
+cmmlu-global_facts: {'accuracy': 78.52348993288591, 'f1': 0.7852348993288589}
+cmmlu-high_school_biology: {'accuracy': 82.24852071005917, 'f1': 0.8224852071005917}
+cmmlu-high_school_chemistry: {'accuracy': 65.9090909090909, 'f1': 0.6590909090909091}
+cmmlu-high_school_geography: {'accuracy': 77.96610169491525, 'f1': 0.7796610169491526}
+cmmlu-high_school_mathematics: {'accuracy': 79.8780487804878, 'f1': 0.7987804878048782}
+cmmlu-high_school_physics: {'accuracy': 75.45454545454545, 'f1': 0.7545454545454545}
+cmmlu-high_school_politics: {'accuracy': 82.51748251748252, 'f1': 0.8251748251748252}
+cmmlu-human_sexuality: {'accuracy': 71.42857142857143, 'f1': 0.7142857142857143}
+cmmlu-international_law: {'accuracy': 73.51351351351352, 'f1': 0.7351351351351352}
+cmmlu-journalism: {'accuracy': 72.09302325581395, 'f1': 0.7209302325581395}
+cmmlu-jurisprudence: {'accuracy': 81.50851581508516, 'f1': 0.8150851581508516}
+cmmlu-legal_and_moral_basis: {'accuracy': 97.19626168224299, 'f1': 0.9719626168224299}
+cmmlu-logical: {'accuracy': 72.35772357723577, 'f1': 0.7235772357723578}
+cmmlu-machine_learning: {'accuracy': 71.31147540983606, 'f1': 0.7131147540983606}
+cmmlu-management: {'accuracy': 86.19047619047619, 'f1': 0.861904761904762}
+cmmlu-marketing: {'accuracy': 85.55555555555556, 'f1': 0.8555555555555555}
+cmmlu-marxist_theory: {'accuracy': 93.12169312169311, 'f1': 0.9312169312169312}
+cmmlu-modern_chinese: {'accuracy': 62.06896551724138, 'f1': 0.6206896551724138}
+cmmlu-nutrition: {'accuracy': 78.62068965517241, 'f1': 0.7862068965517242}
+cmmlu-philosophy: {'accuracy': 77.14285714285715, 'f1': 0.7714285714285715}
+cmmlu-professional_accounting: {'accuracy': 90.85714285714286, 'f1': 0.9085714285714287}
+cmmlu-professional_law: {'accuracy': 73.93364928909952, 'f1': 0.7393364928909952}
+cmmlu-professional_medicine: {'accuracy': 77.3936170212766, 'f1': 0.773936170212766}
+cmmlu-professional_psychology: {'accuracy': 84.48275862068965, 'f1': 0.8448275862068967}
+cmmlu-public_relations: {'accuracy': 70.11494252873564, 'f1': 0.7011494252873564}
+cmmlu-security_study: {'accuracy': 85.92592592592592, 'f1': 0.8592592592592592}
+cmmlu-sociology: {'accuracy': 78.31858407079646, 'f1': 0.7831858407079646}
+cmmlu-sports_science: {'accuracy': 72.72727272727273, 'f1': 0.7272727272727273}
+cmmlu-traditional_chinese_medicine: {'accuracy': 78.91891891891892, 'f1': 0.7891891891891892}
+cmmlu-virology: {'accuracy': 79.88165680473372, 'f1': 0.7988165680473372}
+cmmlu-world_history: {'accuracy': 78.88198757763976, 'f1': 0.7888198757763976}
+cmmlu-world_religions: {'accuracy': 83.75, 'f1': 0.8375}
+lukaemon_mmlu_college_biology: {'accuracy': 81.25, 'f1': 0.8125}
+lukaemon_mmlu_college_chemistry: {'accuracy': 55.00000000000001, 'f1': 0.55}
+lukaemon_mmlu_college_computer_science: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_college_mathematics: {'accuracy': 73.0, 'f1': 0.7299999999999999}
+lukaemon_mmlu_college_physics: {'accuracy': 78.43137254901961, 'f1': 0.7843137254901961}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 67.58620689655173, 'f1': 0.6758620689655173}
+lukaemon_mmlu_astronomy: {'accuracy': 81.57894736842105, 'f1': 0.8157894736842104}
+lukaemon_mmlu_anatomy: {'accuracy': 74.07407407407408, 'f1': 0.7407407407407407}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 68.0, 'f1': 0.68}
+lukaemon_mmlu_machine_learning: {'accuracy': 57.14285714285714, 'f1': 0.5714285714285714}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 77.35849056603774, 'f1': 0.7735849056603775}
+lukaemon_mmlu_global_facts: {'accuracy': 44.0, 'f1': 0.44}
+lukaemon_mmlu_management: {'accuracy': 79.6116504854369, 'f1': 0.7961165048543688}
+lukaemon_mmlu_nutrition: {'accuracy': 78.75816993464052, 'f1': 0.7875816993464052}
+lukaemon_mmlu_marketing: {'accuracy': 83.76068376068376, 'f1': 0.8376068376068376}
+lukaemon_mmlu_professional_accounting: {'accuracy': 64.8936170212766, 'f1': 0.648936170212766}
+lukaemon_mmlu_high_school_geography: {'accuracy': 83.33333333333334, 'f1': 0.8333333333333334}
+lukaemon_mmlu_international_law: {'accuracy': 76.85950413223141, 'f1': 0.768595041322314}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 42.68156424581006, 'f1': 0.42681564245810055}
+lukaemon_mmlu_computer_security: {'accuracy': 76.0, 'f1': 0.76}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 81.9327731092437, 'f1': 0.819327731092437}
+lukaemon_mmlu_professional_law: {'accuracy': 50.13037809647979, 'f1': 0.5013037809647979}
+lukaemon_mmlu_medical_genetics: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_professional_psychology: {'accuracy': 72.05882352941177, 'f1': 0.7205882352941176}
+lukaemon_mmlu_jurisprudence: {'accuracy': 68.51851851851852, 'f1': 0.6851851851851852}
+lukaemon_mmlu_world_religions: {'accuracy': 83.04093567251462, 'f1': 0.8304093567251462}
+lukaemon_mmlu_philosophy: {'accuracy': 69.45337620578779, 'f1': 0.6945337620578779}
+lukaemon_mmlu_virology: {'accuracy': 50.0, 'f1': 0.5}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 69.95073891625616, 'f1': 0.6995073891625616}
+lukaemon_mmlu_public_relations: {'accuracy': 64.54545454545455, 'f1': 0.6454545454545455}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 78.46153846153847, 'f1': 0.7846153846153847}
+lukaemon_mmlu_human_sexuality: {'accuracy': 77.09923664122137, 'f1': 0.7709923664122138}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 95.23809523809523, 'f1': 0.9523809523809523}
+lukaemon_mmlu_high_school_physics: {'accuracy': 70.19867549668875, 'f1': 0.7019867549668874}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 85.0, 'f1': 0.85}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122, 'f1': 0.8121212121212121}
+lukaemon_mmlu_business_ethics: {'accuracy': 63.0, 'f1': 0.63}
+lukaemon_mmlu_moral_disputes: {'accuracy': 67.91907514450867, 'f1': 0.6791907514450867}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 80.55555555555556, 'f1': 0.8055555555555556}
+lukaemon_mmlu_miscellaneous: {'accuracy': 84.54661558109834, 'f1': 0.8454661558109834}
+lukaemon_mmlu_formal_logic: {'accuracy': 53.17460317460318, 'f1': 0.5317460317460317}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 89.11917098445595, 'f1': 0.8911917098445595}
+lukaemon_mmlu_prehistory: {'accuracy': 77.77777777777779, 'f1': 0.7777777777777778}
+lukaemon_mmlu_security_studies: {'accuracy': 70.61224489795919, 'f1': 0.7061224489795919}
+lukaemon_mmlu_high_school_biology: {'accuracy': 85.48387096774194, 'f1': 0.8548387096774194}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 77.30061349693251, 'f1': 0.7730061349693251}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 84.81012658227847, 'f1': 0.8481012658227848}
+lukaemon_mmlu_professional_medicine: {'accuracy': 76.83823529411765, 'f1': 0.7683823529411765}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 88.51851851851852, 'f1': 0.8851851851851851}
+lukaemon_mmlu_college_medicine: {'accuracy': 68.78612716763006, 'f1': 0.6878612716763006}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 85.7843137254902, 'f1': 0.8578431372549019}
+lukaemon_mmlu_sociology: {'accuracy': 77.61194029850746, 'f1': 0.7761194029850746}
+lukaemon_mmlu_econometrics: {'accuracy': 61.40350877192983, 'f1': 0.6140350877192983}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 87.33944954128441, 'f1': 0.8733944954128441}
+lukaemon_mmlu_human_aging: {'accuracy': 71.74887892376681, 'f1': 0.7174887892376681}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 82.0, 'f1': 0.82}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 77.87234042553192, 'f1': 0.778723404255319}
+bbeh: {'accuracy': 2.5665696257257014, 'f1': 1.0, 'naive_average': 12.96376811594203, 'harmonic_mean': 2.5665696257257014}
+bbh: {'score': 62.95836949350878, 'naive_average': 62.95836949350878}
+cmmlu-humanities: {'accuracy': 78.97311963843647, 'f1': 0.7897311963843645, 'naive_average': 78.97311963843647}
+cmmlu-stem: {'accuracy': 74.06447568202356, 'f1': 0.7406447568202355, 'naive_average': 74.06447568202356}
+cmmlu-social-science: {'accuracy': 76.8782791315839, 'f1': 0.768782791315839, 'naive_average': 76.8782791315839}
+cmmlu-other: {'accuracy': 80.27678811675806, 'f1': 0.8027678811675805, 'naive_average': 80.27678811675806}
+cmmlu-china-specific: {'accuracy': 74.67266241967144, 'f1': 0.7467266241967145, 'naive_average': 74.67266241967144}
+cmmlu: {'accuracy': 77.33165081403422, 'f1': 0.7733165081403418, 'naive_average': 77.33165081403422}
+mmlu-humanities: {'accuracy': 70.66637753731186, 'f1': 0.7066637753731186, 'naive_average': 70.66637753731186}
+mmlu-stem: {'accuracy': 76.04638174470062, 'f1': 0.7604638174470061, 'naive_average': 76.04638174470062}
+mmlu-social-science: {'accuracy': 77.12645617619499, 'f1': 0.7712645617619501, 'naive_average': 77.12645617619499}
+mmlu-other: {'accuracy': 71.02326682574525, 'f1': 0.7102326682574525, 'naive_average': 71.02326682574525}
+mmlu: {'accuracy': 73.90112463128763, 'f1': 0.7390112463128761, 'naive_average': 73.90112463128763}
+mmlu-weighted: {'accuracy': 71.85586098846318, 'f1': 0.7185586098846318, 'weighted_average': 71.85586098846318}
+-------------------------------
+Model: daiyu_20250426_042114
+hellaswag: {'accuracy': 70.52380003983271, 'f1': 0.7052380003983271}
+math_prm800k_500-llmjudge: {'accuracy': 78.2, 'f1': 0.782}
+bbeh_boolean_expressions: {'accuracy': 16.5, 'f1': 0.165}
+bbeh_disambiguation_qa: {'accuracy': 44.166666666666664, 'f1': 0.44166666666666665}
+bbeh_geometric_shapes: {'accuracy': 24.0, 'f1': 0.24}
+bbeh_hyperbaton: {'accuracy': 5.5, 'f1': 0.055}
+bbeh_movie_recommendation: {'accuracy': 23.5, 'f1': 0.235}
+bbeh_nycc: {'accuracy': 11.0, 'f1': 0.11}
+bbeh_shuffled_objects: {'accuracy': 12.5, 'f1': 0.125}
+bbeh_boardgame_qa: {'accuracy': 34.5, 'f1': 0.345}
+bbeh_buggy_tables: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_causal_understanding: {'accuracy': 24.5, 'f1': 0.245}
+bbeh_dyck_languages: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_linguini: {'accuracy': 5.0, 'f1': 0.05000000000000001}
+bbeh_multistep_arithmetic: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_object_counting: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_properties: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_sarc_triples: {'accuracy': 13.5, 'f1': 0.135}
+bbeh_spatial_reasoning: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_sportqa: {'accuracy': 5.0, 'f1': 0.05000000000000001}
+bbeh_temporal_sequence: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_time_arithmetic: {'accuracy': 20.0, 'f1': 0.20000000000000004}
+bbeh_web_of_lies: {'accuracy': 4.0, 'f1': 0.04}
+bbeh_word_sorting: {'accuracy': 2.5, 'f1': 0.025000000000000005}
+bbeh_zebra_puzzles: {'accuracy': 16.5, 'f1': 0.165}
+bbh-temporal_sequences: {'score': 77.2}
+bbh-disambiguation_qa: {'score': 46.400000000000006}
+bbh-date_understanding: {'score': 50.8}
+bbh-tracking_shuffled_objects_three_objects: {'score': 74.4}
+bbh-penguins_in_a_table: {'score': 70.54794520547945}
+bbh-geometric_shapes: {'score': 42.4}
+bbh-snarks: {'score': 75.84269662921348}
+bbh-ruin_names: {'score': 54.400000000000006}
+bbh-tracking_shuffled_objects_seven_objects: {'score': 54.800000000000004}
+bbh-tracking_shuffled_objects_five_objects: {'score': 78.0}
+bbh-logical_deduction_three_objects: {'score': 72.0}
+bbh-hyperbaton: {'score': 67.2}
+bbh-logical_deduction_five_objects: {'score': 56.00000000000001}
+bbh-logical_deduction_seven_objects: {'score': 48.4}
+bbh-movie_recommendation: {'score': 60.0}
+bbh-salient_translation_error_detection: {'score': 43.6}
+bbh-reasoning_about_colored_objects: {'score': 60.8}
+bbh-multistep_arithmetic_two: {'score': 81.6}
+bbh-navigate: {'score': 59.599999999999994}
+bbh-dyck_languages: {'score': 2.0}
+bbh-word_sorting: {'score': 24.8}
+bbh-sports_understanding: {'score': 55.60000000000001}
+bbh-boolean_expressions: {'score': 79.60000000000001}
+bbh-object_counting: {'score': 50.4}
+bbh-formal_fallacies: {'score': 58.4}
+bbh-causal_judgement: {'score': 52.94117647058824}
+bbh-web_of_lies: {'score': 70.39999999999999}
+cmmlu-agronomy: {'accuracy': 68.04733727810651, 'f1': 0.6804733727810651}
+cmmlu-anatomy: {'accuracy': 87.16216216216216, 'f1': 0.8716216216216216}
+cmmlu-ancient_chinese: {'accuracy': 46.95121951219512, 'f1': 0.4695121951219512}
+cmmlu-arts: {'accuracy': 93.75, 'f1': 0.9375}
+cmmlu-astronomy: {'accuracy': 51.515151515151516, 'f1': 0.5151515151515151}
+cmmlu-business_ethics: {'accuracy': 68.42105263157895, 'f1': 0.6842105263157895}
+cmmlu-chinese_civil_service_exam: {'accuracy': 76.25, 'f1': 0.7625}
+cmmlu-chinese_driving_rule: {'accuracy': 96.94656488549617, 'f1': 0.9694656488549618}
+cmmlu-chinese_food_culture: {'accuracy': 73.52941176470588, 'f1': 0.735294117647059}
+cmmlu-chinese_foreign_policy: {'accuracy': 75.70093457943925, 'f1': 0.7570093457943925}
+cmmlu-chinese_history: {'accuracy': 86.06811145510835, 'f1': 0.8606811145510835}
+cmmlu-chinese_literature: {'accuracy': 69.11764705882352, 'f1': 0.6911764705882353}
+cmmlu-chinese_teacher_qualification: {'accuracy': 89.94413407821229, 'f1': 0.8994413407821229}
+cmmlu-clinical_knowledge: {'accuracy': 77.63713080168776, 'f1': 0.7763713080168775}
+cmmlu-college_actuarial_science: {'accuracy': 43.39622641509434, 'f1': 0.43396226415094347}
+cmmlu-college_education: {'accuracy': 87.85046728971963, 'f1': 0.8785046728971962}
+cmmlu-college_engineering_hydrology: {'accuracy': 78.30188679245283, 'f1': 0.7830188679245284}
+cmmlu-college_law: {'accuracy': 67.5925925925926, 'f1': 0.6759259259259259}
+cmmlu-college_mathematics: {'accuracy': 43.80952380952381, 'f1': 0.4380952380952381}
+cmmlu-college_medical_statistics: {'accuracy': 70.75471698113208, 'f1': 0.7075471698113207}
+cmmlu-college_medicine: {'accuracy': 83.51648351648352, 'f1': 0.8351648351648353}
+cmmlu-computer_science: {'accuracy': 84.31372549019608, 'f1': 0.8431372549019607}
+cmmlu-computer_security: {'accuracy': 88.30409356725146, 'f1': 0.8830409356725146}
+cmmlu-conceptual_physics: {'accuracy': 87.07482993197279, 'f1': 0.8707482993197279}
+cmmlu-construction_project_management: {'accuracy': 69.7841726618705, 'f1': 0.697841726618705}
+cmmlu-economics: {'accuracy': 81.13207547169812, 'f1': 0.8113207547169812}
+cmmlu-education: {'accuracy': 76.07361963190185, 'f1': 0.7607361963190185}
+cmmlu-electrical_engineering: {'accuracy': 81.97674418604652, 'f1': 0.8197674418604651}
+cmmlu-elementary_chinese: {'accuracy': 75.39682539682539, 'f1': 0.753968253968254}
+cmmlu-elementary_commonsense: {'accuracy': 74.24242424242425, 'f1': 0.7424242424242424}
+cmmlu-elementary_information_and_technology: {'accuracy': 94.53781512605042, 'f1': 0.9453781512605042}
+cmmlu-elementary_mathematics: {'accuracy': 70.86956521739131, 'f1': 0.7086956521739132}
+cmmlu-ethnology: {'accuracy': 77.03703703703704, 'f1': 0.7703703703703704}
+cmmlu-food_science: {'accuracy': 69.93006993006993, 'f1': 0.6993006993006993}
+cmmlu-genetics: {'accuracy': 66.47727272727273, 'f1': 0.6647727272727273}
+cmmlu-global_facts: {'accuracy': 78.52348993288591, 'f1': 0.7852348993288589}
+cmmlu-high_school_biology: {'accuracy': 82.24852071005917, 'f1': 0.8224852071005917}
+cmmlu-high_school_chemistry: {'accuracy': 68.18181818181817, 'f1': 0.6818181818181818}
+cmmlu-high_school_geography: {'accuracy': 79.66101694915254, 'f1': 0.7966101694915254}
+cmmlu-high_school_mathematics: {'accuracy': 70.1219512195122, 'f1': 0.7012195121951219}
+cmmlu-high_school_physics: {'accuracy': 77.27272727272727, 'f1': 0.7727272727272727}
+cmmlu-high_school_politics: {'accuracy': 86.01398601398601, 'f1': 0.8601398601398601}
+cmmlu-human_sexuality: {'accuracy': 66.66666666666666, 'f1': 0.6666666666666666}
+cmmlu-international_law: {'accuracy': 71.89189189189189, 'f1': 0.7189189189189189}
+cmmlu-journalism: {'accuracy': 76.74418604651163, 'f1': 0.7674418604651162}
+cmmlu-jurisprudence: {'accuracy': 81.99513381995133, 'f1': 0.8199513381995134}
+cmmlu-legal_and_moral_basis: {'accuracy': 97.66355140186917, 'f1': 0.9766355140186916}
+cmmlu-logical: {'accuracy': 73.98373983739837, 'f1': 0.7398373983739838}
+cmmlu-machine_learning: {'accuracy': 72.95081967213115, 'f1': 0.7295081967213115}
+cmmlu-management: {'accuracy': 84.28571428571429, 'f1': 0.8428571428571429}
+cmmlu-marketing: {'accuracy': 84.44444444444444, 'f1': 0.8444444444444444}
+cmmlu-marxist_theory: {'accuracy': 93.65079365079364, 'f1': 0.9365079365079365}
+cmmlu-modern_chinese: {'accuracy': 58.620689655172406, 'f1': 0.5862068965517241}
+cmmlu-nutrition: {'accuracy': 78.62068965517241, 'f1': 0.7862068965517242}
+cmmlu-philosophy: {'accuracy': 77.14285714285715, 'f1': 0.7714285714285715}
+cmmlu-professional_accounting: {'accuracy': 88.57142857142857, 'f1': 0.8857142857142857}
+cmmlu-professional_law: {'accuracy': 72.03791469194313, 'f1': 0.7203791469194313}
+cmmlu-professional_medicine: {'accuracy': 76.32978723404256, 'f1': 0.7632978723404256}
+cmmlu-professional_psychology: {'accuracy': 85.34482758620689, 'f1': 0.853448275862069}
+cmmlu-public_relations: {'accuracy': 71.83908045977012, 'f1': 0.7183908045977012}
+cmmlu-security_study: {'accuracy': 88.88888888888889, 'f1': 0.8888888888888888}
+cmmlu-sociology: {'accuracy': 75.66371681415929, 'f1': 0.756637168141593}
+cmmlu-sports_science: {'accuracy': 75.15151515151514, 'f1': 0.7515151515151516}
+cmmlu-traditional_chinese_medicine: {'accuracy': 79.45945945945945, 'f1': 0.7945945945945945}
+cmmlu-virology: {'accuracy': 79.28994082840237, 'f1': 0.7928994082840237}
+cmmlu-world_history: {'accuracy': 83.22981366459628, 'f1': 0.8322981366459627}
+cmmlu-world_religions: {'accuracy': 80.625, 'f1': 0.8062499999999999}
+lukaemon_mmlu_college_biology: {'accuracy': 84.02777777777779, 'f1': 0.8402777777777778}
+lukaemon_mmlu_college_chemistry: {'accuracy': 54.0, 'f1': 0.54}
+lukaemon_mmlu_college_computer_science: {'accuracy': 77.0, 'f1': 0.7699999999999999}
+lukaemon_mmlu_college_mathematics: {'accuracy': 70.0, 'f1': 0.7}
+lukaemon_mmlu_college_physics: {'accuracy': 78.43137254901961, 'f1': 0.7843137254901961}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 65.51724137931035, 'f1': 0.6551724137931034}
+lukaemon_mmlu_astronomy: {'accuracy': 83.55263157894737, 'f1': 0.8355263157894737}
+lukaemon_mmlu_anatomy: {'accuracy': 66.66666666666666, 'f1': 0.6666666666666666}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 72.0, 'f1': 0.72}
+lukaemon_mmlu_machine_learning: {'accuracy': 62.5, 'f1': 0.625}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 77.73584905660378, 'f1': 0.7773584905660378}
+lukaemon_mmlu_global_facts: {'accuracy': 49.0, 'f1': 0.49}
+lukaemon_mmlu_management: {'accuracy': 83.49514563106796, 'f1': 0.8349514563106796}
+lukaemon_mmlu_nutrition: {'accuracy': 79.08496732026144, 'f1': 0.7908496732026143}
+lukaemon_mmlu_marketing: {'accuracy': 87.6068376068376, 'f1': 0.8760683760683761}
+lukaemon_mmlu_professional_accounting: {'accuracy': 66.66666666666666, 'f1': 0.6666666666666666}
+lukaemon_mmlu_high_school_geography: {'accuracy': 84.34343434343434, 'f1': 0.8434343434343435}
+lukaemon_mmlu_international_law: {'accuracy': 80.16528925619835, 'f1': 0.8016528925619834}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 47.374301675977655, 'f1': 0.47374301675977654}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 84.03361344537815, 'f1': 0.8403361344537815}
+lukaemon_mmlu_professional_law: {'accuracy': 50.32594524119948, 'f1': 0.5032594524119948}
+lukaemon_mmlu_medical_genetics: {'accuracy': 89.0, 'f1': 0.89}
+lukaemon_mmlu_professional_psychology: {'accuracy': 73.8562091503268, 'f1': 0.738562091503268}
+lukaemon_mmlu_jurisprudence: {'accuracy': 77.77777777777779, 'f1': 0.7777777777777778}
+lukaemon_mmlu_world_religions: {'accuracy': 83.62573099415205, 'f1': 0.8362573099415205}
+lukaemon_mmlu_philosophy: {'accuracy': 70.09646302250803, 'f1': 0.7009646302250804}
+lukaemon_mmlu_virology: {'accuracy': 50.602409638554214, 'f1': 0.5060240963855421}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.89162561576354, 'f1': 0.7389162561576355}
+lukaemon_mmlu_public_relations: {'accuracy': 65.45454545454545, 'f1': 0.6545454545454545}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 82.3076923076923, 'f1': 0.823076923076923}
+lukaemon_mmlu_human_sexuality: {'accuracy': 76.33587786259542, 'f1': 0.7633587786259542}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 94.44444444444444, 'f1': 0.9444444444444444}
+lukaemon_mmlu_high_school_physics: {'accuracy': 73.50993377483444, 'f1': 0.7350993377483442}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 90.0, 'f1': 0.9}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_business_ethics: {'accuracy': 67.0, 'f1': 0.67}
+lukaemon_mmlu_moral_disputes: {'accuracy': 70.8092485549133, 'f1': 0.708092485549133}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 84.25925925925925, 'f1': 0.8425925925925926}
+lukaemon_mmlu_miscellaneous: {'accuracy': 86.84546615581098, 'f1': 0.8684546615581099}
+lukaemon_mmlu_formal_logic: {'accuracy': 57.936507936507944, 'f1': 0.5793650793650794}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 90.15544041450777, 'f1': 0.9015544041450776}
+lukaemon_mmlu_prehistory: {'accuracy': 78.39506172839506, 'f1': 0.7839506172839507}
+lukaemon_mmlu_security_studies: {'accuracy': 73.06122448979592, 'f1': 0.7306122448979592}
+lukaemon_mmlu_high_school_biology: {'accuracy': 84.19354838709677, 'f1': 0.8419354838709677}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 76.07361963190185, 'f1': 0.7607361963190185}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 78.90295358649789, 'f1': 0.7890295358649789}
+lukaemon_mmlu_professional_medicine: {'accuracy': 76.83823529411765, 'f1': 0.7683823529411765}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 88.51851851851852, 'f1': 0.8851851851851851}
+lukaemon_mmlu_college_medicine: {'accuracy': 71.09826589595376, 'f1': 0.7109826589595376}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 83.33333333333334, 'f1': 0.8333333333333334}
+lukaemon_mmlu_sociology: {'accuracy': 83.08457711442786, 'f1': 0.8308457711442786}
+lukaemon_mmlu_econometrics: {'accuracy': 61.40350877192983, 'f1': 0.6140350877192983}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 87.5229357798165, 'f1': 0.8752293577981652}
+lukaemon_mmlu_human_aging: {'accuracy': 70.85201793721974, 'f1': 0.7085201793721974}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 83.0, 'f1': 0.83}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 79.57446808510639, 'f1': 0.7957446808510639}
+bbeh: {'accuracy': 2.7086409169631978, 'f1': 1.0, 'naive_average': 11.528985507246375, 'harmonic_mean': 2.7086409169631978}
+bbh: {'score': 58.07895623352893, 'naive_average': 58.07895623352893}
+cmmlu-humanities: {'accuracy': 79.20069121068015, 'f1': 0.7920069121068016, 'naive_average': 79.20069121068015}
+cmmlu-stem: {'accuracy': 71.51279900664979, 'f1': 0.715127990066498, 'naive_average': 71.51279900664979}
+cmmlu-social-science: {'accuracy': 77.65294350494312, 'f1': 0.7765294350494313, 'naive_average': 77.65294350494312}
+cmmlu-other: {'accuracy': 79.78918410521106, 'f1': 0.7978918410521106, 'naive_average': 79.78918410521106}
+cmmlu-china-specific: {'accuracy': 75.67084118671704, 'f1': 0.7567084118671705, 'naive_average': 75.67084118671704}
+cmmlu: {'accuracy': 76.87356847072837, 'f1': 0.7687356847072839, 'naive_average': 76.87356847072837}
+mmlu-humanities: {'accuracy': 71.90894097995098, 'f1': 0.7190894097995097, 'naive_average': 71.90894097995098}
+mmlu-stem: {'accuracy': 76.95197305456554, 'f1': 0.7695197305456553, 'naive_average': 76.95197305456554}
+mmlu-social-science: {'accuracy': 78.71325492787086, 'f1': 0.7871325492787086, 'naive_average': 78.71325492787086}
+mmlu-other: {'accuracy': 73.52506624639183, 'f1': 0.7352506624639182, 'naive_average': 73.52506624639183}
+mmlu: {'accuracy': 75.39102879146759, 'f1': 0.7539102879146758, 'naive_average': 75.39102879146759}
+mmlu-weighted: {'accuracy': 73.23743056544652, 'f1': 0.7323743056544652, 'weighted_average': 73.23743056544652}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

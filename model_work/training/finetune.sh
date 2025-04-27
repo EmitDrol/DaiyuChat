@@ -1,5 +1,14 @@
 #!/bin/bash
-cd /cpfs01/shared/llm_ddd/lipeiji/jennieGPT/Qwen
+cd /cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/model_work/training
+which python
+python --version
+
+# pip install
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
+pip config set install.trusted-host mirrors.aliyun.com
+pip install deepspeed
+
+
 export CUDA_DEVICE_MAX_CONNECTIONS=1
 DIR=`pwd`
 
@@ -24,11 +33,12 @@ MASTER_ADDR=${MASTER_ADDR:-localhost}
 # The port for communication
 MASTER_PORT=${MASTER_PORT:-6001}
 
-MODEL="/cpfs01/shared/llm_ddd/lipeiji/hf_hub_1/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/2fd50615a2a9792d223eba8e0741aa90ef21a869"
+# MODEL="/cpfs01/shared/llm_ddd/opencompass/models/hf_hub/models--Qwen--Qwen2.5-7B/snapshots/09a0bac5707b43ec44508eab308b0846320c1ed4"
+MODEL="/cpfs01/shared/llm_ddd/lipeiji/hf_hub_2/models--Qwen--Qwen2.5-7B-Instruct/snapshots/bb46c15ee4bb56c5b63245ef50fd7637234d6f75"
 # "/cpfs01/shared/public/lipeiji/hf_hub/models--Qwen--Qwen2.5-7B/snapshots/09a0bac5707b43ec44508eab308b0846320c1ed4" # Set the path if you do not want to load from huggingface directly
 # ATTENTION: specify the path to your training data, which should be a json file consisting of a list of conversations.
 # See the section for finetuning in README for more information.
-DATA="/cpfs01/shared/llm_ddd/lipeiji/jennieGPT/data/fsy_0308.json"
+DATA="/cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/data_work/data/train_data/train_data_v2_human_query_only.json"
 
 function usage() {
     echo '
@@ -69,12 +79,12 @@ DISTRIBUTED_ARGS="
 # get datetime
 now=$(date +"%Y%m%d_%H%M%S")
 
-torchrun $DISTRIBUTED_ARGS finetune_fsy.py \
+torchrun $DISTRIBUTED_ARGS finetune.py \
     --model_name_or_path $MODEL \
     --data_path $DATA \
     --bf16 True \
-    --output_dir /cpfs01/shared/llm_ddd/lipeiji/jennieGPT/ckpts/fsy_1_5b_$now \
-    --num_train_epochs 2 \
+    --output_dir /cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/model_work/ckpts/daiyu_$now \
+    --num_train_epochs 4 \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 1 \
     --gradient_accumulation_steps 1 \
@@ -92,4 +102,4 @@ torchrun $DISTRIBUTED_ARGS finetune_fsy.py \
     --model_max_length 8192 \
     --gradient_checkpointing True \
     --lazy_preprocess True \
-    --deepspeed finetune/ds_config_zero3.json
+    --deepspeed /cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/model_work/training/ds_config_zero3.json

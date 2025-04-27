@@ -3,6 +3,17 @@ paper_work/
 data_work/data/
 dialogues/
 
+#ckpt
+model_work/ckpts
+
+#api
+model_work/api_cfg.py
+
+#eval_prodictions
+model_work/evaluation/eval_report/20250425/predictions
+
+#model
+model_work/training/dlc_launch_ft.sh
 
 **__pycache__**
 whiteboard.md

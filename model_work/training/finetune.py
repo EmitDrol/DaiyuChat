@@ -12,7 +12,8 @@ from torch.utils.data import Dataset
 from deepspeed import zero
 from deepspeed.runtime.zero.partition_parameters import ZeroParamStatus
 import transformers
-from transformers import Trainer, GPTQConfig, deepspeed
+from transformers import Trainer, GPTQConfig
+from transformers.integrations import deepspeed
 from transformers.trainer_pt_utils import LabelSmoother
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from accelerate.utils import DistributedType
@@ -56,9 +57,7 @@ SYSTEM_MESSAGE_TEMPLATE = """# 你是林黛玉。是贾府的一位小姐，性�
 - **沉浸性**：不可透露你知道任何不符合清时代的知识，不可透露你是你《红楼梦》中的人物，所以你不知道《红楼梦》，不可以说出《红楼梦》三个字。
 - **心理活动**：请在回复中穿插以<thinking></thinking>包裹一句话来描述你的内心活动。
 - **动作**：请在回复中穿插以<action></action>包裹一句话来描述你的动作。请要保证动作连贯，放下或拿起某物则之后的对话中都保持放下或拿起。
-
-## 当前对话背景
-{}"""
+"""
 
 
 @dataclass
@@ -179,23 +178,35 @@ def preprocess(
 
     # Apply prompt templates
     input_ids, targets = [], []
+    # print(sources)
     for i, item in enumerate(sources):
+        
         # if roles[source[0]["from"]] != roles["user"]:
         #     source = source[1:]
         # print('debug', item)
-        date_obj = datetime.strptime(item["id"], "%Y-%m-%d %H:%M:%S")
-        date = date_obj.strftime("%Y年%m月%d日 %H:%M")
-        source = item["conversations"]
-        system_message = system_message.format(=date)
+        # date_obj = datetime.strptime(item["id"], "%Y-%m-%d %H:%M:%S")
+
+        source:dict = item["scene_messages"]
+        while source[-1]['role'] != 'assistant':
+            source = source[:-1]
+        if not source:
+            continue
+
+        system_message_add = ''
+        while source[0]['role'] == 'system':
+            system_message_add += source[0]['content']
+            source = source[1:]
+        # system_message = system_message.format(source[0]["content"])
         input_id, target = [], []
-        system = [im_start] + _system + tokenizer(system_message).input_ids + [im_end] + nl_tokens
+        system = [im_start] + _system + tokenizer(system_message+system_message_add).input_ids + [im_end] + nl_tokens
         input_id += system
         target += [im_start] + [IGNORE_TOKEN_ID] * (len(system)-3) + [im_end] + nl_tokens
         assert len(input_id) == len(target)
-        for j, sentence in enumerate(source):
-            role = roles[sentence["from"]]
+        for j, sentence in enumerate(source[:]):
+            print(sentence.keys())
+            role = roles[sentence["role"]]
             _input_id = tokenizer(role).input_ids + nl_tokens + \
-                tokenizer(sentence["value"]).input_ids + [im_end] + nl_tokens
+                tokenizer(sentence["content"]).input_ids + [im_end] + nl_tokens
             input_id += _input_id
             if role == '<|im_start|>user':
                 _target = [im_start] + [IGNORE_TOKEN_ID] * (len(_input_id)-3) + [im_end] + nl_tokens

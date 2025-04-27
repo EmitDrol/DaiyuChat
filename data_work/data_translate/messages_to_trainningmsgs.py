@@ -2,9 +2,9 @@ import sys
 sys.path.append('./')
 from data_work.data_translate.utils.jsonl_processor import process_jsonl
 
-def remove_special_tags(content):
+def replace_special_tags(content):
     """去除消息中的特殊标签<thinking>和<action>"""
-    return content.replace("<thinking>", "").replace("</thinking>", "").replace("<action>", "").replace("</action>", "")
+    return content.replace("<thinking>", "[").replace("</thinking>", "]").replace("<action>", "[").replace("</action>", "]")
 
 def msgs2trainingmsgs(data):
     # 确保输入数据包含scene_messages字段
@@ -35,8 +35,11 @@ def msgs2trainingmsgs(data):
             # 保留特殊标签
             processed_messages.append({"role": "assistant", "content": content.strip()})
         else:  # 其余角色消息合并，并保留角色信息
-            cleaned_content = remove_special_tags(content)
-            annotated_content = f"[{role}]：{cleaned_content.strip()}"
+            cleaned_content = replace_special_tags(content)
+            if role != ('Narrator' or 'narrator'):
+                annotated_content = f'{role}："{cleaned_content.strip()}"'
+            else:
+                annotated_content = cleaned_content.strip()
             
             if processed_messages and processed_messages[-1]["role"] == "user":
                 # 如果上一条消息是user，则合并内容
@@ -50,4 +53,4 @@ def msgs2trainingmsgs(data):
     return data
 
 if __name__ == "__main__":
-    process_jsonl("/cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/data_work/data/87版红楼梦剧本_processed_by_scene_to_message_with_r1_32b.jsonl", msgs2trainingmsgs, hard_mode=True)
+    process_jsonl("/cpfs01/shared/llm_ddd/chenyongkang/DaiyuChat/data_work/data/87版红楼梦剧本_processed_by_scene_to_message_dsv3.jsonl", msgs2trainingmsgs)

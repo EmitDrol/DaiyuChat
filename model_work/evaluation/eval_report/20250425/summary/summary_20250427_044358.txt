@@ -1,0 +1,1712 @@
+20250427_044358
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                                            version    metric    mode    Qwen2_5_7B      daiyu_20250423_183824    Qwen2_5_7B-Instruct    daiyu_20250426_042114
+-------------------------------------------------  ---------  --------  ------  ------------  -----------------------  ---------------------  -----------------------
+hellaswag                                          809ef1     accuracy  gen     -                               32.27                  77.54                    70.52
+hellaswag                                          809ef1     f1        gen     -                                0.32                   0.78                     0.71
+math_prm800k_500-llmjudge                          6ff468     accuracy  gen     -                               70.40                  77.60                    78.20
+math_prm800k_500-llmjudge                          6ff468     f1        gen     -                                0.70                   0.78                     0.78
+bbeh_boolean_expressions                           ae90fc     accuracy  gen     -                               14.50                  17.50                    16.50
+bbeh_boolean_expressions                           ae90fc     f1        gen     -                                0.14                   0.17                     0.17
+bbeh_disambiguation_qa                             ae90fc     accuracy  gen     -                               40.00                  41.67                    44.17
+bbeh_disambiguation_qa                             ae90fc     f1        gen     -                                0.40                   0.42                     0.44
+bbeh_geometric_shapes                              ae90fc     accuracy  gen     -                                7.50                  36.00                    24.00
+bbeh_geometric_shapes                              ae90fc     f1        gen     -                                0.07                   0.36                     0.24
+bbeh_hyperbaton                                    ae90fc     accuracy  gen     -                                2.50                   2.00                     5.50
+bbeh_hyperbaton                                    ae90fc     f1        gen     -                                0.03                   0.02                     0.06
+bbeh_movie_recommendation                          ae90fc     accuracy  gen     -                               28.00                  31.50                    23.50
+bbeh_movie_recommendation                          ae90fc     f1        gen     -                                0.28                   0.32                     0.23
+bbeh_nycc                                          ae90fc     accuracy  gen     -                                7.50                   8.50                    11.00
+bbeh_nycc                                          ae90fc     f1        gen     -                                0.07                   0.09                     0.11
+bbeh_shuffled_objects                              ae90fc     accuracy  gen     -                               25.00                  12.50                    12.50
+bbeh_shuffled_objects                              ae90fc     f1        gen     -                                0.25                   0.12                     0.12
+bbeh_boardgame_qa                                  ae90fc     accuracy  gen     -                               30.50                  30.50                    34.50
+bbeh_boardgame_qa                                  ae90fc     f1        gen     -                                0.30                   0.30                     0.34
+bbeh_buggy_tables                                  ae90fc     accuracy  gen     -                                2.00                   1.50                     1.50
+bbeh_buggy_tables                                  ae90fc     f1        gen     -                                0.02                   0.01                     0.01
+bbeh_causal_understanding                          ae90fc     accuracy  gen     -                               40.50                  42.00                    24.50
+bbeh_causal_understanding                          ae90fc     f1        gen     -                                0.41                   0.42                     0.24
+bbeh_dyck_languages                                ae90fc     accuracy  gen     -                                0.50                   1.00                     0.50
+bbeh_dyck_languages                                ae90fc     f1        gen     -                                0.01                   0.01                     0.01
+bbeh_linguini                                      ae90fc     accuracy  gen     -                                5.50                   6.00                     5.00
+bbeh_linguini                                      ae90fc     f1        gen     -                                0.06                   0.06                     0.05
+bbeh_multistep_arithmetic                          ae90fc     accuracy  gen     -                                0.00                   0.00                     0.50
+bbeh_multistep_arithmetic                          ae90fc     f1        gen     -                                0.00                   0.00                     0.01
+bbeh_object_counting                               ae90fc     accuracy  gen     -                                0.00                   0.00                     0.00
+bbeh_object_counting                               ae90fc     f1        gen     -                                0.00                   0.00                     0.00
+bbeh_object_properties                             ae90fc     accuracy  gen     -                                4.00                   0.50                     0.00
+bbeh_object_properties                             ae90fc     f1        gen     -                                0.04                   0.01                     0.00
+bbeh_sarc_triples                                  ae90fc     accuracy  gen     -                               11.00                  15.00                    13.50
+bbeh_sarc_triples                                  ae90fc     f1        gen     -                                0.11                   0.15                     0.14
+bbeh_spatial_reasoning                             ae90fc     accuracy  gen     -                               15.00                   0.50                     0.00
+bbeh_spatial_reasoning                             ae90fc     f1        gen     -                                0.15                   0.01                     0.00
+bbeh_sportqa                                       ae90fc     accuracy  gen     -                                1.00                   9.50                     5.00
+bbeh_sportqa                                       ae90fc     f1        gen     -                                0.01                   0.10                     0.05
+bbeh_temporal_sequence                             ae90fc     accuracy  gen     -                                1.50                   0.00                     0.00
+bbeh_temporal_sequence                             ae90fc     f1        gen     -                                0.01                   0.00                     0.00
+bbeh_time_arithmetic                               ae90fc     accuracy  gen     -                               14.00                  20.00                    20.00
+bbeh_time_arithmetic                               ae90fc     f1        gen     -                                0.14                   0.20                     0.20
+bbeh_web_of_lies                                   ae90fc     accuracy  gen     -                                9.00                   3.50                     4.00
+bbeh_web_of_lies                                   ae90fc     f1        gen     -                                0.09                   0.04                     0.04
+bbeh_word_sorting                                  ae90fc     accuracy  gen     -                                1.50                   1.50                     2.50
+bbeh_word_sorting                                  ae90fc     f1        gen     -                                0.01                   0.01                     0.03
+bbeh_zebra_puzzles                                 ae90fc     accuracy  gen     -                               18.00                  17.00                    16.50
+bbeh_zebra_puzzles                                 ae90fc     f1        gen     -                                0.18                   0.17                     0.17
+bbh-temporal_sequences                             3f2d84     score     gen     -                               46.40                  74.00                    77.20
+bbh-disambiguation_qa                              3f2d84     score     gen     -                               64.80                  51.60                    46.40
+bbh-date_understanding                             3f2d84     score     gen     -                               50.80                  55.60                    50.80
+bbh-tracking_shuffled_objects_three_objects        3f2d84     score     gen     -                               30.80                  91.60                    74.40
+bbh-penguins_in_a_table                            3f2d84     score     gen     -                               78.77                  89.73                    70.55
+bbh-geometric_shapes                               3f2d84     score     gen     -                               28.40                  30.00                    42.40
+bbh-snarks                                         3f2d84     score     gen     -                               75.28                  76.40                    75.84
+bbh-ruin_names                                     3f2d84     score     gen     -                               49.60                  57.60                    54.40
+bbh-tracking_shuffled_objects_seven_objects        3f2d84     score     gen     -                               39.60                  80.40                    54.80
+bbh-tracking_shuffled_objects_five_objects         3f2d84     score     gen     -                               52.40                  89.20                    78.00
+bbh-logical_deduction_three_objects                3f2d84     score     gen     -                               73.60                  74.40                    72.00
+bbh-hyperbaton                                     3f2d84     score     gen     -                               83.60                  60.40                    67.20
+bbh-logical_deduction_five_objects                 3f2d84     score     gen     -                               44.80                  62.40                    56.00
+bbh-logical_deduction_seven_objects                3f2d84     score     gen     -                               44.80                  52.80                    48.40
+bbh-movie_recommendation                           3f2d84     score     gen     -                               65.20                  64.00                    60.00
+bbh-salient_translation_error_detection            3f2d84     score     gen     -                               36.00                  43.20                    43.60
+bbh-reasoning_about_colored_objects                3f2d84     score     gen     -                               70.80                  77.20                    60.80
+bbh-multistep_arithmetic_two                       3f2d84     score     gen     -                               82.00                  87.60                    81.60
+bbh-navigate                                       3f2d84     score     gen     -                               59.20                  63.20                    59.60
+bbh-dyck_languages                                 3f2d84     score     gen     -                                2.40                   0.80                     2.00
+bbh-word_sorting                                   3f2d84     score     gen     -                               25.60                  20.40                    24.80
+bbh-sports_understanding                           3f2d84     score     gen     -                               69.20                  66.00                    55.60
+bbh-boolean_expressions                            3f2d84     score     gen     -                               84.00                  79.60                    79.60
+bbh-object_counting                                3f2d84     score     gen     -                               64.00                  46.00                    50.40
+bbh-formal_fallacies                               3f2d84     score     gen     -                               57.20                  60.40                    58.40
+bbh-causal_judgement                               3f2d84     score     gen     -                               56.68                  54.55                    52.94
+bbh-web_of_lies                                    3f2d84     score     gen     -                               66.40                  90.80                    70.40
+cmmlu-agronomy                                     7c9e30     accuracy  gen     -                               31.36                  69.82                    68.05
+cmmlu-agronomy                                     7c9e30     f1        gen     -                                0.31                   0.70                     0.68
+cmmlu-anatomy                                      84ab0f     accuracy  gen     -                               28.38                  85.81                    87.16
+cmmlu-anatomy                                      84ab0f     f1        gen     -                                0.28                   0.86                     0.87
+cmmlu-ancient_chinese                              18a73e     accuracy  gen     -                                4.27                  45.73                    46.95
+cmmlu-ancient_chinese                              18a73e     f1        gen     -                                0.04                   0.46                     0.47
+cmmlu-arts                                         d496c2     accuracy  gen     -                               38.12                  96.25                    93.75
+cmmlu-arts                                         d496c2     f1        gen     -                                0.38                   0.96                     0.94
+cmmlu-astronomy                                    94a1ad     accuracy  gen     -                               27.27                  56.36                    51.52
+cmmlu-astronomy                                    94a1ad     f1        gen     -                                0.27                   0.56                     0.52
+cmmlu-business_ethics                              b66299     accuracy  gen     -                               26.79                  66.99                    68.42
+cmmlu-business_ethics                              b66299     f1        gen     -                                0.27                   0.67                     0.68
+cmmlu-chinese_civil_service_exam                   41629d     accuracy  gen     -                               25.00                  70.62                    76.25
+cmmlu-chinese_civil_service_exam                   41629d     f1        gen     -                                0.25                   0.71                     0.76
+cmmlu-chinese_driving_rule                         1e9d3c     accuracy  gen     -                               35.88                  96.18                    96.95
+cmmlu-chinese_driving_rule                         1e9d3c     f1        gen     -                                0.36                   0.96                     0.97
+cmmlu-chinese_food_culture                         5fe533     accuracy  gen     -                               25.00                  72.06                    73.53
+cmmlu-chinese_food_culture                         5fe533     f1        gen     -                                0.25                   0.72                     0.74
+cmmlu-chinese_foreign_policy                       50ea53     accuracy  gen     -                               37.38                  73.83                    75.70
+cmmlu-chinese_foreign_policy                       50ea53     f1        gen     -                                0.37                   0.74                     0.76
+cmmlu-chinese_history                              65d9e7     accuracy  gen     -                               34.67                  82.97                    86.07
+cmmlu-chinese_history                              65d9e7     f1        gen     -                                0.35                   0.83                     0.86
+cmmlu-chinese_literature                           bf10c3     accuracy  gen     -                               10.78                  66.18                    69.12
+cmmlu-chinese_literature                           bf10c3     f1        gen     -                                0.11                   0.66                     0.69
+cmmlu-chinese_teacher_qualification                0fc6aa     accuracy  gen     -                               30.73                  89.39                    89.94
+cmmlu-chinese_teacher_qualification                0fc6aa     f1        gen     -                                0.31                   0.89                     0.90
+cmmlu-clinical_knowledge                           e8fd9f     accuracy  gen     -                               32.07                  75.53                    77.64
+cmmlu-clinical_knowledge                           e8fd9f     f1        gen     -                                0.32                   0.76                     0.78
+cmmlu-college_actuarial_science                    c0c119     accuracy  gen     -                                9.43                  45.28                    43.40
+cmmlu-college_actuarial_science                    c0c119     f1        gen     -                                0.09                   0.45                     0.43
+cmmlu-college_education                            a6d967     accuracy  gen     -                               37.38                  83.18                    87.85
+cmmlu-college_education                            a6d967     f1        gen     -                                0.37                   0.83                     0.88
+cmmlu-college_engineering_hydrology                2fc1c4     accuracy  gen     -                               45.28                  82.08                    78.30
+cmmlu-college_engineering_hydrology                2fc1c4     f1        gen     -                                0.45                   0.82                     0.78
+cmmlu-college_law                                  d918f6     accuracy  gen     -                               26.85                  68.52                    67.59
+cmmlu-college_law                                  d918f6     f1        gen     -                                0.27                   0.69                     0.68
+cmmlu-college_mathematics                          b665a2     accuracy  gen     -                               28.57                  58.10                    43.81
+cmmlu-college_mathematics                          b665a2     f1        gen     -                                0.29                   0.58                     0.44
+cmmlu-college_medical_statistics                   2b1a51     accuracy  gen     -                               23.58                  69.81                    70.75
+cmmlu-college_medical_statistics                   2b1a51     f1        gen     -                                0.24                   0.70                     0.71
+cmmlu-college_medicine                             ac9e75     accuracy  gen     -                               30.04                  83.52                    83.52
+cmmlu-college_medicine                             ac9e75     f1        gen     -                                0.30                   0.84                     0.84
+cmmlu-computer_science                             5b63b8     accuracy  gen     -                               24.51                  86.27                    84.31
+cmmlu-computer_science                             5b63b8     f1        gen     -                                0.25                   0.86                     0.84
+cmmlu-computer_security                            c37854     accuracy  gen     -                               26.32                  87.72                    88.30
+cmmlu-computer_security                            c37854     f1        gen     -                                0.26                   0.88                     0.88
+cmmlu-conceptual_physics                           e13116     accuracy  gen     -                               30.61                  89.12                    87.07
+cmmlu-conceptual_physics                           e13116     f1        gen     -                                0.31                   0.89                     0.87
+cmmlu-construction_project_management              799df1     accuracy  gen     -                               19.42                  68.35                    69.78
+cmmlu-construction_project_management              799df1     f1        gen     -                                0.19                   0.68                     0.70
+cmmlu-economics                                    503c58     accuracy  gen     -                               49.69                  83.65                    81.13
+cmmlu-economics                                    503c58     f1        gen     -                                0.50                   0.84                     0.81
+cmmlu-education                                    823c96     accuracy  gen     -                               26.38                  77.30                    76.07
+cmmlu-education                                    823c96     f1        gen     -                                0.26                   0.77                     0.76
+cmmlu-electrical_engineering                       69c4f3     accuracy  gen     -                               34.88                  81.40                    81.98
+cmmlu-electrical_engineering                       69c4f3     f1        gen     -                                0.35                   0.81                     0.82
+cmmlu-elementary_chinese                           61ed08     accuracy  gen     -                               29.37                  76.19                    75.40
+cmmlu-elementary_chinese                           61ed08     f1        gen     -                                0.29                   0.76                     0.75
+cmmlu-elementary_commonsense                       3c2aa7     accuracy  gen     -                               24.24                  78.79                    74.24
+cmmlu-elementary_commonsense                       3c2aa7     f1        gen     -                                0.24                   0.79                     0.74
+cmmlu-elementary_information_and_technology        4ba53f     accuracy  gen     -                               31.51                  94.54                    94.54
+cmmlu-elementary_information_and_technology        4ba53f     f1        gen     -                                0.32                   0.95                     0.95
+cmmlu-elementary_mathematics                       1fe0ee     accuracy  gen     -                               40.00                  80.87                    70.87
+cmmlu-elementary_mathematics                       1fe0ee     f1        gen     -                                0.40                   0.81                     0.71
+cmmlu-ethnology                                    ae0ac8     accuracy  gen     -                               31.85                  76.30                    77.04
+cmmlu-ethnology                                    ae0ac8     f1        gen     -                                0.32                   0.76                     0.77
+cmmlu-food_science                                 dfb5a1     accuracy  gen     -                               21.68                  73.43                    69.93
+cmmlu-food_science                                 dfb5a1     f1        gen     -                                0.22                   0.73                     0.70
+cmmlu-genetics                                     95a0c9     accuracy  gen     -                               26.70                  69.32                    66.48
+cmmlu-genetics                                     95a0c9     f1        gen     -                                0.27                   0.69                     0.66
+cmmlu-global_facts                                 e3cf9e     accuracy  gen     -                               24.83                  78.52                    78.52
+cmmlu-global_facts                                 e3cf9e     f1        gen     -                                0.25                   0.79                     0.79
+cmmlu-high_school_biology                          0811e7     accuracy  gen     -                               13.02                  82.25                    82.25
+cmmlu-high_school_biology                          0811e7     f1        gen     -                                0.13                   0.82                     0.82
+cmmlu-high_school_chemistry                        342b0f     accuracy  gen     -                                3.03                  65.91                    68.18
+cmmlu-high_school_chemistry                        342b0f     f1        gen     -                                0.03                   0.66                     0.68
+cmmlu-high_school_geography                        2a2c92     accuracy  gen     -                               42.37                  77.97                    79.66
+cmmlu-high_school_geography                        2a2c92     f1        gen     -                                0.42                   0.78                     0.80
+cmmlu-high_school_mathematics                      86f22a     accuracy  gen     -                               39.63                  79.88                    70.12
+cmmlu-high_school_mathematics                      86f22a     f1        gen     -                                0.40                   0.80                     0.70
+cmmlu-high_school_physics                          d4fe4b     accuracy  gen     -                               29.09                  75.45                    77.27
+cmmlu-high_school_physics                          d4fe4b     f1        gen     -                                0.29                   0.75                     0.77
+cmmlu-high_school_politics                         ded656     accuracy  gen     -                               30.77                  82.52                    86.01
+cmmlu-high_school_politics                         ded656     f1        gen     -                                0.31                   0.83                     0.86
+cmmlu-human_sexuality                              11cfc3     accuracy  gen     -                               15.87                  71.43                    66.67
+cmmlu-human_sexuality                              11cfc3     f1        gen     -                                0.16                   0.71                     0.67
+cmmlu-international_law                            0bc7f3     accuracy  gen     -                               27.57                  73.51                    71.89
+cmmlu-international_law                            0bc7f3     f1        gen     -                                0.28                   0.74                     0.72
+cmmlu-journalism                                   9b0da8     accuracy  gen     -                               27.91                  72.09                    76.74
+cmmlu-journalism                                   9b0da8     f1        gen     -                                0.28                   0.72                     0.77
+cmmlu-jurisprudence                                63bbe5     accuracy  gen     -                               27.98                  81.51                    82.00
+cmmlu-jurisprudence                                63bbe5     f1        gen     -                                0.28                   0.82                     0.82
+cmmlu-legal_and_moral_basis                        252a51     accuracy  gen     -                               32.24                  97.20                    97.66
+cmmlu-legal_and_moral_basis                        252a51     f1        gen     -                                0.32                   0.97                     0.98
+cmmlu-logical                                      245f3d     accuracy  gen     -                               27.64                  72.36                    73.98
+cmmlu-logical                                      245f3d     f1        gen     -                                0.28                   0.72                     0.74
+cmmlu-machine_learning                             1992ee     accuracy  gen     -                               31.15                  71.31                    72.95
+cmmlu-machine_learning                             1992ee     f1        gen     -                                0.31                   0.71                     0.73
+cmmlu-management                                   454dc0     accuracy  gen     -                               38.10                  86.19                    84.29
+cmmlu-management                                   454dc0     f1        gen     -                                0.38                   0.86                     0.84
+cmmlu-marketing                                    cb3955     accuracy  gen     -                               32.22                  85.56                    84.44
+cmmlu-marketing                                    cb3955     f1        gen     -                                0.32                   0.86                     0.84
+cmmlu-marxist_theory                               88f9a2     accuracy  gen     -                               55.56                  93.12                    93.65
+cmmlu-marxist_theory                               88f9a2     f1        gen     -                                0.56                   0.93                     0.94
+cmmlu-modern_chinese                               84adbd     accuracy  gen     -                                9.48                  62.07                    58.62
+cmmlu-modern_chinese                               84adbd     f1        gen     -                                0.09                   0.62                     0.59
+cmmlu-nutrition                                    157fb8     accuracy  gen     -                               27.59                  78.62                    78.62
+cmmlu-nutrition                                    157fb8     f1        gen     -                                0.28                   0.79                     0.79
+cmmlu-philosophy                                   cbe293     accuracy  gen     -                               39.05                  77.14                    77.14
+cmmlu-philosophy                                   cbe293     f1        gen     -                                0.39                   0.77                     0.77
+cmmlu-professional_accounting                      1fd7d6     accuracy  gen     -                               45.71                  90.86                    88.57
+cmmlu-professional_accounting                      1fd7d6     f1        gen     -                                0.46                   0.91                     0.89
+cmmlu-professional_law                             b24c17     accuracy  gen     -                               26.54                  73.93                    72.04
+cmmlu-professional_law                             b24c17     f1        gen     -                                0.27                   0.74                     0.72
+cmmlu-professional_medicine                        8780af     accuracy  gen     -                               28.72                  77.39                    76.33
+cmmlu-professional_medicine                        8780af     f1        gen     -                                0.29                   0.77                     0.76
+cmmlu-professional_psychology                      312211     accuracy  gen     -                               33.62                  84.48                    85.34
+cmmlu-professional_psychology                      312211     f1        gen     -                                0.34                   0.84                     0.85
+cmmlu-public_relations                             108236     accuracy  gen     -                               18.39                  70.11                    71.84
+cmmlu-public_relations                             108236     f1        gen     -                                0.18                   0.70                     0.72
+cmmlu-security_study                               4ae05c     accuracy  gen     -                               36.30                  85.93                    88.89
+cmmlu-security_study                               4ae05c     f1        gen     -                                0.36                   0.86                     0.89
+cmmlu-sociology                                    e243f7     accuracy  gen     -                               32.30                  78.32                    75.66
+cmmlu-sociology                                    e243f7     f1        gen     -                                0.32                   0.78                     0.76
+cmmlu-sports_science                               591cca     accuracy  gen     -                               22.42                  72.73                    75.15
+cmmlu-sports_science                               591cca     f1        gen     -                                0.22                   0.73                     0.75
+cmmlu-traditional_chinese_medicine                 427690     accuracy  gen     -                               39.46                  78.92                    79.46
+cmmlu-traditional_chinese_medicine                 427690     f1        gen     -                                0.39                   0.79                     0.79
+cmmlu-virology                                     708dbd     accuracy  gen     -                               27.22                  79.88                    79.29
+cmmlu-virology                                     708dbd     f1        gen     -                                0.27                   0.80                     0.79
+cmmlu-world_history                                18602e     accuracy  gen     -                               43.48                  78.88                    83.23
+cmmlu-world_history                                18602e     f1        gen     -                                0.43                   0.79                     0.83
+cmmlu-world_religions                              a38f01     accuracy  gen     -                               18.75                  83.75                    80.62
+cmmlu-world_religions                              a38f01     f1        gen     -                                0.19                   0.84                     0.81
+lukaemon_mmlu_college_biology                      012dd1     accuracy  gen     -                               84.03                  81.25                    84.03
+lukaemon_mmlu_college_biology                      012dd1     f1        gen     -                                0.84                   0.81                     0.84
+lukaemon_mmlu_college_chemistry                    012dd1     accuracy  gen     -                               51.00                  55.00                    54.00
+lukaemon_mmlu_college_chemistry                    012dd1     f1        gen     -                                0.51                   0.55                     0.54
+lukaemon_mmlu_college_computer_science             012dd1     accuracy  gen     -                               71.00                  80.00                    77.00
+lukaemon_mmlu_college_computer_science             012dd1     f1        gen     -                                0.71                   0.80                     0.77
+lukaemon_mmlu_college_mathematics                  012dd1     accuracy  gen     -                               63.00                  73.00                    70.00
+lukaemon_mmlu_college_mathematics                  012dd1     f1        gen     -                                0.63                   0.73                     0.70
+lukaemon_mmlu_college_physics                      012dd1     accuracy  gen     -                               73.53                  78.43                    78.43
+lukaemon_mmlu_college_physics                      012dd1     f1        gen     -                                0.74                   0.78                     0.78
+lukaemon_mmlu_electrical_engineering               012dd1     accuracy  gen     -                               68.97                  67.59                    65.52
+lukaemon_mmlu_electrical_engineering               012dd1     f1        gen     -                                0.69                   0.68                     0.66
+lukaemon_mmlu_astronomy                            012dd1     accuracy  gen     -                               75.66                  81.58                    83.55
+lukaemon_mmlu_astronomy                            012dd1     f1        gen     -                                0.76                   0.82                     0.84
+lukaemon_mmlu_anatomy                              012dd1     accuracy  gen     -                               71.11                  74.07                    66.67
+lukaemon_mmlu_anatomy                              012dd1     f1        gen     -                                0.71                   0.74                     0.67
+lukaemon_mmlu_abstract_algebra                     012dd1     accuracy  gen     -                               58.00                  68.00                    72.00
+lukaemon_mmlu_abstract_algebra                     012dd1     f1        gen     -                                0.58                   0.68                     0.72
+lukaemon_mmlu_machine_learning                     012dd1     accuracy  gen     -                               58.04                  57.14                    62.50
+lukaemon_mmlu_machine_learning                     012dd1     f1        gen     -                                0.58                   0.57                     0.62
+lukaemon_mmlu_clinical_knowledge                   012dd1     accuracy  gen     -                               72.45                  77.36                    77.74
+lukaemon_mmlu_clinical_knowledge                   012dd1     f1        gen     -                                0.72                   0.77                     0.78
+lukaemon_mmlu_global_facts                         012dd1     accuracy  gen     -                               50.00                  44.00                    49.00
+lukaemon_mmlu_global_facts                         012dd1     f1        gen     -                                0.50                   0.44                     0.49
+lukaemon_mmlu_management                           012dd1     accuracy  gen     -                               82.52                  79.61                    83.50
+lukaemon_mmlu_management                           012dd1     f1        gen     -                                0.83                   0.80                     0.83
+lukaemon_mmlu_nutrition                            012dd1     accuracy  gen     -                               70.92                  78.76                    79.08
+lukaemon_mmlu_nutrition                            012dd1     f1        gen     -                                0.71                   0.79                     0.79
+lukaemon_mmlu_marketing                            012dd1     accuracy  gen     -                               85.04                  83.76                    87.61
+lukaemon_mmlu_marketing                            012dd1     f1        gen     -                                0.85                   0.84                     0.88
+lukaemon_mmlu_professional_accounting              012dd1     accuracy  gen     -                               59.22                  64.89                    66.67
+lukaemon_mmlu_professional_accounting              012dd1     f1        gen     -                                0.59                   0.65                     0.67
+lukaemon_mmlu_high_school_geography                012dd1     accuracy  gen     -                               82.83                  83.33                    84.34
+lukaemon_mmlu_high_school_geography                012dd1     f1        gen     -                                0.83                   0.83                     0.84
+lukaemon_mmlu_international_law                    012dd1     accuracy  gen     -                               79.34                  76.86                    80.17
+lukaemon_mmlu_international_law                    012dd1     f1        gen     -                                0.79                   0.77                     0.80
+lukaemon_mmlu_moral_scenarios                      012dd1     accuracy  gen     -                               42.35                  42.68                    47.37
+lukaemon_mmlu_moral_scenarios                      012dd1     f1        gen     -                                0.42                   0.43                     0.47
+lukaemon_mmlu_computer_security                    012dd1     accuracy  gen     -                               76.00                  76.00                    80.00
+lukaemon_mmlu_computer_security                    012dd1     f1        gen     -                                0.76                   0.76                     0.80
+lukaemon_mmlu_high_school_microeconomics           012dd1     accuracy  gen     -                               84.87                  81.93                    84.03
+lukaemon_mmlu_high_school_microeconomics           012dd1     f1        gen     -                                0.85                   0.82                     0.84
+lukaemon_mmlu_professional_law                     012dd1     accuracy  gen     -                               47.39                  50.13                    50.33
+lukaemon_mmlu_professional_law                     012dd1     f1        gen     -                                0.47                   0.50                     0.50
+lukaemon_mmlu_medical_genetics                     012dd1     accuracy  gen     -                               75.00                  80.00                    89.00
+lukaemon_mmlu_medical_genetics                     012dd1     f1        gen     -                                0.75                   0.80                     0.89
+lukaemon_mmlu_professional_psychology              012dd1     accuracy  gen     -                               71.24                  72.06                    73.86
+lukaemon_mmlu_professional_psychology              012dd1     f1        gen     -                                0.71                   0.72                     0.74
+lukaemon_mmlu_jurisprudence                        012dd1     accuracy  gen     -                               78.70                  68.52                    77.78
+lukaemon_mmlu_jurisprudence                        012dd1     f1        gen     -                                0.79                   0.69                     0.78
+lukaemon_mmlu_world_religions                      012dd1     accuracy  gen     -                               83.04                  83.04                    83.63
+lukaemon_mmlu_world_religions                      012dd1     f1        gen     -                                0.83                   0.83                     0.84
+lukaemon_mmlu_philosophy                           012dd1     accuracy  gen     -                               69.77                  69.45                    70.10
+lukaemon_mmlu_philosophy                           012dd1     f1        gen     -                                0.70                   0.69                     0.70
+lukaemon_mmlu_virology                             012dd1     accuracy  gen     -                               47.59                  50.00                    50.60
+lukaemon_mmlu_virology                             012dd1     f1        gen     -                                0.48                   0.50                     0.51
+lukaemon_mmlu_high_school_chemistry                012dd1     accuracy  gen     -                               68.47                  69.95                    73.89
+lukaemon_mmlu_high_school_chemistry                012dd1     f1        gen     -                                0.68                   0.70                     0.74
+lukaemon_mmlu_public_relations                     012dd1     accuracy  gen     -                               63.64                  64.55                    65.45
+lukaemon_mmlu_public_relations                     012dd1     f1        gen     -                                0.64                   0.65                     0.65
+lukaemon_mmlu_high_school_macroeconomics           012dd1     accuracy  gen     -                               74.62                  78.46                    82.31
+lukaemon_mmlu_high_school_macroeconomics           012dd1     f1        gen     -                                0.75                   0.78                     0.82
+lukaemon_mmlu_human_sexuality                      012dd1     accuracy  gen     -                               74.05                  77.10                    76.34
+lukaemon_mmlu_human_sexuality                      012dd1     f1        gen     -                                0.74                   0.77                     0.76
+lukaemon_mmlu_elementary_mathematics               012dd1     accuracy  gen     -                               91.80                  95.24                    94.44
+lukaemon_mmlu_elementary_mathematics               012dd1     f1        gen     -                                0.92                   0.95                     0.94
+lukaemon_mmlu_high_school_physics                  012dd1     accuracy  gen     -                               70.20                  70.20                    73.51
+lukaemon_mmlu_high_school_physics                  012dd1     f1        gen     -                                0.70                   0.70                     0.74
+lukaemon_mmlu_high_school_computer_science         012dd1     accuracy  gen     -                               86.00                  85.00                    90.00
+lukaemon_mmlu_high_school_computer_science         012dd1     f1        gen     -                                0.86                   0.85                     0.90
+lukaemon_mmlu_high_school_european_history         012dd1     accuracy  gen     -                               72.12                  81.21                    80.00
+lukaemon_mmlu_high_school_european_history         012dd1     f1        gen     -                                0.72                   0.81                     0.80
+lukaemon_mmlu_business_ethics                      012dd1     accuracy  gen     -                               73.00                  63.00                    67.00
+lukaemon_mmlu_business_ethics                      012dd1     f1        gen     -                                0.73                   0.63                     0.67
+lukaemon_mmlu_moral_disputes                       012dd1     accuracy  gen     -                               67.34                  67.92                    70.81
+lukaemon_mmlu_moral_disputes                       012dd1     f1        gen     -                                0.67                   0.68                     0.71
+lukaemon_mmlu_high_school_statistics               012dd1     accuracy  gen     -                               75.93                  80.56                    84.26
+lukaemon_mmlu_high_school_statistics               012dd1     f1        gen     -                                0.76                   0.81                     0.84
+lukaemon_mmlu_miscellaneous                        012dd1     accuracy  gen     -                               84.16                  84.55                    86.85
+lukaemon_mmlu_miscellaneous                        012dd1     f1        gen     -                                0.84                   0.85                     0.87
+lukaemon_mmlu_formal_logic                         012dd1     accuracy  gen     -                               53.17                  53.17                    57.94
+lukaemon_mmlu_formal_logic                         012dd1     f1        gen     -                                0.53                   0.53                     0.58
+lukaemon_mmlu_high_school_government_and_politics  012dd1     accuracy  gen     -                               88.08                  89.12                    90.16
+lukaemon_mmlu_high_school_government_and_politics  012dd1     f1        gen     -                                0.88                   0.89                     0.90
+lukaemon_mmlu_prehistory                           012dd1     accuracy  gen     -                               74.38                  77.78                    78.40
+lukaemon_mmlu_prehistory                           012dd1     f1        gen     -                                0.74                   0.78                     0.78
+lukaemon_mmlu_security_studies                     012dd1     accuracy  gen     -                               64.90                  70.61                    73.06
+lukaemon_mmlu_security_studies                     012dd1     f1        gen     -                                0.65                   0.71                     0.73
+lukaemon_mmlu_high_school_biology                  012dd1     accuracy  gen     -                               83.55                  85.48                    84.19
+lukaemon_mmlu_high_school_biology                  012dd1     f1        gen     -                                0.84                   0.85                     0.84
+lukaemon_mmlu_logical_fallacies                    012dd1     accuracy  gen     -                               76.07                  77.30                    76.07
+lukaemon_mmlu_logical_fallacies                    012dd1     f1        gen     -                                0.76                   0.77                     0.76
+lukaemon_mmlu_high_school_world_history            012dd1     accuracy  gen     -                               78.90                  84.81                    78.90
+lukaemon_mmlu_high_school_world_history            012dd1     f1        gen     -                                0.79                   0.85                     0.79
+lukaemon_mmlu_professional_medicine                012dd1     accuracy  gen     -                               75.74                  76.84                    76.84
+lukaemon_mmlu_professional_medicine                012dd1     f1        gen     -                                0.76                   0.77                     0.77
+lukaemon_mmlu_high_school_mathematics              012dd1     accuracy  gen     -                               81.48                  88.52                    88.52
+lukaemon_mmlu_high_school_mathematics              012dd1     f1        gen     -                                0.81                   0.89                     0.89
+lukaemon_mmlu_college_medicine                     012dd1     accuracy  gen     -                               64.16                  68.79                    71.10
+lukaemon_mmlu_college_medicine                     012dd1     f1        gen     -                                0.64                   0.69                     0.71
+lukaemon_mmlu_high_school_us_history               012dd1     accuracy  gen     -                               75.98                  85.78                    83.33
+lukaemon_mmlu_high_school_us_history               012dd1     f1        gen     -                                0.76                   0.86                     0.83
+lukaemon_mmlu_sociology                            012dd1     accuracy  gen     -                               85.57                  77.61                    83.08
+lukaemon_mmlu_sociology                            012dd1     f1        gen     -                                0.86                   0.78                     0.83
+lukaemon_mmlu_econometrics                         012dd1     accuracy  gen     -                               46.49                  61.40                    61.40
+lukaemon_mmlu_econometrics                         012dd1     f1        gen     -                                0.46                   0.61                     0.61
+lukaemon_mmlu_high_school_psychology               012dd1     accuracy  gen     -                               83.49                  87.34                    87.52
+lukaemon_mmlu_high_school_psychology               012dd1     f1        gen     -                                0.83                   0.87                     0.88
+lukaemon_mmlu_human_aging                          012dd1     accuracy  gen     -                               66.82                  71.75                    70.85
+lukaemon_mmlu_human_aging                          012dd1     f1        gen     -                                0.67                   0.72                     0.71
+lukaemon_mmlu_us_foreign_policy                    012dd1     accuracy  gen     -                               81.00                  82.00                    83.00
+lukaemon_mmlu_us_foreign_policy                    012dd1     f1        gen     -                                0.81                   0.82                     0.83
+lukaemon_mmlu_conceptual_physics                   012dd1     accuracy  gen     -                               74.47                  77.87                    79.57
+lukaemon_mmlu_conceptual_physics                   012dd1     f1        gen     -                                0.74                   0.78                     0.80
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,Qwen2_5_7B,daiyu_20250423_183824,Qwen2_5_7B-Instruct,daiyu_20250426_042114
+hellaswag,809ef1,accuracy,gen,-,32.27,77.54,70.52
+hellaswag,809ef1,f1,gen,-,0.32,0.78,0.71
+math_prm800k_500-llmjudge,6ff468,accuracy,gen,-,70.40,77.60,78.20
+math_prm800k_500-llmjudge,6ff468,f1,gen,-,0.70,0.78,0.78
+bbeh_boolean_expressions,ae90fc,accuracy,gen,-,14.50,17.50,16.50
+bbeh_boolean_expressions,ae90fc,f1,gen,-,0.14,0.17,0.17
+bbeh_disambiguation_qa,ae90fc,accuracy,gen,-,40.00,41.67,44.17
+bbeh_disambiguation_qa,ae90fc,f1,gen,-,0.40,0.42,0.44
+bbeh_geometric_shapes,ae90fc,accuracy,gen,-,7.50,36.00,24.00
+bbeh_geometric_shapes,ae90fc,f1,gen,-,0.07,0.36,0.24
+bbeh_hyperbaton,ae90fc,accuracy,gen,-,2.50,2.00,5.50
+bbeh_hyperbaton,ae90fc,f1,gen,-,0.03,0.02,0.06
+bbeh_movie_recommendation,ae90fc,accuracy,gen,-,28.00,31.50,23.50
+bbeh_movie_recommendation,ae90fc,f1,gen,-,0.28,0.32,0.23
+bbeh_nycc,ae90fc,accuracy,gen,-,7.50,8.50,11.00
+bbeh_nycc,ae90fc,f1,gen,-,0.07,0.09,0.11
+bbeh_shuffled_objects,ae90fc,accuracy,gen,-,25.00,12.50,12.50
+bbeh_shuffled_objects,ae90fc,f1,gen,-,0.25,0.12,0.12
+bbeh_boardgame_qa,ae90fc,accuracy,gen,-,30.50,30.50,34.50
+bbeh_boardgame_qa,ae90fc,f1,gen,-,0.30,0.30,0.34
+bbeh_buggy_tables,ae90fc,accuracy,gen,-,2.00,1.50,1.50
+bbeh_buggy_tables,ae90fc,f1,gen,-,0.02,0.01,0.01
+bbeh_causal_understanding,ae90fc,accuracy,gen,-,40.50,42.00,24.50
+bbeh_causal_understanding,ae90fc,f1,gen,-,0.41,0.42,0.24
+bbeh_dyck_languages,ae90fc,accuracy,gen,-,0.50,1.00,0.50
+bbeh_dyck_languages,ae90fc,f1,gen,-,0.01,0.01,0.01
+bbeh_linguini,ae90fc,accuracy,gen,-,5.50,6.00,5.00
+bbeh_linguini,ae90fc,f1,gen,-,0.06,0.06,0.05
+bbeh_multistep_arithmetic,ae90fc,accuracy,gen,-,0.00,0.00,0.50
+bbeh_multistep_arithmetic,ae90fc,f1,gen,-,0.00,0.00,0.01
+bbeh_object_counting,ae90fc,accuracy,gen,-,0.00,0.00,0.00
+bbeh_object_counting,ae90fc,f1,gen,-,0.00,0.00,0.00
+bbeh_object_properties,ae90fc,accuracy,gen,-,4.00,0.50,0.00
+bbeh_object_properties,ae90fc,f1,gen,-,0.04,0.01,0.00
+bbeh_sarc_triples,ae90fc,accuracy,gen,-,11.00,15.00,13.50
+bbeh_sarc_triples,ae90fc,f1,gen,-,0.11,0.15,0.14
+bbeh_spatial_reasoning,ae90fc,accuracy,gen,-,15.00,0.50,0.00
+bbeh_spatial_reasoning,ae90fc,f1,gen,-,0.15,0.01,0.00
+bbeh_sportqa,ae90fc,accuracy,gen,-,1.00,9.50,5.00
+bbeh_sportqa,ae90fc,f1,gen,-,0.01,0.10,0.05
+bbeh_temporal_sequence,ae90fc,accuracy,gen,-,1.50,0.00,0.00
+bbeh_temporal_sequence,ae90fc,f1,gen,-,0.01,0.00,0.00
+bbeh_time_arithmetic,ae90fc,accuracy,gen,-,14.00,20.00,20.00
+bbeh_time_arithmetic,ae90fc,f1,gen,-,0.14,0.20,0.20
+bbeh_web_of_lies,ae90fc,accuracy,gen,-,9.00,3.50,4.00
+bbeh_web_of_lies,ae90fc,f1,gen,-,0.09,0.04,0.04
+bbeh_word_sorting,ae90fc,accuracy,gen,-,1.50,1.50,2.50
+bbeh_word_sorting,ae90fc,f1,gen,-,0.01,0.01,0.03
+bbeh_zebra_puzzles,ae90fc,accuracy,gen,-,18.00,17.00,16.50
+bbeh_zebra_puzzles,ae90fc,f1,gen,-,0.18,0.17,0.17
+bbh-temporal_sequences,3f2d84,score,gen,-,46.40,74.00,77.20
+bbh-disambiguation_qa,3f2d84,score,gen,-,64.80,51.60,46.40
+bbh-date_understanding,3f2d84,score,gen,-,50.80,55.60,50.80
+bbh-tracking_shuffled_objects_three_objects,3f2d84,score,gen,-,30.80,91.60,74.40
+bbh-penguins_in_a_table,3f2d84,score,gen,-,78.77,89.73,70.55
+bbh-geometric_shapes,3f2d84,score,gen,-,28.40,30.00,42.40
+bbh-snarks,3f2d84,score,gen,-,75.28,76.40,75.84
+bbh-ruin_names,3f2d84,score,gen,-,49.60,57.60,54.40
+bbh-tracking_shuffled_objects_seven_objects,3f2d84,score,gen,-,39.60,80.40,54.80
+bbh-tracking_shuffled_objects_five_objects,3f2d84,score,gen,-,52.40,89.20,78.00
+bbh-logical_deduction_three_objects,3f2d84,score,gen,-,73.60,74.40,72.00
+bbh-hyperbaton,3f2d84,score,gen,-,83.60,60.40,67.20
+bbh-logical_deduction_five_objects,3f2d84,score,gen,-,44.80,62.40,56.00
+bbh-logical_deduction_seven_objects,3f2d84,score,gen,-,44.80,52.80,48.40
+bbh-movie_recommendation,3f2d84,score,gen,-,65.20,64.00,60.00
+bbh-salient_translation_error_detection,3f2d84,score,gen,-,36.00,43.20,43.60
+bbh-reasoning_about_colored_objects,3f2d84,score,gen,-,70.80,77.20,60.80
+bbh-multistep_arithmetic_two,3f2d84,score,gen,-,82.00,87.60,81.60
+bbh-navigate,3f2d84,score,gen,-,59.20,63.20,59.60
+bbh-dyck_languages,3f2d84,score,gen,-,2.40,0.80,2.00
+bbh-word_sorting,3f2d84,score,gen,-,25.60,20.40,24.80
+bbh-sports_understanding,3f2d84,score,gen,-,69.20,66.00,55.60
+bbh-boolean_expressions,3f2d84,score,gen,-,84.00,79.60,79.60
+bbh-object_counting,3f2d84,score,gen,-,64.00,46.00,50.40
+bbh-formal_fallacies,3f2d84,score,gen,-,57.20,60.40,58.40
+bbh-causal_judgement,3f2d84,score,gen,-,56.68,54.55,52.94
+bbh-web_of_lies,3f2d84,score,gen,-,66.40,90.80,70.40
+cmmlu-agronomy,7c9e30,accuracy,gen,-,31.36,69.82,68.05
+cmmlu-agronomy,7c9e30,f1,gen,-,0.31,0.70,0.68
+cmmlu-anatomy,84ab0f,accuracy,gen,-,28.38,85.81,87.16
+cmmlu-anatomy,84ab0f,f1,gen,-,0.28,0.86,0.87
+cmmlu-ancient_chinese,18a73e,accuracy,gen,-,4.27,45.73,46.95
+cmmlu-ancient_chinese,18a73e,f1,gen,-,0.04,0.46,0.47
+cmmlu-arts,d496c2,accuracy,gen,-,38.12,96.25,93.75
+cmmlu-arts,d496c2,f1,gen,-,0.38,0.96,0.94
+cmmlu-astronomy,94a1ad,accuracy,gen,-,27.27,56.36,51.52
+cmmlu-astronomy,94a1ad,f1,gen,-,0.27,0.56,0.52
+cmmlu-business_ethics,b66299,accuracy,gen,-,26.79,66.99,68.42
+cmmlu-business_ethics,b66299,f1,gen,-,0.27,0.67,0.68
+cmmlu-chinese_civil_service_exam,41629d,accuracy,gen,-,25.00,70.62,76.25
+cmmlu-chinese_civil_service_exam,41629d,f1,gen,-,0.25,0.71,0.76
+cmmlu-chinese_driving_rule,1e9d3c,accuracy,gen,-,35.88,96.18,96.95
+cmmlu-chinese_driving_rule,1e9d3c,f1,gen,-,0.36,0.96,0.97
+cmmlu-chinese_food_culture,5fe533,accuracy,gen,-,25.00,72.06,73.53
+cmmlu-chinese_food_culture,5fe533,f1,gen,-,0.25,0.72,0.74
+cmmlu-chinese_foreign_policy,50ea53,accuracy,gen,-,37.38,73.83,75.70
+cmmlu-chinese_foreign_policy,50ea53,f1,gen,-,0.37,0.74,0.76
+cmmlu-chinese_history,65d9e7,accuracy,gen,-,34.67,82.97,86.07
+cmmlu-chinese_history,65d9e7,f1,gen,-,0.35,0.83,0.86
+cmmlu-chinese_literature,bf10c3,accuracy,gen,-,10.78,66.18,69.12
+cmmlu-chinese_literature,bf10c3,f1,gen,-,0.11,0.66,0.69
+cmmlu-chinese_teacher_qualification,0fc6aa,accuracy,gen,-,30.73,89.39,89.94
+cmmlu-chinese_teacher_qualification,0fc6aa,f1,gen,-,0.31,0.89,0.90
+cmmlu-clinical_knowledge,e8fd9f,accuracy,gen,-,32.07,75.53,77.64
+cmmlu-clinical_knowledge,e8fd9f,f1,gen,-,0.32,0.76,0.78
+cmmlu-college_actuarial_science,c0c119,accuracy,gen,-,9.43,45.28,43.40
+cmmlu-college_actuarial_science,c0c119,f1,gen,-,0.09,0.45,0.43
+cmmlu-college_education,a6d967,accuracy,gen,-,37.38,83.18,87.85
+cmmlu-college_education,a6d967,f1,gen,-,0.37,0.83,0.88
+cmmlu-college_engineering_hydrology,2fc1c4,accuracy,gen,-,45.28,82.08,78.30
+cmmlu-college_engineering_hydrology,2fc1c4,f1,gen,-,0.45,0.82,0.78
+cmmlu-college_law,d918f6,accuracy,gen,-,26.85,68.52,67.59
+cmmlu-college_law,d918f6,f1,gen,-,0.27,0.69,0.68
+cmmlu-college_mathematics,b665a2,accuracy,gen,-,28.57,58.10,43.81
+cmmlu-college_mathematics,b665a2,f1,gen,-,0.29,0.58,0.44
+cmmlu-college_medical_statistics,2b1a51,accuracy,gen,-,23.58,69.81,70.75
+cmmlu-college_medical_statistics,2b1a51,f1,gen,-,0.24,0.70,0.71
+cmmlu-college_medicine,ac9e75,accuracy,gen,-,30.04,83.52,83.52
+cmmlu-college_medicine,ac9e75,f1,gen,-,0.30,0.84,0.84
+cmmlu-computer_science,5b63b8,accuracy,gen,-,24.51,86.27,84.31
+cmmlu-computer_science,5b63b8,f1,gen,-,0.25,0.86,0.84
+cmmlu-computer_security,c37854,accuracy,gen,-,26.32,87.72,88.30
+cmmlu-computer_security,c37854,f1,gen,-,0.26,0.88,0.88
+cmmlu-conceptual_physics,e13116,accuracy,gen,-,30.61,89.12,87.07
+cmmlu-conceptual_physics,e13116,f1,gen,-,0.31,0.89,0.87
+cmmlu-construction_project_management,799df1,accuracy,gen,-,19.42,68.35,69.78
+cmmlu-construction_project_management,799df1,f1,gen,-,0.19,0.68,0.70
+cmmlu-economics,503c58,accuracy,gen,-,49.69,83.65,81.13
+cmmlu-economics,503c58,f1,gen,-,0.50,0.84,0.81
+cmmlu-education,823c96,accuracy,gen,-,26.38,77.30,76.07
+cmmlu-education,823c96,f1,gen,-,0.26,0.77,0.76
+cmmlu-electrical_engineering,69c4f3,accuracy,gen,-,34.88,81.40,81.98
+cmmlu-electrical_engineering,69c4f3,f1,gen,-,0.35,0.81,0.82
+cmmlu-elementary_chinese,61ed08,accuracy,gen,-,29.37,76.19,75.40
+cmmlu-elementary_chinese,61ed08,f1,gen,-,0.29,0.76,0.75
+cmmlu-elementary_commonsense,3c2aa7,accuracy,gen,-,24.24,78.79,74.24
+cmmlu-elementary_commonsense,3c2aa7,f1,gen,-,0.24,0.79,0.74
+cmmlu-elementary_information_and_technology,4ba53f,accuracy,gen,-,31.51,94.54,94.54
+cmmlu-elementary_information_and_technology,4ba53f,f1,gen,-,0.32,0.95,0.95
+cmmlu-elementary_mathematics,1fe0ee,accuracy,gen,-,40.00,80.87,70.87
+cmmlu-elementary_mathematics,1fe0ee,f1,gen,-,0.40,0.81,0.71
+cmmlu-ethnology,ae0ac8,accuracy,gen,-,31.85,76.30,77.04
+cmmlu-ethnology,ae0ac8,f1,gen,-,0.32,0.76,0.77
+cmmlu-food_science,dfb5a1,accuracy,gen,-,21.68,73.43,69.93
+cmmlu-food_science,dfb5a1,f1,gen,-,0.22,0.73,0.70
+cmmlu-genetics,95a0c9,accuracy,gen,-,26.70,69.32,66.48
+cmmlu-genetics,95a0c9,f1,gen,-,0.27,0.69,0.66
+cmmlu-global_facts,e3cf9e,accuracy,gen,-,24.83,78.52,78.52
+cmmlu-global_facts,e3cf9e,f1,gen,-,0.25,0.79,0.79
+cmmlu-high_school_biology,0811e7,accuracy,gen,-,13.02,82.25,82.25
+cmmlu-high_school_biology,0811e7,f1,gen,-,0.13,0.82,0.82
+cmmlu-high_school_chemistry,342b0f,accuracy,gen,-,3.03,65.91,68.18
+cmmlu-high_school_chemistry,342b0f,f1,gen,-,0.03,0.66,0.68
+cmmlu-high_school_geography,2a2c92,accuracy,gen,-,42.37,77.97,79.66
+cmmlu-high_school_geography,2a2c92,f1,gen,-,0.42,0.78,0.80
+cmmlu-high_school_mathematics,86f22a,accuracy,gen,-,39.63,79.88,70.12
+cmmlu-high_school_mathematics,86f22a,f1,gen,-,0.40,0.80,0.70
+cmmlu-high_school_physics,d4fe4b,accuracy,gen,-,29.09,75.45,77.27
+cmmlu-high_school_physics,d4fe4b,f1,gen,-,0.29,0.75,0.77
+cmmlu-high_school_politics,ded656,accuracy,gen,-,30.77,82.52,86.01
+cmmlu-high_school_politics,ded656,f1,gen,-,0.31,0.83,0.86
+cmmlu-human_sexuality,11cfc3,accuracy,gen,-,15.87,71.43,66.67
+cmmlu-human_sexuality,11cfc3,f1,gen,-,0.16,0.71,0.67
+cmmlu-international_law,0bc7f3,accuracy,gen,-,27.57,73.51,71.89
+cmmlu-international_law,0bc7f3,f1,gen,-,0.28,0.74,0.72
+cmmlu-journalism,9b0da8,accuracy,gen,-,27.91,72.09,76.74
+cmmlu-journalism,9b0da8,f1,gen,-,0.28,0.72,0.77
+cmmlu-jurisprudence,63bbe5,accuracy,gen,-,27.98,81.51,82.00
+cmmlu-jurisprudence,63bbe5,f1,gen,-,0.28,0.82,0.82
+cmmlu-legal_and_moral_basis,252a51,accuracy,gen,-,32.24,97.20,97.66
+cmmlu-legal_and_moral_basis,252a51,f1,gen,-,0.32,0.97,0.98
+cmmlu-logical,245f3d,accuracy,gen,-,27.64,72.36,73.98
+cmmlu-logical,245f3d,f1,gen,-,0.28,0.72,0.74
+cmmlu-machine_learning,1992ee,accuracy,gen,-,31.15,71.31,72.95
+cmmlu-machine_learning,1992ee,f1,gen,-,0.31,0.71,0.73
+cmmlu-management,454dc0,accuracy,gen,-,38.10,86.19,84.29
+cmmlu-management,454dc0,f1,gen,-,0.38,0.86,0.84
+cmmlu-marketing,cb3955,accuracy,gen,-,32.22,85.56,84.44
+cmmlu-marketing,cb3955,f1,gen,-,0.32,0.86,0.84
+cmmlu-marxist_theory,88f9a2,accuracy,gen,-,55.56,93.12,93.65
+cmmlu-marxist_theory,88f9a2,f1,gen,-,0.56,0.93,0.94
+cmmlu-modern_chinese,84adbd,accuracy,gen,-,9.48,62.07,58.62
+cmmlu-modern_chinese,84adbd,f1,gen,-,0.09,0.62,0.59
+cmmlu-nutrition,157fb8,accuracy,gen,-,27.59,78.62,78.62
+cmmlu-nutrition,157fb8,f1,gen,-,0.28,0.79,0.79
+cmmlu-philosophy,cbe293,accuracy,gen,-,39.05,77.14,77.14
+cmmlu-philosophy,cbe293,f1,gen,-,0.39,0.77,0.77
+cmmlu-professional_accounting,1fd7d6,accuracy,gen,-,45.71,90.86,88.57
+cmmlu-professional_accounting,1fd7d6,f1,gen,-,0.46,0.91,0.89
+cmmlu-professional_law,b24c17,accuracy,gen,-,26.54,73.93,72.04
+cmmlu-professional_law,b24c17,f1,gen,-,0.27,0.74,0.72
+cmmlu-professional_medicine,8780af,accuracy,gen,-,28.72,77.39,76.33
+cmmlu-professional_medicine,8780af,f1,gen,-,0.29,0.77,0.76
+cmmlu-professional_psychology,312211,accuracy,gen,-,33.62,84.48,85.34
+cmmlu-professional_psychology,312211,f1,gen,-,0.34,0.84,0.85
+cmmlu-public_relations,108236,accuracy,gen,-,18.39,70.11,71.84
+cmmlu-public_relations,108236,f1,gen,-,0.18,0.70,0.72
+cmmlu-security_study,4ae05c,accuracy,gen,-,36.30,85.93,88.89
+cmmlu-security_study,4ae05c,f1,gen,-,0.36,0.86,0.89
+cmmlu-sociology,e243f7,accuracy,gen,-,32.30,78.32,75.66
+cmmlu-sociology,e243f7,f1,gen,-,0.32,0.78,0.76
+cmmlu-sports_science,591cca,accuracy,gen,-,22.42,72.73,75.15
+cmmlu-sports_science,591cca,f1,gen,-,0.22,0.73,0.75
+cmmlu-traditional_chinese_medicine,427690,accuracy,gen,-,39.46,78.92,79.46
+cmmlu-traditional_chinese_medicine,427690,f1,gen,-,0.39,0.79,0.79
+cmmlu-virology,708dbd,accuracy,gen,-,27.22,79.88,79.29
+cmmlu-virology,708dbd,f1,gen,-,0.27,0.80,0.79
+cmmlu-world_history,18602e,accuracy,gen,-,43.48,78.88,83.23
+cmmlu-world_history,18602e,f1,gen,-,0.43,0.79,0.83
+cmmlu-world_religions,a38f01,accuracy,gen,-,18.75,83.75,80.62
+cmmlu-world_religions,a38f01,f1,gen,-,0.19,0.84,0.81
+lukaemon_mmlu_college_biology,012dd1,accuracy,gen,-,84.03,81.25,84.03
+lukaemon_mmlu_college_biology,012dd1,f1,gen,-,0.84,0.81,0.84
+lukaemon_mmlu_college_chemistry,012dd1,accuracy,gen,-,51.00,55.00,54.00
+lukaemon_mmlu_college_chemistry,012dd1,f1,gen,-,0.51,0.55,0.54
+lukaemon_mmlu_college_computer_science,012dd1,accuracy,gen,-,71.00,80.00,77.00
+lukaemon_mmlu_college_computer_science,012dd1,f1,gen,-,0.71,0.80,0.77
+lukaemon_mmlu_college_mathematics,012dd1,accuracy,gen,-,63.00,73.00,70.00
+lukaemon_mmlu_college_mathematics,012dd1,f1,gen,-,0.63,0.73,0.70
+lukaemon_mmlu_college_physics,012dd1,accuracy,gen,-,73.53,78.43,78.43
+lukaemon_mmlu_college_physics,012dd1,f1,gen,-,0.74,0.78,0.78
+lukaemon_mmlu_electrical_engineering,012dd1,accuracy,gen,-,68.97,67.59,65.52
+lukaemon_mmlu_electrical_engineering,012dd1,f1,gen,-,0.69,0.68,0.66
+lukaemon_mmlu_astronomy,012dd1,accuracy,gen,-,75.66,81.58,83.55
+lukaemon_mmlu_astronomy,012dd1,f1,gen,-,0.76,0.82,0.84
+lukaemon_mmlu_anatomy,012dd1,accuracy,gen,-,71.11,74.07,66.67
+lukaemon_mmlu_anatomy,012dd1,f1,gen,-,0.71,0.74,0.67
+lukaemon_mmlu_abstract_algebra,012dd1,accuracy,gen,-,58.00,68.00,72.00
+lukaemon_mmlu_abstract_algebra,012dd1,f1,gen,-,0.58,0.68,0.72
+lukaemon_mmlu_machine_learning,012dd1,accuracy,gen,-,58.04,57.14,62.50
+lukaemon_mmlu_machine_learning,012dd1,f1,gen,-,0.58,0.57,0.62
+lukaemon_mmlu_clinical_knowledge,012dd1,accuracy,gen,-,72.45,77.36,77.74
+lukaemon_mmlu_clinical_knowledge,012dd1,f1,gen,-,0.72,0.77,0.78
+lukaemon_mmlu_global_facts,012dd1,accuracy,gen,-,50.00,44.00,49.00
+lukaemon_mmlu_global_facts,012dd1,f1,gen,-,0.50,0.44,0.49
+lukaemon_mmlu_management,012dd1,accuracy,gen,-,82.52,79.61,83.50
+lukaemon_mmlu_management,012dd1,f1,gen,-,0.83,0.80,0.83
+lukaemon_mmlu_nutrition,012dd1,accuracy,gen,-,70.92,78.76,79.08
+lukaemon_mmlu_nutrition,012dd1,f1,gen,-,0.71,0.79,0.79
+lukaemon_mmlu_marketing,012dd1,accuracy,gen,-,85.04,83.76,87.61
+lukaemon_mmlu_marketing,012dd1,f1,gen,-,0.85,0.84,0.88
+lukaemon_mmlu_professional_accounting,012dd1,accuracy,gen,-,59.22,64.89,66.67
+lukaemon_mmlu_professional_accounting,012dd1,f1,gen,-,0.59,0.65,0.67
+lukaemon_mmlu_high_school_geography,012dd1,accuracy,gen,-,82.83,83.33,84.34
+lukaemon_mmlu_high_school_geography,012dd1,f1,gen,-,0.83,0.83,0.84
+lukaemon_mmlu_international_law,012dd1,accuracy,gen,-,79.34,76.86,80.17
+lukaemon_mmlu_international_law,012dd1,f1,gen,-,0.79,0.77,0.80
+lukaemon_mmlu_moral_scenarios,012dd1,accuracy,gen,-,42.35,42.68,47.37
+lukaemon_mmlu_moral_scenarios,012dd1,f1,gen,-,0.42,0.43,0.47
+lukaemon_mmlu_computer_security,012dd1,accuracy,gen,-,76.00,76.00,80.00
+lukaemon_mmlu_computer_security,012dd1,f1,gen,-,0.76,0.76,0.80
+lukaemon_mmlu_high_school_microeconomics,012dd1,accuracy,gen,-,84.87,81.93,84.03
+lukaemon_mmlu_high_school_microeconomics,012dd1,f1,gen,-,0.85,0.82,0.84
+lukaemon_mmlu_professional_law,012dd1,accuracy,gen,-,47.39,50.13,50.33
+lukaemon_mmlu_professional_law,012dd1,f1,gen,-,0.47,0.50,0.50
+lukaemon_mmlu_medical_genetics,012dd1,accuracy,gen,-,75.00,80.00,89.00
+lukaemon_mmlu_medical_genetics,012dd1,f1,gen,-,0.75,0.80,0.89
+lukaemon_mmlu_professional_psychology,012dd1,accuracy,gen,-,71.24,72.06,73.86
+lukaemon_mmlu_professional_psychology,012dd1,f1,gen,-,0.71,0.72,0.74
+lukaemon_mmlu_jurisprudence,012dd1,accuracy,gen,-,78.70,68.52,77.78
+lukaemon_mmlu_jurisprudence,012dd1,f1,gen,-,0.79,0.69,0.78
+lukaemon_mmlu_world_religions,012dd1,accuracy,gen,-,83.04,83.04,83.63
+lukaemon_mmlu_world_religions,012dd1,f1,gen,-,0.83,0.83,0.84
+lukaemon_mmlu_philosophy,012dd1,accuracy,gen,-,69.77,69.45,70.10
+lukaemon_mmlu_philosophy,012dd1,f1,gen,-,0.70,0.69,0.70
+lukaemon_mmlu_virology,012dd1,accuracy,gen,-,47.59,50.00,50.60
+lukaemon_mmlu_virology,012dd1,f1,gen,-,0.48,0.50,0.51
+lukaemon_mmlu_high_school_chemistry,012dd1,accuracy,gen,-,68.47,69.95,73.89
+lukaemon_mmlu_high_school_chemistry,012dd1,f1,gen,-,0.68,0.70,0.74
+lukaemon_mmlu_public_relations,012dd1,accuracy,gen,-,63.64,64.55,65.45
+lukaemon_mmlu_public_relations,012dd1,f1,gen,-,0.64,0.65,0.65
+lukaemon_mmlu_high_school_macroeconomics,012dd1,accuracy,gen,-,74.62,78.46,82.31
+lukaemon_mmlu_high_school_macroeconomics,012dd1,f1,gen,-,0.75,0.78,0.82
+lukaemon_mmlu_human_sexuality,012dd1,accuracy,gen,-,74.05,77.10,76.34
+lukaemon_mmlu_human_sexuality,012dd1,f1,gen,-,0.74,0.77,0.76
+lukaemon_mmlu_elementary_mathematics,012dd1,accuracy,gen,-,91.80,95.24,94.44
+lukaemon_mmlu_elementary_mathematics,012dd1,f1,gen,-,0.92,0.95,0.94
+lukaemon_mmlu_high_school_physics,012dd1,accuracy,gen,-,70.20,70.20,73.51
+lukaemon_mmlu_high_school_physics,012dd1,f1,gen,-,0.70,0.70,0.74
+lukaemon_mmlu_high_school_computer_science,012dd1,accuracy,gen,-,86.00,85.00,90.00
+lukaemon_mmlu_high_school_computer_science,012dd1,f1,gen,-,0.86,0.85,0.90
+lukaemon_mmlu_high_school_european_history,012dd1,accuracy,gen,-,72.12,81.21,80.00
+lukaemon_mmlu_high_school_european_history,012dd1,f1,gen,-,0.72,0.81,0.80
+lukaemon_mmlu_business_ethics,012dd1,accuracy,gen,-,73.00,63.00,67.00
+lukaemon_mmlu_business_ethics,012dd1,f1,gen,-,0.73,0.63,0.67
+lukaemon_mmlu_moral_disputes,012dd1,accuracy,gen,-,67.34,67.92,70.81
+lukaemon_mmlu_moral_disputes,012dd1,f1,gen,-,0.67,0.68,0.71
+lukaemon_mmlu_high_school_statistics,012dd1,accuracy,gen,-,75.93,80.56,84.26
+lukaemon_mmlu_high_school_statistics,012dd1,f1,gen,-,0.76,0.81,0.84
+lukaemon_mmlu_miscellaneous,012dd1,accuracy,gen,-,84.16,84.55,86.85
+lukaemon_mmlu_miscellaneous,012dd1,f1,gen,-,0.84,0.85,0.87
+lukaemon_mmlu_formal_logic,012dd1,accuracy,gen,-,53.17,53.17,57.94
+lukaemon_mmlu_formal_logic,012dd1,f1,gen,-,0.53,0.53,0.58
+lukaemon_mmlu_high_school_government_and_politics,012dd1,accuracy,gen,-,88.08,89.12,90.16
+lukaemon_mmlu_high_school_government_and_politics,012dd1,f1,gen,-,0.88,0.89,0.90
+lukaemon_mmlu_prehistory,012dd1,accuracy,gen,-,74.38,77.78,78.40
+lukaemon_mmlu_prehistory,012dd1,f1,gen,-,0.74,0.78,0.78
+lukaemon_mmlu_security_studies,012dd1,accuracy,gen,-,64.90,70.61,73.06
+lukaemon_mmlu_security_studies,012dd1,f1,gen,-,0.65,0.71,0.73
+lukaemon_mmlu_high_school_biology,012dd1,accuracy,gen,-,83.55,85.48,84.19
+lukaemon_mmlu_high_school_biology,012dd1,f1,gen,-,0.84,0.85,0.84
+lukaemon_mmlu_logical_fallacies,012dd1,accuracy,gen,-,76.07,77.30,76.07
+lukaemon_mmlu_logical_fallacies,012dd1,f1,gen,-,0.76,0.77,0.76
+lukaemon_mmlu_high_school_world_history,012dd1,accuracy,gen,-,78.90,84.81,78.90
+lukaemon_mmlu_high_school_world_history,012dd1,f1,gen,-,0.79,0.85,0.79
+lukaemon_mmlu_professional_medicine,012dd1,accuracy,gen,-,75.74,76.84,76.84
+lukaemon_mmlu_professional_medicine,012dd1,f1,gen,-,0.76,0.77,0.77
+lukaemon_mmlu_high_school_mathematics,012dd1,accuracy,gen,-,81.48,88.52,88.52
+lukaemon_mmlu_high_school_mathematics,012dd1,f1,gen,-,0.81,0.89,0.89
+lukaemon_mmlu_college_medicine,012dd1,accuracy,gen,-,64.16,68.79,71.10
+lukaemon_mmlu_college_medicine,012dd1,f1,gen,-,0.64,0.69,0.71
+lukaemon_mmlu_high_school_us_history,012dd1,accuracy,gen,-,75.98,85.78,83.33
+lukaemon_mmlu_high_school_us_history,012dd1,f1,gen,-,0.76,0.86,0.83
+lukaemon_mmlu_sociology,012dd1,accuracy,gen,-,85.57,77.61,83.08
+lukaemon_mmlu_sociology,012dd1,f1,gen,-,0.86,0.78,0.83
+lukaemon_mmlu_econometrics,012dd1,accuracy,gen,-,46.49,61.40,61.40
+lukaemon_mmlu_econometrics,012dd1,f1,gen,-,0.46,0.61,0.61
+lukaemon_mmlu_high_school_psychology,012dd1,accuracy,gen,-,83.49,87.34,87.52
+lukaemon_mmlu_high_school_psychology,012dd1,f1,gen,-,0.83,0.87,0.88
+lukaemon_mmlu_human_aging,012dd1,accuracy,gen,-,66.82,71.75,70.85
+lukaemon_mmlu_human_aging,012dd1,f1,gen,-,0.67,0.72,0.71
+lukaemon_mmlu_us_foreign_policy,012dd1,accuracy,gen,-,81.00,82.00,83.00
+lukaemon_mmlu_us_foreign_policy,012dd1,f1,gen,-,0.81,0.82,0.83
+lukaemon_mmlu_conceptual_physics,012dd1,accuracy,gen,-,74.47,77.87,79.57
+lukaemon_mmlu_conceptual_physics,012dd1,f1,gen,-,0.74,0.78,0.80
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+markdown format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| dataset | version | metric | mode | Qwen2_5_7B | daiyu_20250423_183824 | Qwen2_5_7B-Instruct | daiyu_20250426_042114 |
+|----- | ----- | ----- | ----- | ----- | ----- | ----- | -----|
+| hellaswag | 809ef1 | accuracy | gen | - | 32.27 | 77.54 | 70.52 |
+| hellaswag | 809ef1 | f1 | gen | - | 0.32 | 0.78 | 0.71 |
+| math_prm800k_500-llmjudge | 6ff468 | accuracy | gen | - | 70.40 | 77.60 | 78.20 |
+| math_prm800k_500-llmjudge | 6ff468 | f1 | gen | - | 0.70 | 0.78 | 0.78 |
+| bbeh_boolean_expressions | ae90fc | accuracy | gen | - | 14.50 | 17.50 | 16.50 |
+| bbeh_boolean_expressions | ae90fc | f1 | gen | - | 0.14 | 0.17 | 0.17 |
+| bbeh_disambiguation_qa | ae90fc | accuracy | gen | - | 40.00 | 41.67 | 44.17 |
+| bbeh_disambiguation_qa | ae90fc | f1 | gen | - | 0.40 | 0.42 | 0.44 |
+| bbeh_geometric_shapes | ae90fc | accuracy | gen | - | 7.50 | 36.00 | 24.00 |
+| bbeh_geometric_shapes | ae90fc | f1 | gen | - | 0.07 | 0.36 | 0.24 |
+| bbeh_hyperbaton | ae90fc | accuracy | gen | - | 2.50 | 2.00 | 5.50 |
+| bbeh_hyperbaton | ae90fc | f1 | gen | - | 0.03 | 0.02 | 0.06 |
+| bbeh_movie_recommendation | ae90fc | accuracy | gen | - | 28.00 | 31.50 | 23.50 |
+| bbeh_movie_recommendation | ae90fc | f1 | gen | - | 0.28 | 0.32 | 0.23 |
+| bbeh_nycc | ae90fc | accuracy | gen | - | 7.50 | 8.50 | 11.00 |
+| bbeh_nycc | ae90fc | f1 | gen | - | 0.07 | 0.09 | 0.11 |
+| bbeh_shuffled_objects | ae90fc | accuracy | gen | - | 25.00 | 12.50 | 12.50 |
+| bbeh_shuffled_objects | ae90fc | f1 | gen | - | 0.25 | 0.12 | 0.12 |
+| bbeh_boardgame_qa | ae90fc | accuracy | gen | - | 30.50 | 30.50 | 34.50 |
+| bbeh_boardgame_qa | ae90fc | f1 | gen | - | 0.30 | 0.30 | 0.34 |
+| bbeh_buggy_tables | ae90fc | accuracy | gen | - | 2.00 | 1.50 | 1.50 |
+| bbeh_buggy_tables | ae90fc | f1 | gen | - | 0.02 | 0.01 | 0.01 |
+| bbeh_causal_understanding | ae90fc | accuracy | gen | - | 40.50 | 42.00 | 24.50 |
+| bbeh_causal_understanding | ae90fc | f1 | gen | - | 0.41 | 0.42 | 0.24 |
+| bbeh_dyck_languages | ae90fc | accuracy | gen | - | 0.50 | 1.00 | 0.50 |
+| bbeh_dyck_languages | ae90fc | f1 | gen | - | 0.01 | 0.01 | 0.01 |
+| bbeh_linguini | ae90fc | accuracy | gen | - | 5.50 | 6.00 | 5.00 |
+| bbeh_linguini | ae90fc | f1 | gen | - | 0.06 | 0.06 | 0.05 |
+| bbeh_multistep_arithmetic | ae90fc | accuracy | gen | - | 0.00 | 0.00 | 0.50 |
+| bbeh_multistep_arithmetic | ae90fc | f1 | gen | - | 0.00 | 0.00 | 0.01 |
+| bbeh_object_counting | ae90fc | accuracy | gen | - | 0.00 | 0.00 | 0.00 |
+| bbeh_object_counting | ae90fc | f1 | gen | - | 0.00 | 0.00 | 0.00 |
+| bbeh_object_properties | ae90fc | accuracy | gen | - | 4.00 | 0.50 | 0.00 |
+| bbeh_object_properties | ae90fc | f1 | gen | - | 0.04 | 0.01 | 0.00 |
+| bbeh_sarc_triples | ae90fc | accuracy | gen | - | 11.00 | 15.00 | 13.50 |
+| bbeh_sarc_triples | ae90fc | f1 | gen | - | 0.11 | 0.15 | 0.14 |
+| bbeh_spatial_reasoning | ae90fc | accuracy | gen | - | 15.00 | 0.50 | 0.00 |
+| bbeh_spatial_reasoning | ae90fc | f1 | gen | - | 0.15 | 0.01 | 0.00 |
+| bbeh_sportqa | ae90fc | accuracy | gen | - | 1.00 | 9.50 | 5.00 |
+| bbeh_sportqa | ae90fc | f1 | gen | - | 0.01 | 0.10 | 0.05 |
+| bbeh_temporal_sequence | ae90fc | accuracy | gen | - | 1.50 | 0.00 | 0.00 |
+| bbeh_temporal_sequence | ae90fc | f1 | gen | - | 0.01 | 0.00 | 0.00 |
+| bbeh_time_arithmetic | ae90fc | accuracy | gen | - | 14.00 | 20.00 | 20.00 |
+| bbeh_time_arithmetic | ae90fc | f1 | gen | - | 0.14 | 0.20 | 0.20 |
+| bbeh_web_of_lies | ae90fc | accuracy | gen | - | 9.00 | 3.50 | 4.00 |
+| bbeh_web_of_lies | ae90fc | f1 | gen | - | 0.09 | 0.04 | 0.04 |
+| bbeh_word_sorting | ae90fc | accuracy | gen | - | 1.50 | 1.50 | 2.50 |
+| bbeh_word_sorting | ae90fc | f1 | gen | - | 0.01 | 0.01 | 0.03 |
+| bbeh_zebra_puzzles | ae90fc | accuracy | gen | - | 18.00 | 17.00 | 16.50 |
+| bbeh_zebra_puzzles | ae90fc | f1 | gen | - | 0.18 | 0.17 | 0.17 |
+| bbh-temporal_sequences | 3f2d84 | score | gen | - | 46.40 | 74.00 | 77.20 |
+| bbh-disambiguation_qa | 3f2d84 | score | gen | - | 64.80 | 51.60 | 46.40 |
+| bbh-date_understanding | 3f2d84 | score | gen | - | 50.80 | 55.60 | 50.80 |
+| bbh-tracking_shuffled_objects_three_objects | 3f2d84 | score | gen | - | 30.80 | 91.60 | 74.40 |
+| bbh-penguins_in_a_table | 3f2d84 | score | gen | - | 78.77 | 89.73 | 70.55 |
+| bbh-geometric_shapes | 3f2d84 | score | gen | - | 28.40 | 30.00 | 42.40 |
+| bbh-snarks | 3f2d84 | score | gen | - | 75.28 | 76.40 | 75.84 |
+| bbh-ruin_names | 3f2d84 | score | gen | - | 49.60 | 57.60 | 54.40 |
+| bbh-tracking_shuffled_objects_seven_objects | 3f2d84 | score | gen | - | 39.60 | 80.40 | 54.80 |
+| bbh-tracking_shuffled_objects_five_objects | 3f2d84 | score | gen | - | 52.40 | 89.20 | 78.00 |
+| bbh-logical_deduction_three_objects | 3f2d84 | score | gen | - | 73.60 | 74.40 | 72.00 |
+| bbh-hyperbaton | 3f2d84 | score | gen | - | 83.60 | 60.40 | 67.20 |
+| bbh-logical_deduction_five_objects | 3f2d84 | score | gen | - | 44.80 | 62.40 | 56.00 |
+| bbh-logical_deduction_seven_objects | 3f2d84 | score | gen | - | 44.80 | 52.80 | 48.40 |
+| bbh-movie_recommendation | 3f2d84 | score | gen | - | 65.20 | 64.00 | 60.00 |
+| bbh-salient_translation_error_detection | 3f2d84 | score | gen | - | 36.00 | 43.20 | 43.60 |
+| bbh-reasoning_about_colored_objects | 3f2d84 | score | gen | - | 70.80 | 77.20 | 60.80 |
+| bbh-multistep_arithmetic_two | 3f2d84 | score | gen | - | 82.00 | 87.60 | 81.60 |
+| bbh-navigate | 3f2d84 | score | gen | - | 59.20 | 63.20 | 59.60 |
+| bbh-dyck_languages | 3f2d84 | score | gen | - | 2.40 | 0.80 | 2.00 |
+| bbh-word_sorting | 3f2d84 | score | gen | - | 25.60 | 20.40 | 24.80 |
+| bbh-sports_understanding | 3f2d84 | score | gen | - | 69.20 | 66.00 | 55.60 |
+| bbh-boolean_expressions | 3f2d84 | score | gen | - | 84.00 | 79.60 | 79.60 |
+| bbh-object_counting | 3f2d84 | score | gen | - | 64.00 | 46.00 | 50.40 |
+| bbh-formal_fallacies | 3f2d84 | score | gen | - | 57.20 | 60.40 | 58.40 |
+| bbh-causal_judgement | 3f2d84 | score | gen | - | 56.68 | 54.55 | 52.94 |
+| bbh-web_of_lies | 3f2d84 | score | gen | - | 66.40 | 90.80 | 70.40 |
+| cmmlu-agronomy | 7c9e30 | accuracy | gen | - | 31.36 | 69.82 | 68.05 |
+| cmmlu-agronomy | 7c9e30 | f1 | gen | - | 0.31 | 0.70 | 0.68 |
+| cmmlu-anatomy | 84ab0f | accuracy | gen | - | 28.38 | 85.81 | 87.16 |
+| cmmlu-anatomy | 84ab0f | f1 | gen | - | 0.28 | 0.86 | 0.87 |
+| cmmlu-ancient_chinese | 18a73e | accuracy | gen | - | 4.27 | 45.73 | 46.95 |
+| cmmlu-ancient_chinese | 18a73e | f1 | gen | - | 0.04 | 0.46 | 0.47 |
+| cmmlu-arts | d496c2 | accuracy | gen | - | 38.12 | 96.25 | 93.75 |
+| cmmlu-arts | d496c2 | f1 | gen | - | 0.38 | 0.96 | 0.94 |
+| cmmlu-astronomy | 94a1ad | accuracy | gen | - | 27.27 | 56.36 | 51.52 |
+| cmmlu-astronomy | 94a1ad | f1 | gen | - | 0.27 | 0.56 | 0.52 |
+| cmmlu-business_ethics | b66299 | accuracy | gen | - | 26.79 | 66.99 | 68.42 |
+| cmmlu-business_ethics | b66299 | f1 | gen | - | 0.27 | 0.67 | 0.68 |
+| cmmlu-chinese_civil_service_exam | 41629d | accuracy | gen | - | 25.00 | 70.62 | 76.25 |
+| cmmlu-chinese_civil_service_exam | 41629d | f1 | gen | - | 0.25 | 0.71 | 0.76 |
+| cmmlu-chinese_driving_rule | 1e9d3c | accuracy | gen | - | 35.88 | 96.18 | 96.95 |
+| cmmlu-chinese_driving_rule | 1e9d3c | f1 | gen | - | 0.36 | 0.96 | 0.97 |
+| cmmlu-chinese_food_culture | 5fe533 | accuracy | gen | - | 25.00 | 72.06 | 73.53 |
+| cmmlu-chinese_food_culture | 5fe533 | f1 | gen | - | 0.25 | 0.72 | 0.74 |
+| cmmlu-chinese_foreign_policy | 50ea53 | accuracy | gen | - | 37.38 | 73.83 | 75.70 |
+| cmmlu-chinese_foreign_policy | 50ea53 | f1 | gen | - | 0.37 | 0.74 | 0.76 |
+| cmmlu-chinese_history | 65d9e7 | accuracy | gen | - | 34.67 | 82.97 | 86.07 |
+| cmmlu-chinese_history | 65d9e7 | f1 | gen | - | 0.35 | 0.83 | 0.86 |
+| cmmlu-chinese_literature | bf10c3 | accuracy | gen | - | 10.78 | 66.18 | 69.12 |
+| cmmlu-chinese_literature | bf10c3 | f1 | gen | - | 0.11 | 0.66 | 0.69 |
+| cmmlu-chinese_teacher_qualification | 0fc6aa | accuracy | gen | - | 30.73 | 89.39 | 89.94 |
+| cmmlu-chinese_teacher_qualification | 0fc6aa | f1 | gen | - | 0.31 | 0.89 | 0.90 |
+| cmmlu-clinical_knowledge | e8fd9f | accuracy | gen | - | 32.07 | 75.53 | 77.64 |
+| cmmlu-clinical_knowledge | e8fd9f | f1 | gen | - | 0.32 | 0.76 | 0.78 |
+| cmmlu-college_actuarial_science | c0c119 | accuracy | gen | - | 9.43 | 45.28 | 43.40 |
+| cmmlu-college_actuarial_science | c0c119 | f1 | gen | - | 0.09 | 0.45 | 0.43 |
+| cmmlu-college_education | a6d967 | accuracy | gen | - | 37.38 | 83.18 | 87.85 |
+| cmmlu-college_education | a6d967 | f1 | gen | - | 0.37 | 0.83 | 0.88 |
+| cmmlu-college_engineering_hydrology | 2fc1c4 | accuracy | gen | - | 45.28 | 82.08 | 78.30 |
+| cmmlu-college_engineering_hydrology | 2fc1c4 | f1 | gen | - | 0.45 | 0.82 | 0.78 |
+| cmmlu-college_law | d918f6 | accuracy | gen | - | 26.85 | 68.52 | 67.59 |
+| cmmlu-college_law | d918f6 | f1 | gen | - | 0.27 | 0.69 | 0.68 |
+| cmmlu-college_mathematics | b665a2 | accuracy | gen | - | 28.57 | 58.10 | 43.81 |
+| cmmlu-college_mathematics | b665a2 | f1 | gen | - | 0.29 | 0.58 | 0.44 |
+| cmmlu-college_medical_statistics | 2b1a51 | accuracy | gen | - | 23.58 | 69.81 | 70.75 |
+| cmmlu-college_medical_statistics | 2b1a51 | f1 | gen | - | 0.24 | 0.70 | 0.71 |
+| cmmlu-college_medicine | ac9e75 | accuracy | gen | - | 30.04 | 83.52 | 83.52 |
+| cmmlu-college_medicine | ac9e75 | f1 | gen | - | 0.30 | 0.84 | 0.84 |
+| cmmlu-computer_science | 5b63b8 | accuracy | gen | - | 24.51 | 86.27 | 84.31 |
+| cmmlu-computer_science | 5b63b8 | f1 | gen | - | 0.25 | 0.86 | 0.84 |
+| cmmlu-computer_security | c37854 | accuracy | gen | - | 26.32 | 87.72 | 88.30 |
+| cmmlu-computer_security | c37854 | f1 | gen | - | 0.26 | 0.88 | 0.88 |
+| cmmlu-conceptual_physics | e13116 | accuracy | gen | - | 30.61 | 89.12 | 87.07 |
+| cmmlu-conceptual_physics | e13116 | f1 | gen | - | 0.31 | 0.89 | 0.87 |
+| cmmlu-construction_project_management | 799df1 | accuracy | gen | - | 19.42 | 68.35 | 69.78 |
+| cmmlu-construction_project_management | 799df1 | f1 | gen | - | 0.19 | 0.68 | 0.70 |
+| cmmlu-economics | 503c58 | accuracy | gen | - | 49.69 | 83.65 | 81.13 |
+| cmmlu-economics | 503c58 | f1 | gen | - | 0.50 | 0.84 | 0.81 |
+| cmmlu-education | 823c96 | accuracy | gen | - | 26.38 | 77.30 | 76.07 |
+| cmmlu-education | 823c96 | f1 | gen | - | 0.26 | 0.77 | 0.76 |
+| cmmlu-electrical_engineering | 69c4f3 | accuracy | gen | - | 34.88 | 81.40 | 81.98 |
+| cmmlu-electrical_engineering | 69c4f3 | f1 | gen | - | 0.35 | 0.81 | 0.82 |
+| cmmlu-elementary_chinese | 61ed08 | accuracy | gen | - | 29.37 | 76.19 | 75.40 |
+| cmmlu-elementary_chinese | 61ed08 | f1 | gen | - | 0.29 | 0.76 | 0.75 |
+| cmmlu-elementary_commonsense | 3c2aa7 | accuracy | gen | - | 24.24 | 78.79 | 74.24 |
+| cmmlu-elementary_commonsense | 3c2aa7 | f1 | gen | - | 0.24 | 0.79 | 0.74 |
+| cmmlu-elementary_information_and_technology | 4ba53f | accuracy | gen | - | 31.51 | 94.54 | 94.54 |
+| cmmlu-elementary_information_and_technology | 4ba53f | f1 | gen | - | 0.32 | 0.95 | 0.95 |
+| cmmlu-elementary_mathematics | 1fe0ee | accuracy | gen | - | 40.00 | 80.87 | 70.87 |
+| cmmlu-elementary_mathematics | 1fe0ee | f1 | gen | - | 0.40 | 0.81 | 0.71 |
+| cmmlu-ethnology | ae0ac8 | accuracy | gen | - | 31.85 | 76.30 | 77.04 |
+| cmmlu-ethnology | ae0ac8 | f1 | gen | - | 0.32 | 0.76 | 0.77 |
+| cmmlu-food_science | dfb5a1 | accuracy | gen | - | 21.68 | 73.43 | 69.93 |
+| cmmlu-food_science | dfb5a1 | f1 | gen | - | 0.22 | 0.73 | 0.70 |
+| cmmlu-genetics | 95a0c9 | accuracy | gen | - | 26.70 | 69.32 | 66.48 |
+| cmmlu-genetics | 95a0c9 | f1 | gen | - | 0.27 | 0.69 | 0.66 |
+| cmmlu-global_facts | e3cf9e | accuracy | gen | - | 24.83 | 78.52 | 78.52 |
+| cmmlu-global_facts | e3cf9e | f1 | gen | - | 0.25 | 0.79 | 0.79 |
+| cmmlu-high_school_biology | 0811e7 | accuracy | gen | - | 13.02 | 82.25 | 82.25 |
+| cmmlu-high_school_biology | 0811e7 | f1 | gen | - | 0.13 | 0.82 | 0.82 |
+| cmmlu-high_school_chemistry | 342b0f | accuracy | gen | - | 3.03 | 65.91 | 68.18 |
+| cmmlu-high_school_chemistry | 342b0f | f1 | gen | - | 0.03 | 0.66 | 0.68 |
+| cmmlu-high_school_geography | 2a2c92 | accuracy | gen | - | 42.37 | 77.97 | 79.66 |
+| cmmlu-high_school_geography | 2a2c92 | f1 | gen | - | 0.42 | 0.78 | 0.80 |
+| cmmlu-high_school_mathematics | 86f22a | accuracy | gen | - | 39.63 | 79.88 | 70.12 |
+| cmmlu-high_school_mathematics | 86f22a | f1 | gen | - | 0.40 | 0.80 | 0.70 |
+| cmmlu-high_school_physics | d4fe4b | accuracy | gen | - | 29.09 | 75.45 | 77.27 |
+| cmmlu-high_school_physics | d4fe4b | f1 | gen | - | 0.29 | 0.75 | 0.77 |
+| cmmlu-high_school_politics | ded656 | accuracy | gen | - | 30.77 | 82.52 | 86.01 |
+| cmmlu-high_school_politics | ded656 | f1 | gen | - | 0.31 | 0.83 | 0.86 |
+| cmmlu-human_sexuality | 11cfc3 | accuracy | gen | - | 15.87 | 71.43 | 66.67 |
+| cmmlu-human_sexuality | 11cfc3 | f1 | gen | - | 0.16 | 0.71 | 0.67 |
+| cmmlu-international_law | 0bc7f3 | accuracy | gen | - | 27.57 | 73.51 | 71.89 |
+| cmmlu-international_law | 0bc7f3 | f1 | gen | - | 0.28 | 0.74 | 0.72 |
+| cmmlu-journalism | 9b0da8 | accuracy | gen | - | 27.91 | 72.09 | 76.74 |
+| cmmlu-journalism | 9b0da8 | f1 | gen | - | 0.28 | 0.72 | 0.77 |
+| cmmlu-jurisprudence | 63bbe5 | accuracy | gen | - | 27.98 | 81.51 | 82.00 |
+| cmmlu-jurisprudence | 63bbe5 | f1 | gen | - | 0.28 | 0.82 | 0.82 |
+| cmmlu-legal_and_moral_basis | 252a51 | accuracy | gen | - | 32.24 | 97.20 | 97.66 |
+| cmmlu-legal_and_moral_basis | 252a51 | f1 | gen | - | 0.32 | 0.97 | 0.98 |
+| cmmlu-logical | 245f3d | accuracy | gen | - | 27.64 | 72.36 | 73.98 |
+| cmmlu-logical | 245f3d | f1 | gen | - | 0.28 | 0.72 | 0.74 |
+| cmmlu-machine_learning | 1992ee | accuracy | gen | - | 31.15 | 71.31 | 72.95 |
+| cmmlu-machine_learning | 1992ee | f1 | gen | - | 0.31 | 0.71 | 0.73 |
+| cmmlu-management | 454dc0 | accuracy | gen | - | 38.10 | 86.19 | 84.29 |
+| cmmlu-management | 454dc0 | f1 | gen | - | 0.38 | 0.86 | 0.84 |
+| cmmlu-marketing | cb3955 | accuracy | gen | - | 32.22 | 85.56 | 84.44 |
+| cmmlu-marketing | cb3955 | f1 | gen | - | 0.32 | 0.86 | 0.84 |
+| cmmlu-marxist_theory | 88f9a2 | accuracy | gen | - | 55.56 | 93.12 | 93.65 |
+| cmmlu-marxist_theory | 88f9a2 | f1 | gen | - | 0.56 | 0.93 | 0.94 |
+| cmmlu-modern_chinese | 84adbd | accuracy | gen | - | 9.48 | 62.07 | 58.62 |
+| cmmlu-modern_chinese | 84adbd | f1 | gen | - | 0.09 | 0.62 | 0.59 |
+| cmmlu-nutrition | 157fb8 | accuracy | gen | - | 27.59 | 78.62 | 78.62 |
+| cmmlu-nutrition | 157fb8 | f1 | gen | - | 0.28 | 0.79 | 0.79 |
+| cmmlu-philosophy | cbe293 | accuracy | gen | - | 39.05 | 77.14 | 77.14 |
+| cmmlu-philosophy | cbe293 | f1 | gen | - | 0.39 | 0.77 | 0.77 |
+| cmmlu-professional_accounting | 1fd7d6 | accuracy | gen | - | 45.71 | 90.86 | 88.57 |
+| cmmlu-professional_accounting | 1fd7d6 | f1 | gen | - | 0.46 | 0.91 | 0.89 |
+| cmmlu-professional_law | b24c17 | accuracy | gen | - | 26.54 | 73.93 | 72.04 |
+| cmmlu-professional_law | b24c17 | f1 | gen | - | 0.27 | 0.74 | 0.72 |
+| cmmlu-professional_medicine | 8780af | accuracy | gen | - | 28.72 | 77.39 | 76.33 |
+| cmmlu-professional_medicine | 8780af | f1 | gen | - | 0.29 | 0.77 | 0.76 |
+| cmmlu-professional_psychology | 312211 | accuracy | gen | - | 33.62 | 84.48 | 85.34 |
+| cmmlu-professional_psychology | 312211 | f1 | gen | - | 0.34 | 0.84 | 0.85 |
+| cmmlu-public_relations | 108236 | accuracy | gen | - | 18.39 | 70.11 | 71.84 |
+| cmmlu-public_relations | 108236 | f1 | gen | - | 0.18 | 0.70 | 0.72 |
+| cmmlu-security_study | 4ae05c | accuracy | gen | - | 36.30 | 85.93 | 88.89 |
+| cmmlu-security_study | 4ae05c | f1 | gen | - | 0.36 | 0.86 | 0.89 |
+| cmmlu-sociology | e243f7 | accuracy | gen | - | 32.30 | 78.32 | 75.66 |
+| cmmlu-sociology | e243f7 | f1 | gen | - | 0.32 | 0.78 | 0.76 |
+| cmmlu-sports_science | 591cca | accuracy | gen | - | 22.42 | 72.73 | 75.15 |
+| cmmlu-sports_science | 591cca | f1 | gen | - | 0.22 | 0.73 | 0.75 |
+| cmmlu-traditional_chinese_medicine | 427690 | accuracy | gen | - | 39.46 | 78.92 | 79.46 |
+| cmmlu-traditional_chinese_medicine | 427690 | f1 | gen | - | 0.39 | 0.79 | 0.79 |
+| cmmlu-virology | 708dbd | accuracy | gen | - | 27.22 | 79.88 | 79.29 |
+| cmmlu-virology | 708dbd | f1 | gen | - | 0.27 | 0.80 | 0.79 |
+| cmmlu-world_history | 18602e | accuracy | gen | - | 43.48 | 78.88 | 83.23 |
+| cmmlu-world_history | 18602e | f1 | gen | - | 0.43 | 0.79 | 0.83 |
+| cmmlu-world_religions | a38f01 | accuracy | gen | - | 18.75 | 83.75 | 80.62 |
+| cmmlu-world_religions | a38f01 | f1 | gen | - | 0.19 | 0.84 | 0.81 |
+| lukaemon_mmlu_college_biology | 012dd1 | accuracy | gen | - | 84.03 | 81.25 | 84.03 |
+| lukaemon_mmlu_college_biology | 012dd1 | f1 | gen | - | 0.84 | 0.81 | 0.84 |
+| lukaemon_mmlu_college_chemistry | 012dd1 | accuracy | gen | - | 51.00 | 55.00 | 54.00 |
+| lukaemon_mmlu_college_chemistry | 012dd1 | f1 | gen | - | 0.51 | 0.55 | 0.54 |
+| lukaemon_mmlu_college_computer_science | 012dd1 | accuracy | gen | - | 71.00 | 80.00 | 77.00 |
+| lukaemon_mmlu_college_computer_science | 012dd1 | f1 | gen | - | 0.71 | 0.80 | 0.77 |
+| lukaemon_mmlu_college_mathematics | 012dd1 | accuracy | gen | - | 63.00 | 73.00 | 70.00 |
+| lukaemon_mmlu_college_mathematics | 012dd1 | f1 | gen | - | 0.63 | 0.73 | 0.70 |
+| lukaemon_mmlu_college_physics | 012dd1 | accuracy | gen | - | 73.53 | 78.43 | 78.43 |
+| lukaemon_mmlu_college_physics | 012dd1 | f1 | gen | - | 0.74 | 0.78 | 0.78 |
+| lukaemon_mmlu_electrical_engineering | 012dd1 | accuracy | gen | - | 68.97 | 67.59 | 65.52 |
+| lukaemon_mmlu_electrical_engineering | 012dd1 | f1 | gen | - | 0.69 | 0.68 | 0.66 |
+| lukaemon_mmlu_astronomy | 012dd1 | accuracy | gen | - | 75.66 | 81.58 | 83.55 |
+| lukaemon_mmlu_astronomy | 012dd1 | f1 | gen | - | 0.76 | 0.82 | 0.84 |
+| lukaemon_mmlu_anatomy | 012dd1 | accuracy | gen | - | 71.11 | 74.07 | 66.67 |
+| lukaemon_mmlu_anatomy | 012dd1 | f1 | gen | - | 0.71 | 0.74 | 0.67 |
+| lukaemon_mmlu_abstract_algebra | 012dd1 | accuracy | gen | - | 58.00 | 68.00 | 72.00 |
+| lukaemon_mmlu_abstract_algebra | 012dd1 | f1 | gen | - | 0.58 | 0.68 | 0.72 |
+| lukaemon_mmlu_machine_learning | 012dd1 | accuracy | gen | - | 58.04 | 57.14 | 62.50 |
+| lukaemon_mmlu_machine_learning | 012dd1 | f1 | gen | - | 0.58 | 0.57 | 0.62 |
+| lukaemon_mmlu_clinical_knowledge | 012dd1 | accuracy | gen | - | 72.45 | 77.36 | 77.74 |
+| lukaemon_mmlu_clinical_knowledge | 012dd1 | f1 | gen | - | 0.72 | 0.77 | 0.78 |
+| lukaemon_mmlu_global_facts | 012dd1 | accuracy | gen | - | 50.00 | 44.00 | 49.00 |
+| lukaemon_mmlu_global_facts | 012dd1 | f1 | gen | - | 0.50 | 0.44 | 0.49 |
+| lukaemon_mmlu_management | 012dd1 | accuracy | gen | - | 82.52 | 79.61 | 83.50 |
+| lukaemon_mmlu_management | 012dd1 | f1 | gen | - | 0.83 | 0.80 | 0.83 |
+| lukaemon_mmlu_nutrition | 012dd1 | accuracy | gen | - | 70.92 | 78.76 | 79.08 |
+| lukaemon_mmlu_nutrition | 012dd1 | f1 | gen | - | 0.71 | 0.79 | 0.79 |
+| lukaemon_mmlu_marketing | 012dd1 | accuracy | gen | - | 85.04 | 83.76 | 87.61 |
+| lukaemon_mmlu_marketing | 012dd1 | f1 | gen | - | 0.85 | 0.84 | 0.88 |
+| lukaemon_mmlu_professional_accounting | 012dd1 | accuracy | gen | - | 59.22 | 64.89 | 66.67 |
+| lukaemon_mmlu_professional_accounting | 012dd1 | f1 | gen | - | 0.59 | 0.65 | 0.67 |
+| lukaemon_mmlu_high_school_geography | 012dd1 | accuracy | gen | - | 82.83 | 83.33 | 84.34 |
+| lukaemon_mmlu_high_school_geography | 012dd1 | f1 | gen | - | 0.83 | 0.83 | 0.84 |
+| lukaemon_mmlu_international_law | 012dd1 | accuracy | gen | - | 79.34 | 76.86 | 80.17 |
+| lukaemon_mmlu_international_law | 012dd1 | f1 | gen | - | 0.79 | 0.77 | 0.80 |
+| lukaemon_mmlu_moral_scenarios | 012dd1 | accuracy | gen | - | 42.35 | 42.68 | 47.37 |
+| lukaemon_mmlu_moral_scenarios | 012dd1 | f1 | gen | - | 0.42 | 0.43 | 0.47 |
+| lukaemon_mmlu_computer_security | 012dd1 | accuracy | gen | - | 76.00 | 76.00 | 80.00 |
+| lukaemon_mmlu_computer_security | 012dd1 | f1 | gen | - | 0.76 | 0.76 | 0.80 |
+| lukaemon_mmlu_high_school_microeconomics | 012dd1 | accuracy | gen | - | 84.87 | 81.93 | 84.03 |
+| lukaemon_mmlu_high_school_microeconomics | 012dd1 | f1 | gen | - | 0.85 | 0.82 | 0.84 |
+| lukaemon_mmlu_professional_law | 012dd1 | accuracy | gen | - | 47.39 | 50.13 | 50.33 |
+| lukaemon_mmlu_professional_law | 012dd1 | f1 | gen | - | 0.47 | 0.50 | 0.50 |
+| lukaemon_mmlu_medical_genetics | 012dd1 | accuracy | gen | - | 75.00 | 80.00 | 89.00 |
+| lukaemon_mmlu_medical_genetics | 012dd1 | f1 | gen | - | 0.75 | 0.80 | 0.89 |
+| lukaemon_mmlu_professional_psychology | 012dd1 | accuracy | gen | - | 71.24 | 72.06 | 73.86 |
+| lukaemon_mmlu_professional_psychology | 012dd1 | f1 | gen | - | 0.71 | 0.72 | 0.74 |
+| lukaemon_mmlu_jurisprudence | 012dd1 | accuracy | gen | - | 78.70 | 68.52 | 77.78 |
+| lukaemon_mmlu_jurisprudence | 012dd1 | f1 | gen | - | 0.79 | 0.69 | 0.78 |
+| lukaemon_mmlu_world_religions | 012dd1 | accuracy | gen | - | 83.04 | 83.04 | 83.63 |
+| lukaemon_mmlu_world_religions | 012dd1 | f1 | gen | - | 0.83 | 0.83 | 0.84 |
+| lukaemon_mmlu_philosophy | 012dd1 | accuracy | gen | - | 69.77 | 69.45 | 70.10 |
+| lukaemon_mmlu_philosophy | 012dd1 | f1 | gen | - | 0.70 | 0.69 | 0.70 |
+| lukaemon_mmlu_virology | 012dd1 | accuracy | gen | - | 47.59 | 50.00 | 50.60 |
+| lukaemon_mmlu_virology | 012dd1 | f1 | gen | - | 0.48 | 0.50 | 0.51 |
+| lukaemon_mmlu_high_school_chemistry | 012dd1 | accuracy | gen | - | 68.47 | 69.95 | 73.89 |
+| lukaemon_mmlu_high_school_chemistry | 012dd1 | f1 | gen | - | 0.68 | 0.70 | 0.74 |
+| lukaemon_mmlu_public_relations | 012dd1 | accuracy | gen | - | 63.64 | 64.55 | 65.45 |
+| lukaemon_mmlu_public_relations | 012dd1 | f1 | gen | - | 0.64 | 0.65 | 0.65 |
+| lukaemon_mmlu_high_school_macroeconomics | 012dd1 | accuracy | gen | - | 74.62 | 78.46 | 82.31 |
+| lukaemon_mmlu_high_school_macroeconomics | 012dd1 | f1 | gen | - | 0.75 | 0.78 | 0.82 |
+| lukaemon_mmlu_human_sexuality | 012dd1 | accuracy | gen | - | 74.05 | 77.10 | 76.34 |
+| lukaemon_mmlu_human_sexuality | 012dd1 | f1 | gen | - | 0.74 | 0.77 | 0.76 |
+| lukaemon_mmlu_elementary_mathematics | 012dd1 | accuracy | gen | - | 91.80 | 95.24 | 94.44 |
+| lukaemon_mmlu_elementary_mathematics | 012dd1 | f1 | gen | - | 0.92 | 0.95 | 0.94 |
+| lukaemon_mmlu_high_school_physics | 012dd1 | accuracy | gen | - | 70.20 | 70.20 | 73.51 |
+| lukaemon_mmlu_high_school_physics | 012dd1 | f1 | gen | - | 0.70 | 0.70 | 0.74 |
+| lukaemon_mmlu_high_school_computer_science | 012dd1 | accuracy | gen | - | 86.00 | 85.00 | 90.00 |
+| lukaemon_mmlu_high_school_computer_science | 012dd1 | f1 | gen | - | 0.86 | 0.85 | 0.90 |
+| lukaemon_mmlu_high_school_european_history | 012dd1 | accuracy | gen | - | 72.12 | 81.21 | 80.00 |
+| lukaemon_mmlu_high_school_european_history | 012dd1 | f1 | gen | - | 0.72 | 0.81 | 0.80 |
+| lukaemon_mmlu_business_ethics | 012dd1 | accuracy | gen | - | 73.00 | 63.00 | 67.00 |
+| lukaemon_mmlu_business_ethics | 012dd1 | f1 | gen | - | 0.73 | 0.63 | 0.67 |
+| lukaemon_mmlu_moral_disputes | 012dd1 | accuracy | gen | - | 67.34 | 67.92 | 70.81 |
+| lukaemon_mmlu_moral_disputes | 012dd1 | f1 | gen | - | 0.67 | 0.68 | 0.71 |
+| lukaemon_mmlu_high_school_statistics | 012dd1 | accuracy | gen | - | 75.93 | 80.56 | 84.26 |
+| lukaemon_mmlu_high_school_statistics | 012dd1 | f1 | gen | - | 0.76 | 0.81 | 0.84 |
+| lukaemon_mmlu_miscellaneous | 012dd1 | accuracy | gen | - | 84.16 | 84.55 | 86.85 |
+| lukaemon_mmlu_miscellaneous | 012dd1 | f1 | gen | - | 0.84 | 0.85 | 0.87 |
+| lukaemon_mmlu_formal_logic | 012dd1 | accuracy | gen | - | 53.17 | 53.17 | 57.94 |
+| lukaemon_mmlu_formal_logic | 012dd1 | f1 | gen | - | 0.53 | 0.53 | 0.58 |
+| lukaemon_mmlu_high_school_government_and_politics | 012dd1 | accuracy | gen | - | 88.08 | 89.12 | 90.16 |
+| lukaemon_mmlu_high_school_government_and_politics | 012dd1 | f1 | gen | - | 0.88 | 0.89 | 0.90 |
+| lukaemon_mmlu_prehistory | 012dd1 | accuracy | gen | - | 74.38 | 77.78 | 78.40 |
+| lukaemon_mmlu_prehistory | 012dd1 | f1 | gen | - | 0.74 | 0.78 | 0.78 |
+| lukaemon_mmlu_security_studies | 012dd1 | accuracy | gen | - | 64.90 | 70.61 | 73.06 |
+| lukaemon_mmlu_security_studies | 012dd1 | f1 | gen | - | 0.65 | 0.71 | 0.73 |
+| lukaemon_mmlu_high_school_biology | 012dd1 | accuracy | gen | - | 83.55 | 85.48 | 84.19 |
+| lukaemon_mmlu_high_school_biology | 012dd1 | f1 | gen | - | 0.84 | 0.85 | 0.84 |
+| lukaemon_mmlu_logical_fallacies | 012dd1 | accuracy | gen | - | 76.07 | 77.30 | 76.07 |
+| lukaemon_mmlu_logical_fallacies | 012dd1 | f1 | gen | - | 0.76 | 0.77 | 0.76 |
+| lukaemon_mmlu_high_school_world_history | 012dd1 | accuracy | gen | - | 78.90 | 84.81 | 78.90 |
+| lukaemon_mmlu_high_school_world_history | 012dd1 | f1 | gen | - | 0.79 | 0.85 | 0.79 |
+| lukaemon_mmlu_professional_medicine | 012dd1 | accuracy | gen | - | 75.74 | 76.84 | 76.84 |
+| lukaemon_mmlu_professional_medicine | 012dd1 | f1 | gen | - | 0.76 | 0.77 | 0.77 |
+| lukaemon_mmlu_high_school_mathematics | 012dd1 | accuracy | gen | - | 81.48 | 88.52 | 88.52 |
+| lukaemon_mmlu_high_school_mathematics | 012dd1 | f1 | gen | - | 0.81 | 0.89 | 0.89 |
+| lukaemon_mmlu_college_medicine | 012dd1 | accuracy | gen | - | 64.16 | 68.79 | 71.10 |
+| lukaemon_mmlu_college_medicine | 012dd1 | f1 | gen | - | 0.64 | 0.69 | 0.71 |
+| lukaemon_mmlu_high_school_us_history | 012dd1 | accuracy | gen | - | 75.98 | 85.78 | 83.33 |
+| lukaemon_mmlu_high_school_us_history | 012dd1 | f1 | gen | - | 0.76 | 0.86 | 0.83 |
+| lukaemon_mmlu_sociology | 012dd1 | accuracy | gen | - | 85.57 | 77.61 | 83.08 |
+| lukaemon_mmlu_sociology | 012dd1 | f1 | gen | - | 0.86 | 0.78 | 0.83 |
+| lukaemon_mmlu_econometrics | 012dd1 | accuracy | gen | - | 46.49 | 61.40 | 61.40 |
+| lukaemon_mmlu_econometrics | 012dd1 | f1 | gen | - | 0.46 | 0.61 | 0.61 |
+| lukaemon_mmlu_high_school_psychology | 012dd1 | accuracy | gen | - | 83.49 | 87.34 | 87.52 |
+| lukaemon_mmlu_high_school_psychology | 012dd1 | f1 | gen | - | 0.83 | 0.87 | 0.88 |
+| lukaemon_mmlu_human_aging | 012dd1 | accuracy | gen | - | 66.82 | 71.75 | 70.85 |
+| lukaemon_mmlu_human_aging | 012dd1 | f1 | gen | - | 0.67 | 0.72 | 0.71 |
+| lukaemon_mmlu_us_foreign_policy | 012dd1 | accuracy | gen | - | 81.00 | 82.00 | 83.00 |
+| lukaemon_mmlu_us_foreign_policy | 012dd1 | f1 | gen | - | 0.81 | 0.82 | 0.83 |
+| lukaemon_mmlu_conceptual_physics | 012dd1 | accuracy | gen | - | 74.47 | 77.87 | 79.57 |
+| lukaemon_mmlu_conceptual_physics | 012dd1 | f1 | gen | - | 0.74 | 0.78 | 0.80 |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: Qwen2_5_7B
+hellaswag: {}
+math_prm800k_500-llmjudge: {}
+bbeh_boolean_expressions: {}
+bbeh_disambiguation_qa: {}
+bbeh_geometric_shapes: {}
+bbeh_hyperbaton: {}
+bbeh_movie_recommendation: {}
+bbeh_nycc: {}
+bbeh_shuffled_objects: {}
+bbeh_boardgame_qa: {}
+bbeh_buggy_tables: {}
+bbeh_causal_understanding: {}
+bbeh_dyck_languages: {}
+bbeh_linguini: {}
+bbeh_multistep_arithmetic: {}
+bbeh_object_counting: {}
+bbeh_object_properties: {}
+bbeh_sarc_triples: {}
+bbeh_spatial_reasoning: {}
+bbeh_sportqa: {}
+bbeh_temporal_sequence: {}
+bbeh_time_arithmetic: {}
+bbeh_web_of_lies: {}
+bbeh_word_sorting: {}
+bbeh_zebra_puzzles: {}
+bbh-temporal_sequences: {}
+bbh-disambiguation_qa: {}
+bbh-date_understanding: {}
+bbh-tracking_shuffled_objects_three_objects: {}
+bbh-penguins_in_a_table: {}
+bbh-geometric_shapes: {}
+bbh-snarks: {}
+bbh-ruin_names: {}
+bbh-tracking_shuffled_objects_seven_objects: {}
+bbh-tracking_shuffled_objects_five_objects: {}
+bbh-logical_deduction_three_objects: {}
+bbh-hyperbaton: {}
+bbh-logical_deduction_five_objects: {}
+bbh-logical_deduction_seven_objects: {}
+bbh-movie_recommendation: {}
+bbh-salient_translation_error_detection: {}
+bbh-reasoning_about_colored_objects: {}
+bbh-multistep_arithmetic_two: {}
+bbh-navigate: {}
+bbh-dyck_languages: {}
+bbh-word_sorting: {}
+bbh-sports_understanding: {}
+bbh-boolean_expressions: {}
+bbh-object_counting: {}
+bbh-formal_fallacies: {}
+bbh-causal_judgement: {}
+bbh-web_of_lies: {}
+cmmlu-agronomy: {}
+cmmlu-anatomy: {}
+cmmlu-ancient_chinese: {}
+cmmlu-arts: {}
+cmmlu-astronomy: {}
+cmmlu-business_ethics: {}
+cmmlu-chinese_civil_service_exam: {}
+cmmlu-chinese_driving_rule: {}
+cmmlu-chinese_food_culture: {}
+cmmlu-chinese_foreign_policy: {}
+cmmlu-chinese_history: {}
+cmmlu-chinese_literature: {}
+cmmlu-chinese_teacher_qualification: {}
+cmmlu-clinical_knowledge: {}
+cmmlu-college_actuarial_science: {}
+cmmlu-college_education: {}
+cmmlu-college_engineering_hydrology: {}
+cmmlu-college_law: {}
+cmmlu-college_mathematics: {}
+cmmlu-college_medical_statistics: {}
+cmmlu-college_medicine: {}
+cmmlu-computer_science: {}
+cmmlu-computer_security: {}
+cmmlu-conceptual_physics: {}
+cmmlu-construction_project_management: {}
+cmmlu-economics: {}
+cmmlu-education: {}
+cmmlu-electrical_engineering: {}
+cmmlu-elementary_chinese: {}
+cmmlu-elementary_commonsense: {}
+cmmlu-elementary_information_and_technology: {}
+cmmlu-elementary_mathematics: {}
+cmmlu-ethnology: {}
+cmmlu-food_science: {}
+cmmlu-genetics: {}
+cmmlu-global_facts: {}
+cmmlu-high_school_biology: {}
+cmmlu-high_school_chemistry: {}
+cmmlu-high_school_geography: {}
+cmmlu-high_school_mathematics: {}
+cmmlu-high_school_physics: {}
+cmmlu-high_school_politics: {}
+cmmlu-human_sexuality: {}
+cmmlu-international_law: {}
+cmmlu-journalism: {}
+cmmlu-jurisprudence: {}
+cmmlu-legal_and_moral_basis: {}
+cmmlu-logical: {}
+cmmlu-machine_learning: {}
+cmmlu-management: {}
+cmmlu-marketing: {}
+cmmlu-marxist_theory: {}
+cmmlu-modern_chinese: {}
+cmmlu-nutrition: {}
+cmmlu-philosophy: {}
+cmmlu-professional_accounting: {}
+cmmlu-professional_law: {}
+cmmlu-professional_medicine: {}
+cmmlu-professional_psychology: {}
+cmmlu-public_relations: {}
+cmmlu-security_study: {}
+cmmlu-sociology: {}
+cmmlu-sports_science: {}
+cmmlu-traditional_chinese_medicine: {}
+cmmlu-virology: {}
+cmmlu-world_history: {}
+cmmlu-world_religions: {}
+lukaemon_mmlu_college_biology: {}
+lukaemon_mmlu_college_chemistry: {}
+lukaemon_mmlu_college_computer_science: {}
+lukaemon_mmlu_college_mathematics: {}
+lukaemon_mmlu_college_physics: {}
+lukaemon_mmlu_electrical_engineering: {}
+lukaemon_mmlu_astronomy: {}
+lukaemon_mmlu_anatomy: {}
+lukaemon_mmlu_abstract_algebra: {}
+lukaemon_mmlu_machine_learning: {}
+lukaemon_mmlu_clinical_knowledge: {}
+lukaemon_mmlu_global_facts: {}
+lukaemon_mmlu_management: {}
+lukaemon_mmlu_nutrition: {}
+lukaemon_mmlu_marketing: {}
+lukaemon_mmlu_professional_accounting: {}
+lukaemon_mmlu_high_school_geography: {}
+lukaemon_mmlu_international_law: {}
+lukaemon_mmlu_moral_scenarios: {}
+lukaemon_mmlu_computer_security: {}
+lukaemon_mmlu_high_school_microeconomics: {}
+lukaemon_mmlu_professional_law: {}
+lukaemon_mmlu_medical_genetics: {}
+lukaemon_mmlu_professional_psychology: {}
+lukaemon_mmlu_jurisprudence: {}
+lukaemon_mmlu_world_religions: {}
+lukaemon_mmlu_philosophy: {}
+lukaemon_mmlu_virology: {}
+lukaemon_mmlu_high_school_chemistry: {}
+lukaemon_mmlu_public_relations: {}
+lukaemon_mmlu_high_school_macroeconomics: {}
+lukaemon_mmlu_human_sexuality: {}
+lukaemon_mmlu_elementary_mathematics: {}
+lukaemon_mmlu_high_school_physics: {}
+lukaemon_mmlu_high_school_computer_science: {}
+lukaemon_mmlu_high_school_european_history: {}
+lukaemon_mmlu_business_ethics: {}
+lukaemon_mmlu_moral_disputes: {}
+lukaemon_mmlu_high_school_statistics: {}
+lukaemon_mmlu_miscellaneous: {}
+lukaemon_mmlu_formal_logic: {}
+lukaemon_mmlu_high_school_government_and_politics: {}
+lukaemon_mmlu_prehistory: {}
+lukaemon_mmlu_security_studies: {}
+lukaemon_mmlu_high_school_biology: {}
+lukaemon_mmlu_logical_fallacies: {}
+lukaemon_mmlu_high_school_world_history: {}
+lukaemon_mmlu_professional_medicine: {}
+lukaemon_mmlu_high_school_mathematics: {}
+lukaemon_mmlu_college_medicine: {}
+lukaemon_mmlu_high_school_us_history: {}
+lukaemon_mmlu_sociology: {}
+lukaemon_mmlu_econometrics: {}
+lukaemon_mmlu_high_school_psychology: {}
+lukaemon_mmlu_human_aging: {}
+lukaemon_mmlu_us_foreign_policy: {}
+lukaemon_mmlu_conceptual_physics: {}
+-------------------------------
+Model: daiyu_20250423_183824
+hellaswag: {'accuracy': 32.27444732125075, 'f1': 0.3227444732125075}
+math_prm800k_500-llmjudge: {'accuracy': 70.39999999999999, 'f1': 0.704}
+bbeh_boolean_expressions: {'accuracy': 14.499999999999998, 'f1': 0.145}
+bbeh_disambiguation_qa: {'accuracy': 40.0, 'f1': 0.4000000000000001}
+bbeh_geometric_shapes: {'accuracy': 7.5, 'f1': 0.075}
+bbeh_hyperbaton: {'accuracy': 2.5, 'f1': 0.025000000000000005}
+bbeh_movie_recommendation: {'accuracy': 28.000000000000004, 'f1': 0.28}
+bbeh_nycc: {'accuracy': 7.5, 'f1': 0.075}
+bbeh_shuffled_objects: {'accuracy': 25.0, 'f1': 0.25}
+bbeh_boardgame_qa: {'accuracy': 30.5, 'f1': 0.305}
+bbeh_buggy_tables: {'accuracy': 2.0, 'f1': 0.02}
+bbeh_causal_understanding: {'accuracy': 40.5, 'f1': 0.405}
+bbeh_dyck_languages: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_linguini: {'accuracy': 5.5, 'f1': 0.055}
+bbeh_multistep_arithmetic: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_counting: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_properties: {'accuracy': 4.0, 'f1': 0.04}
+bbeh_sarc_triples: {'accuracy': 11.0, 'f1': 0.11}
+bbeh_spatial_reasoning: {'accuracy': 15.0, 'f1': 0.15}
+bbeh_sportqa: {'accuracy': 1.0, 'f1': 0.01}
+bbeh_temporal_sequence: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_time_arithmetic: {'accuracy': 14.000000000000002, 'f1': 0.14}
+bbeh_web_of_lies: {'accuracy': 9.0, 'f1': 0.09}
+bbeh_word_sorting: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_zebra_puzzles: {'accuracy': 18.0, 'f1': 0.18}
+bbh-temporal_sequences: {'score': 46.400000000000006}
+bbh-disambiguation_qa: {'score': 64.8}
+bbh-date_understanding: {'score': 50.8}
+bbh-tracking_shuffled_objects_three_objects: {'score': 30.8}
+bbh-penguins_in_a_table: {'score': 78.76712328767124}
+bbh-geometric_shapes: {'score': 28.4}
+bbh-snarks: {'score': 75.28089887640449}
+bbh-ruin_names: {'score': 49.6}
+bbh-tracking_shuffled_objects_seven_objects: {'score': 39.6}
+bbh-tracking_shuffled_objects_five_objects: {'score': 52.400000000000006}
+bbh-logical_deduction_three_objects: {'score': 73.6}
+bbh-hyperbaton: {'score': 83.6}
+bbh-logical_deduction_five_objects: {'score': 44.800000000000004}
+bbh-logical_deduction_seven_objects: {'score': 44.800000000000004}
+bbh-movie_recommendation: {'score': 65.2}
+bbh-salient_translation_error_detection: {'score': 36.0}
+bbh-reasoning_about_colored_objects: {'score': 70.8}
+bbh-multistep_arithmetic_two: {'score': 82.0}
+bbh-navigate: {'score': 59.199999999999996}
+bbh-dyck_languages: {'score': 2.4}
+bbh-word_sorting: {'score': 25.6}
+bbh-sports_understanding: {'score': 69.19999999999999}
+bbh-boolean_expressions: {'score': 84.0}
+bbh-object_counting: {'score': 64.0}
+bbh-formal_fallacies: {'score': 57.199999999999996}
+bbh-causal_judgement: {'score': 56.68449197860963}
+bbh-web_of_lies: {'score': 66.4}
+cmmlu-agronomy: {'accuracy': 31.360946745562128, 'f1': 0.3136094674556213}
+cmmlu-anatomy: {'accuracy': 28.37837837837838, 'f1': 0.28378378378378377}
+cmmlu-ancient_chinese: {'accuracy': 4.2682926829268295, 'f1': 0.042682926829268296}
+cmmlu-arts: {'accuracy': 38.125, 'f1': 0.38125}
+cmmlu-astronomy: {'accuracy': 27.27272727272727, 'f1': 0.2727272727272727}
+cmmlu-business_ethics: {'accuracy': 26.794258373205743, 'f1': 0.2679425837320574}
+cmmlu-chinese_civil_service_exam: {'accuracy': 25.0, 'f1': 0.25}
+cmmlu-chinese_driving_rule: {'accuracy': 35.87786259541985, 'f1': 0.3587786259541984}
+cmmlu-chinese_food_culture: {'accuracy': 25.0, 'f1': 0.25}
+cmmlu-chinese_foreign_policy: {'accuracy': 37.38317757009346, 'f1': 0.37383177570093457}
+cmmlu-chinese_history: {'accuracy': 34.6749226006192, 'f1': 0.34674922600619196}
+cmmlu-chinese_literature: {'accuracy': 10.784313725490197, 'f1': 0.10784313725490197}
+cmmlu-chinese_teacher_qualification: {'accuracy': 30.726256983240223, 'f1': 0.30726256983240224}
+cmmlu-clinical_knowledge: {'accuracy': 32.06751054852321, 'f1': 0.3206751054852321}
+cmmlu-college_actuarial_science: {'accuracy': 9.433962264150944, 'f1': 0.09433962264150943}
+cmmlu-college_education: {'accuracy': 37.38317757009346, 'f1': 0.37383177570093457}
+cmmlu-college_engineering_hydrology: {'accuracy': 45.28301886792453, 'f1': 0.4528301886792453}
+cmmlu-college_law: {'accuracy': 26.851851851851855, 'f1': 0.26851851851851855}
+cmmlu-college_mathematics: {'accuracy': 28.57142857142857, 'f1': 0.2857142857142857}
+cmmlu-college_medical_statistics: {'accuracy': 23.58490566037736, 'f1': 0.2358490566037736}
+cmmlu-college_medicine: {'accuracy': 30.036630036630036, 'f1': 0.30036630036630035}
+cmmlu-computer_science: {'accuracy': 24.509803921568626, 'f1': 0.24509803921568626}
+cmmlu-computer_security: {'accuracy': 26.31578947368421, 'f1': 0.2631578947368421}
+cmmlu-conceptual_physics: {'accuracy': 30.612244897959183, 'f1': 0.30612244897959184}
+cmmlu-construction_project_management: {'accuracy': 19.424460431654676, 'f1': 0.19424460431654678}
+cmmlu-economics: {'accuracy': 49.685534591194966, 'f1': 0.4968553459119497}
+cmmlu-education: {'accuracy': 26.380368098159508, 'f1': 0.26380368098159507}
+cmmlu-electrical_engineering: {'accuracy': 34.883720930232556, 'f1': 0.3488372093023256}
+cmmlu-elementary_chinese: {'accuracy': 29.365079365079367, 'f1': 0.29365079365079366}
+cmmlu-elementary_commonsense: {'accuracy': 24.242424242424242, 'f1': 0.24242424242424243}
+cmmlu-elementary_information_and_technology: {'accuracy': 31.512605042016805, 'f1': 0.31512605042016806}
+cmmlu-elementary_mathematics: {'accuracy': 40.0, 'f1': 0.4000000000000001}
+cmmlu-ethnology: {'accuracy': 31.851851851851855, 'f1': 0.31851851851851853}
+cmmlu-food_science: {'accuracy': 21.678321678321677, 'f1': 0.21678321678321674}
+cmmlu-genetics: {'accuracy': 26.704545454545453, 'f1': 0.26704545454545453}
+cmmlu-global_facts: {'accuracy': 24.832214765100673, 'f1': 0.2483221476510067}
+cmmlu-high_school_biology: {'accuracy': 13.017751479289942, 'f1': 0.1301775147928994}
+cmmlu-high_school_chemistry: {'accuracy': 3.0303030303030303, 'f1': 0.030303030303030304}
+cmmlu-high_school_geography: {'accuracy': 42.3728813559322, 'f1': 0.423728813559322}
+cmmlu-high_school_mathematics: {'accuracy': 39.63414634146341, 'f1': 0.39634146341463417}
+cmmlu-high_school_physics: {'accuracy': 29.09090909090909, 'f1': 0.2909090909090909}
+cmmlu-high_school_politics: {'accuracy': 30.76923076923077, 'f1': 0.3076923076923077}
+cmmlu-human_sexuality: {'accuracy': 15.873015873015872, 'f1': 0.15873015873015872}
+cmmlu-international_law: {'accuracy': 27.56756756756757, 'f1': 0.2756756756756757}
+cmmlu-journalism: {'accuracy': 27.906976744186046, 'f1': 0.27906976744186046}
+cmmlu-jurisprudence: {'accuracy': 27.980535279805352, 'f1': 0.2798053527980535}
+cmmlu-legal_and_moral_basis: {'accuracy': 32.242990654205606, 'f1': 0.32242990654205606}
+cmmlu-logical: {'accuracy': 27.64227642276423, 'f1': 0.2764227642276423}
+cmmlu-machine_learning: {'accuracy': 31.147540983606557, 'f1': 0.3114754098360656}
+cmmlu-management: {'accuracy': 38.095238095238095, 'f1': 0.38095238095238093}
+cmmlu-marketing: {'accuracy': 32.22222222222222, 'f1': 0.32222222222222224}
+cmmlu-marxist_theory: {'accuracy': 55.55555555555556, 'f1': 0.5555555555555556}
+cmmlu-modern_chinese: {'accuracy': 9.482758620689655, 'f1': 0.09482758620689655}
+cmmlu-nutrition: {'accuracy': 27.586206896551722, 'f1': 0.27586206896551724}
+cmmlu-philosophy: {'accuracy': 39.04761904761905, 'f1': 0.3904761904761905}
+cmmlu-professional_accounting: {'accuracy': 45.714285714285715, 'f1': 0.45714285714285713}
+cmmlu-professional_law: {'accuracy': 26.540284360189574, 'f1': 0.26540284360189575}
+cmmlu-professional_medicine: {'accuracy': 28.723404255319153, 'f1': 0.2872340425531915}
+cmmlu-professional_psychology: {'accuracy': 33.62068965517241, 'f1': 0.33620689655172414}
+cmmlu-public_relations: {'accuracy': 18.39080459770115, 'f1': 0.1839080459770115}
+cmmlu-security_study: {'accuracy': 36.2962962962963, 'f1': 0.36296296296296304}
+cmmlu-sociology: {'accuracy': 32.30088495575221, 'f1': 0.3230088495575221}
+cmmlu-sports_science: {'accuracy': 22.424242424242426, 'f1': 0.22424242424242424}
+cmmlu-traditional_chinese_medicine: {'accuracy': 39.45945945945946, 'f1': 0.3945945945945946}
+cmmlu-virology: {'accuracy': 27.218934911242602, 'f1': 0.27218934911242604}
+cmmlu-world_history: {'accuracy': 43.47826086956522, 'f1': 0.43478260869565216}
+cmmlu-world_religions: {'accuracy': 18.75, 'f1': 0.1875}
+lukaemon_mmlu_college_biology: {'accuracy': 84.02777777777779, 'f1': 0.8402777777777778}
+lukaemon_mmlu_college_chemistry: {'accuracy': 51.0, 'f1': 0.51}
+lukaemon_mmlu_college_computer_science: {'accuracy': 71.0, 'f1': 0.7100000000000001}
+lukaemon_mmlu_college_mathematics: {'accuracy': 63.0, 'f1': 0.63}
+lukaemon_mmlu_college_physics: {'accuracy': 73.52941176470588, 'f1': 0.735294117647059}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 68.96551724137932, 'f1': 0.6896551724137931}
+lukaemon_mmlu_astronomy: {'accuracy': 75.6578947368421, 'f1': 0.7565789473684209}
+lukaemon_mmlu_anatomy: {'accuracy': 71.11111111111111, 'f1': 0.7111111111111111}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 57.99999999999999, 'f1': 0.58}
+lukaemon_mmlu_machine_learning: {'accuracy': 58.03571428571429, 'f1': 0.5803571428571429}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 72.45283018867924, 'f1': 0.7245283018867924}
+lukaemon_mmlu_global_facts: {'accuracy': 50.0, 'f1': 0.5}
+lukaemon_mmlu_management: {'accuracy': 82.52427184466019, 'f1': 0.8252427184466019}
+lukaemon_mmlu_nutrition: {'accuracy': 70.91503267973856, 'f1': 0.7091503267973857}
+lukaemon_mmlu_marketing: {'accuracy': 85.04273504273505, 'f1': 0.8504273504273504}
+lukaemon_mmlu_professional_accounting: {'accuracy': 59.21985815602837, 'f1': 0.5921985815602837}
+lukaemon_mmlu_high_school_geography: {'accuracy': 82.82828282828282, 'f1': 0.8282828282828283}
+lukaemon_mmlu_international_law: {'accuracy': 79.33884297520662, 'f1': 0.7933884297520661}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 42.3463687150838, 'f1': 0.42346368715083793}
+lukaemon_mmlu_computer_security: {'accuracy': 76.0, 'f1': 0.76}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 84.87394957983193, 'f1': 0.8487394957983193}
+lukaemon_mmlu_professional_law: {'accuracy': 47.392438070404175, 'f1': 0.47392438070404175}
+lukaemon_mmlu_medical_genetics: {'accuracy': 75.0, 'f1': 0.75}
+lukaemon_mmlu_professional_psychology: {'accuracy': 71.24183006535948, 'f1': 0.7124183006535948}
+lukaemon_mmlu_jurisprudence: {'accuracy': 78.70370370370371, 'f1': 0.7870370370370371}
+lukaemon_mmlu_world_religions: {'accuracy': 83.04093567251462, 'f1': 0.8304093567251462}
+lukaemon_mmlu_philosophy: {'accuracy': 69.77491961414792, 'f1': 0.6977491961414791}
+lukaemon_mmlu_virology: {'accuracy': 47.59036144578313, 'f1': 0.4759036144578313}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 68.4729064039409, 'f1': 0.6847290640394089}
+lukaemon_mmlu_public_relations: {'accuracy': 63.63636363636363, 'f1': 0.6363636363636364}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 74.61538461538461, 'f1': 0.7461538461538462}
+lukaemon_mmlu_human_sexuality: {'accuracy': 74.04580152671755, 'f1': 0.7404580152671756}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 91.7989417989418, 'f1': 0.917989417989418}
+lukaemon_mmlu_high_school_physics: {'accuracy': 70.19867549668875, 'f1': 0.7019867549668874}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 86.0, 'f1': 0.8599999999999999}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 72.12121212121212, 'f1': 0.7212121212121212}
+lukaemon_mmlu_business_ethics: {'accuracy': 73.0, 'f1': 0.7299999999999999}
+lukaemon_mmlu_moral_disputes: {'accuracy': 67.34104046242774, 'f1': 0.6734104046242775}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 75.92592592592592, 'f1': 0.7592592592592593}
+lukaemon_mmlu_miscellaneous: {'accuracy': 84.16347381864622, 'f1': 0.8416347381864623}
+lukaemon_mmlu_formal_logic: {'accuracy': 53.17460317460318, 'f1': 0.5317460317460317}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 88.08290155440415, 'f1': 0.8808290155440415}
+lukaemon_mmlu_prehistory: {'accuracy': 74.38271604938271, 'f1': 0.7438271604938271}
+lukaemon_mmlu_security_studies: {'accuracy': 64.89795918367346, 'f1': 0.6489795918367347}
+lukaemon_mmlu_high_school_biology: {'accuracy': 83.54838709677419, 'f1': 0.8354838709677419}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 76.07361963190185, 'f1': 0.7607361963190185}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 78.90295358649789, 'f1': 0.7890295358649789}
+lukaemon_mmlu_professional_medicine: {'accuracy': 75.73529411764706, 'f1': 0.7573529411764706}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 81.48148148148148, 'f1': 0.8148148148148148}
+lukaemon_mmlu_college_medicine: {'accuracy': 64.16184971098265, 'f1': 0.6416184971098265}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 75.98039215686273, 'f1': 0.7598039215686274}
+lukaemon_mmlu_sociology: {'accuracy': 85.57213930348259, 'f1': 0.8557213930348259}
+lukaemon_mmlu_econometrics: {'accuracy': 46.49122807017544, 'f1': 0.4649122807017544}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 83.4862385321101, 'f1': 0.8348623853211009}
+lukaemon_mmlu_human_aging: {'accuracy': 66.81614349775785, 'f1': 0.6681614349775785}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 81.0, 'f1': 0.81}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 74.46808510638297, 'f1': 0.7446808510638298}
+-------------------------------
+Model: Qwen2_5_7B-Instruct
+hellaswag: {'accuracy': 77.54431388169687, 'f1': 0.7754431388169688}
+math_prm800k_500-llmjudge: {'accuracy': 77.60000000000001, 'f1': 0.776}
+bbeh_boolean_expressions: {'accuracy': 17.5, 'f1': 0.175}
+bbeh_disambiguation_qa: {'accuracy': 41.66666666666667, 'f1': 0.4166666666666667}
+bbeh_geometric_shapes: {'accuracy': 36.0, 'f1': 0.36}
+bbeh_hyperbaton: {'accuracy': 2.0, 'f1': 0.02}
+bbeh_movie_recommendation: {'accuracy': 31.5, 'f1': 0.315}
+bbeh_nycc: {'accuracy': 8.5, 'f1': 0.085}
+bbeh_shuffled_objects: {'accuracy': 12.5, 'f1': 0.125}
+bbeh_boardgame_qa: {'accuracy': 30.5, 'f1': 0.305}
+bbeh_buggy_tables: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_causal_understanding: {'accuracy': 42.0, 'f1': 0.41999999999999993}
+bbeh_dyck_languages: {'accuracy': 1.0, 'f1': 0.01}
+bbeh_linguini: {'accuracy': 6.0, 'f1': 0.06}
+bbeh_multistep_arithmetic: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_counting: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_properties: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_sarc_triples: {'accuracy': 15.0, 'f1': 0.15}
+bbeh_spatial_reasoning: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_sportqa: {'accuracy': 9.5, 'f1': 0.095}
+bbeh_temporal_sequence: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_time_arithmetic: {'accuracy': 20.0, 'f1': 0.20000000000000004}
+bbeh_web_of_lies: {'accuracy': 3.5000000000000004, 'f1': 0.035}
+bbeh_word_sorting: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_zebra_puzzles: {'accuracy': 17.0, 'f1': 0.17}
+bbh-temporal_sequences: {'score': 74.0}
+bbh-disambiguation_qa: {'score': 51.6}
+bbh-date_understanding: {'score': 55.60000000000001}
+bbh-tracking_shuffled_objects_three_objects: {'score': 91.60000000000001}
+bbh-penguins_in_a_table: {'score': 89.72602739726028}
+bbh-geometric_shapes: {'score': 30.0}
+bbh-snarks: {'score': 76.40449438202246}
+bbh-ruin_names: {'score': 57.599999999999994}
+bbh-tracking_shuffled_objects_seven_objects: {'score': 80.4}
+bbh-tracking_shuffled_objects_five_objects: {'score': 89.2}
+bbh-logical_deduction_three_objects: {'score': 74.4}
+bbh-hyperbaton: {'score': 60.4}
+bbh-logical_deduction_five_objects: {'score': 62.4}
+bbh-logical_deduction_seven_objects: {'score': 52.800000000000004}
+bbh-movie_recommendation: {'score': 64.0}
+bbh-salient_translation_error_detection: {'score': 43.2}
+bbh-reasoning_about_colored_objects: {'score': 77.2}
+bbh-multistep_arithmetic_two: {'score': 87.6}
+bbh-navigate: {'score': 63.2}
+bbh-dyck_languages: {'score': 0.8}
+bbh-word_sorting: {'score': 20.4}
+bbh-sports_understanding: {'score': 66.0}
+bbh-boolean_expressions: {'score': 79.60000000000001}
+bbh-object_counting: {'score': 46.0}
+bbh-formal_fallacies: {'score': 60.4}
+bbh-causal_judgement: {'score': 54.54545454545454}
+bbh-web_of_lies: {'score': 90.8}
+cmmlu-agronomy: {'accuracy': 69.8224852071006, 'f1': 0.6982248520710059}
+cmmlu-anatomy: {'accuracy': 85.8108108108108, 'f1': 0.8581081081081081}
+cmmlu-ancient_chinese: {'accuracy': 45.73170731707317, 'f1': 0.4573170731707317}
+cmmlu-arts: {'accuracy': 96.25, 'f1': 0.9625000000000001}
+cmmlu-astronomy: {'accuracy': 56.36363636363636, 'f1': 0.5636363636363636}
+cmmlu-business_ethics: {'accuracy': 66.98564593301435, 'f1': 0.6698564593301436}
+cmmlu-chinese_civil_service_exam: {'accuracy': 70.625, 'f1': 0.70625}
+cmmlu-chinese_driving_rule: {'accuracy': 96.18320610687023, 'f1': 0.9618320610687023}
+cmmlu-chinese_food_culture: {'accuracy': 72.05882352941177, 'f1': 0.7205882352941176}
+cmmlu-chinese_foreign_policy: {'accuracy': 73.83177570093457, 'f1': 0.7383177570093457}
+cmmlu-chinese_history: {'accuracy': 82.97213622291022, 'f1': 0.8297213622291022}
+cmmlu-chinese_literature: {'accuracy': 66.17647058823529, 'f1': 0.6617647058823529}
+cmmlu-chinese_teacher_qualification: {'accuracy': 89.3854748603352, 'f1': 0.8938547486033519}
+cmmlu-clinical_knowledge: {'accuracy': 75.52742616033755, 'f1': 0.7552742616033755}
+cmmlu-college_actuarial_science: {'accuracy': 45.28301886792453, 'f1': 0.4528301886792453}
+cmmlu-college_education: {'accuracy': 83.17757009345794, 'f1': 0.8317757009345794}
+cmmlu-college_engineering_hydrology: {'accuracy': 82.0754716981132, 'f1': 0.8207547169811321}
+cmmlu-college_law: {'accuracy': 68.51851851851852, 'f1': 0.6851851851851852}
+cmmlu-college_mathematics: {'accuracy': 58.0952380952381, 'f1': 0.580952380952381}
+cmmlu-college_medical_statistics: {'accuracy': 69.81132075471697, 'f1': 0.6981132075471698}
+cmmlu-college_medicine: {'accuracy': 83.51648351648352, 'f1': 0.8351648351648353}
+cmmlu-computer_science: {'accuracy': 86.27450980392157, 'f1': 0.8627450980392157}
+cmmlu-computer_security: {'accuracy': 87.71929824561403, 'f1': 0.8771929824561403}
+cmmlu-conceptual_physics: {'accuracy': 89.1156462585034, 'f1': 0.891156462585034}
+cmmlu-construction_project_management: {'accuracy': 68.34532374100719, 'f1': 0.6834532374100719}
+cmmlu-economics: {'accuracy': 83.64779874213836, 'f1': 0.8364779874213837}
+cmmlu-education: {'accuracy': 77.30061349693251, 'f1': 0.7730061349693251}
+cmmlu-electrical_engineering: {'accuracy': 81.3953488372093, 'f1': 0.8139534883720931}
+cmmlu-elementary_chinese: {'accuracy': 76.19047619047619, 'f1': 0.7619047619047619}
+cmmlu-elementary_commonsense: {'accuracy': 78.78787878787878, 'f1': 0.7878787878787878}
+cmmlu-elementary_information_and_technology: {'accuracy': 94.53781512605042, 'f1': 0.9453781512605042}
+cmmlu-elementary_mathematics: {'accuracy': 80.8695652173913, 'f1': 0.808695652173913}
+cmmlu-ethnology: {'accuracy': 76.29629629629629, 'f1': 0.762962962962963}
+cmmlu-food_science: {'accuracy': 73.42657342657343, 'f1': 0.7342657342657343}
+cmmlu-genetics: {'accuracy': 69.31818181818183, 'f1': 0.6931818181818182}
+cmmlu-global_facts: {'accuracy': 78.52348993288591, 'f1': 0.7852348993288589}
+cmmlu-high_school_biology: {'accuracy': 82.24852071005917, 'f1': 0.8224852071005917}
+cmmlu-high_school_chemistry: {'accuracy': 65.9090909090909, 'f1': 0.6590909090909091}
+cmmlu-high_school_geography: {'accuracy': 77.96610169491525, 'f1': 0.7796610169491526}
+cmmlu-high_school_mathematics: {'accuracy': 79.8780487804878, 'f1': 0.7987804878048782}
+cmmlu-high_school_physics: {'accuracy': 75.45454545454545, 'f1': 0.7545454545454545}
+cmmlu-high_school_politics: {'accuracy': 82.51748251748252, 'f1': 0.8251748251748252}
+cmmlu-human_sexuality: {'accuracy': 71.42857142857143, 'f1': 0.7142857142857143}
+cmmlu-international_law: {'accuracy': 73.51351351351352, 'f1': 0.7351351351351352}
+cmmlu-journalism: {'accuracy': 72.09302325581395, 'f1': 0.7209302325581395}
+cmmlu-jurisprudence: {'accuracy': 81.50851581508516, 'f1': 0.8150851581508516}
+cmmlu-legal_and_moral_basis: {'accuracy': 97.19626168224299, 'f1': 0.9719626168224299}
+cmmlu-logical: {'accuracy': 72.35772357723577, 'f1': 0.7235772357723578}
+cmmlu-machine_learning: {'accuracy': 71.31147540983606, 'f1': 0.7131147540983606}
+cmmlu-management: {'accuracy': 86.19047619047619, 'f1': 0.861904761904762}
+cmmlu-marketing: {'accuracy': 85.55555555555556, 'f1': 0.8555555555555555}
+cmmlu-marxist_theory: {'accuracy': 93.12169312169311, 'f1': 0.9312169312169312}
+cmmlu-modern_chinese: {'accuracy': 62.06896551724138, 'f1': 0.6206896551724138}
+cmmlu-nutrition: {'accuracy': 78.62068965517241, 'f1': 0.7862068965517242}
+cmmlu-philosophy: {'accuracy': 77.14285714285715, 'f1': 0.7714285714285715}
+cmmlu-professional_accounting: {'accuracy': 90.85714285714286, 'f1': 0.9085714285714287}
+cmmlu-professional_law: {'accuracy': 73.93364928909952, 'f1': 0.7393364928909952}
+cmmlu-professional_medicine: {'accuracy': 77.3936170212766, 'f1': 0.773936170212766}
+cmmlu-professional_psychology: {'accuracy': 84.48275862068965, 'f1': 0.8448275862068967}
+cmmlu-public_relations: {'accuracy': 70.11494252873564, 'f1': 0.7011494252873564}
+cmmlu-security_study: {'accuracy': 85.92592592592592, 'f1': 0.8592592592592592}
+cmmlu-sociology: {'accuracy': 78.31858407079646, 'f1': 0.7831858407079646}
+cmmlu-sports_science: {'accuracy': 72.72727272727273, 'f1': 0.7272727272727273}
+cmmlu-traditional_chinese_medicine: {'accuracy': 78.91891891891892, 'f1': 0.7891891891891892}
+cmmlu-virology: {'accuracy': 79.88165680473372, 'f1': 0.7988165680473372}
+cmmlu-world_history: {'accuracy': 78.88198757763976, 'f1': 0.7888198757763976}
+cmmlu-world_religions: {'accuracy': 83.75, 'f1': 0.8375}
+lukaemon_mmlu_college_biology: {'accuracy': 81.25, 'f1': 0.8125}
+lukaemon_mmlu_college_chemistry: {'accuracy': 55.00000000000001, 'f1': 0.55}
+lukaemon_mmlu_college_computer_science: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_college_mathematics: {'accuracy': 73.0, 'f1': 0.7299999999999999}
+lukaemon_mmlu_college_physics: {'accuracy': 78.43137254901961, 'f1': 0.7843137254901961}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 67.58620689655173, 'f1': 0.6758620689655173}
+lukaemon_mmlu_astronomy: {'accuracy': 81.57894736842105, 'f1': 0.8157894736842104}
+lukaemon_mmlu_anatomy: {'accuracy': 74.07407407407408, 'f1': 0.7407407407407407}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 68.0, 'f1': 0.68}
+lukaemon_mmlu_machine_learning: {'accuracy': 57.14285714285714, 'f1': 0.5714285714285714}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 77.35849056603774, 'f1': 0.7735849056603775}
+lukaemon_mmlu_global_facts: {'accuracy': 44.0, 'f1': 0.44}
+lukaemon_mmlu_management: {'accuracy': 79.6116504854369, 'f1': 0.7961165048543688}
+lukaemon_mmlu_nutrition: {'accuracy': 78.75816993464052, 'f1': 0.7875816993464052}
+lukaemon_mmlu_marketing: {'accuracy': 83.76068376068376, 'f1': 0.8376068376068376}
+lukaemon_mmlu_professional_accounting: {'accuracy': 64.8936170212766, 'f1': 0.648936170212766}
+lukaemon_mmlu_high_school_geography: {'accuracy': 83.33333333333334, 'f1': 0.8333333333333334}
+lukaemon_mmlu_international_law: {'accuracy': 76.85950413223141, 'f1': 0.768595041322314}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 42.68156424581006, 'f1': 0.42681564245810055}
+lukaemon_mmlu_computer_security: {'accuracy': 76.0, 'f1': 0.76}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 81.9327731092437, 'f1': 0.819327731092437}
+lukaemon_mmlu_professional_law: {'accuracy': 50.13037809647979, 'f1': 0.5013037809647979}
+lukaemon_mmlu_medical_genetics: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_professional_psychology: {'accuracy': 72.05882352941177, 'f1': 0.7205882352941176}
+lukaemon_mmlu_jurisprudence: {'accuracy': 68.51851851851852, 'f1': 0.6851851851851852}
+lukaemon_mmlu_world_religions: {'accuracy': 83.04093567251462, 'f1': 0.8304093567251462}
+lukaemon_mmlu_philosophy: {'accuracy': 69.45337620578779, 'f1': 0.6945337620578779}
+lukaemon_mmlu_virology: {'accuracy': 50.0, 'f1': 0.5}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 69.95073891625616, 'f1': 0.6995073891625616}
+lukaemon_mmlu_public_relations: {'accuracy': 64.54545454545455, 'f1': 0.6454545454545455}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 78.46153846153847, 'f1': 0.7846153846153847}
+lukaemon_mmlu_human_sexuality: {'accuracy': 77.09923664122137, 'f1': 0.7709923664122138}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 95.23809523809523, 'f1': 0.9523809523809523}
+lukaemon_mmlu_high_school_physics: {'accuracy': 70.19867549668875, 'f1': 0.7019867549668874}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 85.0, 'f1': 0.85}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 81.21212121212122, 'f1': 0.8121212121212121}
+lukaemon_mmlu_business_ethics: {'accuracy': 63.0, 'f1': 0.63}
+lukaemon_mmlu_moral_disputes: {'accuracy': 67.91907514450867, 'f1': 0.6791907514450867}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 80.55555555555556, 'f1': 0.8055555555555556}
+lukaemon_mmlu_miscellaneous: {'accuracy': 84.54661558109834, 'f1': 0.8454661558109834}
+lukaemon_mmlu_formal_logic: {'accuracy': 53.17460317460318, 'f1': 0.5317460317460317}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 89.11917098445595, 'f1': 0.8911917098445595}
+lukaemon_mmlu_prehistory: {'accuracy': 77.77777777777779, 'f1': 0.7777777777777778}
+lukaemon_mmlu_security_studies: {'accuracy': 70.61224489795919, 'f1': 0.7061224489795919}
+lukaemon_mmlu_high_school_biology: {'accuracy': 85.48387096774194, 'f1': 0.8548387096774194}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 77.30061349693251, 'f1': 0.7730061349693251}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 84.81012658227847, 'f1': 0.8481012658227848}
+lukaemon_mmlu_professional_medicine: {'accuracy': 76.83823529411765, 'f1': 0.7683823529411765}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 88.51851851851852, 'f1': 0.8851851851851851}
+lukaemon_mmlu_college_medicine: {'accuracy': 68.78612716763006, 'f1': 0.6878612716763006}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 85.7843137254902, 'f1': 0.8578431372549019}
+lukaemon_mmlu_sociology: {'accuracy': 77.61194029850746, 'f1': 0.7761194029850746}
+lukaemon_mmlu_econometrics: {'accuracy': 61.40350877192983, 'f1': 0.6140350877192983}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 87.33944954128441, 'f1': 0.8733944954128441}
+lukaemon_mmlu_human_aging: {'accuracy': 71.74887892376681, 'f1': 0.7174887892376681}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 82.0, 'f1': 0.82}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 77.87234042553192, 'f1': 0.778723404255319}
+-------------------------------
+Model: daiyu_20250426_042114
+hellaswag: {'accuracy': 70.52380003983271, 'f1': 0.7052380003983271}
+math_prm800k_500-llmjudge: {'accuracy': 78.2, 'f1': 0.782}
+bbeh_boolean_expressions: {'accuracy': 16.5, 'f1': 0.165}
+bbeh_disambiguation_qa: {'accuracy': 44.166666666666664, 'f1': 0.44166666666666665}
+bbeh_geometric_shapes: {'accuracy': 24.0, 'f1': 0.24}
+bbeh_hyperbaton: {'accuracy': 5.5, 'f1': 0.055}
+bbeh_movie_recommendation: {'accuracy': 23.5, 'f1': 0.235}
+bbeh_nycc: {'accuracy': 11.0, 'f1': 0.11}
+bbeh_shuffled_objects: {'accuracy': 12.5, 'f1': 0.125}
+bbeh_boardgame_qa: {'accuracy': 34.5, 'f1': 0.345}
+bbeh_buggy_tables: {'accuracy': 1.5, 'f1': 0.015}
+bbeh_causal_understanding: {'accuracy': 24.5, 'f1': 0.245}
+bbeh_dyck_languages: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_linguini: {'accuracy': 5.0, 'f1': 0.05000000000000001}
+bbeh_multistep_arithmetic: {'accuracy': 0.5, 'f1': 0.005}
+bbeh_object_counting: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_object_properties: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_sarc_triples: {'accuracy': 13.5, 'f1': 0.135}
+bbeh_spatial_reasoning: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_sportqa: {'accuracy': 5.0, 'f1': 0.05000000000000001}
+bbeh_temporal_sequence: {'accuracy': 0.0, 'f1': 0.0}
+bbeh_time_arithmetic: {'accuracy': 20.0, 'f1': 0.20000000000000004}
+bbeh_web_of_lies: {'accuracy': 4.0, 'f1': 0.04}
+bbeh_word_sorting: {'accuracy': 2.5, 'f1': 0.025000000000000005}
+bbeh_zebra_puzzles: {'accuracy': 16.5, 'f1': 0.165}
+bbh-temporal_sequences: {'score': 77.2}
+bbh-disambiguation_qa: {'score': 46.400000000000006}
+bbh-date_understanding: {'score': 50.8}
+bbh-tracking_shuffled_objects_three_objects: {'score': 74.4}
+bbh-penguins_in_a_table: {'score': 70.54794520547945}
+bbh-geometric_shapes: {'score': 42.4}
+bbh-snarks: {'score': 75.84269662921348}
+bbh-ruin_names: {'score': 54.400000000000006}
+bbh-tracking_shuffled_objects_seven_objects: {'score': 54.800000000000004}
+bbh-tracking_shuffled_objects_five_objects: {'score': 78.0}
+bbh-logical_deduction_three_objects: {'score': 72.0}
+bbh-hyperbaton: {'score': 67.2}
+bbh-logical_deduction_five_objects: {'score': 56.00000000000001}
+bbh-logical_deduction_seven_objects: {'score': 48.4}
+bbh-movie_recommendation: {'score': 60.0}
+bbh-salient_translation_error_detection: {'score': 43.6}
+bbh-reasoning_about_colored_objects: {'score': 60.8}
+bbh-multistep_arithmetic_two: {'score': 81.6}
+bbh-navigate: {'score': 59.599999999999994}
+bbh-dyck_languages: {'score': 2.0}
+bbh-word_sorting: {'score': 24.8}
+bbh-sports_understanding: {'score': 55.60000000000001}
+bbh-boolean_expressions: {'score': 79.60000000000001}
+bbh-object_counting: {'score': 50.4}
+bbh-formal_fallacies: {'score': 58.4}
+bbh-causal_judgement: {'score': 52.94117647058824}
+bbh-web_of_lies: {'score': 70.39999999999999}
+cmmlu-agronomy: {'accuracy': 68.04733727810651, 'f1': 0.6804733727810651}
+cmmlu-anatomy: {'accuracy': 87.16216216216216, 'f1': 0.8716216216216216}
+cmmlu-ancient_chinese: {'accuracy': 46.95121951219512, 'f1': 0.4695121951219512}
+cmmlu-arts: {'accuracy': 93.75, 'f1': 0.9375}
+cmmlu-astronomy: {'accuracy': 51.515151515151516, 'f1': 0.5151515151515151}
+cmmlu-business_ethics: {'accuracy': 68.42105263157895, 'f1': 0.6842105263157895}
+cmmlu-chinese_civil_service_exam: {'accuracy': 76.25, 'f1': 0.7625}
+cmmlu-chinese_driving_rule: {'accuracy': 96.94656488549617, 'f1': 0.9694656488549618}
+cmmlu-chinese_food_culture: {'accuracy': 73.52941176470588, 'f1': 0.735294117647059}
+cmmlu-chinese_foreign_policy: {'accuracy': 75.70093457943925, 'f1': 0.7570093457943925}
+cmmlu-chinese_history: {'accuracy': 86.06811145510835, 'f1': 0.8606811145510835}
+cmmlu-chinese_literature: {'accuracy': 69.11764705882352, 'f1': 0.6911764705882353}
+cmmlu-chinese_teacher_qualification: {'accuracy': 89.94413407821229, 'f1': 0.8994413407821229}
+cmmlu-clinical_knowledge: {'accuracy': 77.63713080168776, 'f1': 0.7763713080168775}
+cmmlu-college_actuarial_science: {'accuracy': 43.39622641509434, 'f1': 0.43396226415094347}
+cmmlu-college_education: {'accuracy': 87.85046728971963, 'f1': 0.8785046728971962}
+cmmlu-college_engineering_hydrology: {'accuracy': 78.30188679245283, 'f1': 0.7830188679245284}
+cmmlu-college_law: {'accuracy': 67.5925925925926, 'f1': 0.6759259259259259}
+cmmlu-college_mathematics: {'accuracy': 43.80952380952381, 'f1': 0.4380952380952381}
+cmmlu-college_medical_statistics: {'accuracy': 70.75471698113208, 'f1': 0.7075471698113207}
+cmmlu-college_medicine: {'accuracy': 83.51648351648352, 'f1': 0.8351648351648353}
+cmmlu-computer_science: {'accuracy': 84.31372549019608, 'f1': 0.8431372549019607}
+cmmlu-computer_security: {'accuracy': 88.30409356725146, 'f1': 0.8830409356725146}
+cmmlu-conceptual_physics: {'accuracy': 87.07482993197279, 'f1': 0.8707482993197279}
+cmmlu-construction_project_management: {'accuracy': 69.7841726618705, 'f1': 0.697841726618705}
+cmmlu-economics: {'accuracy': 81.13207547169812, 'f1': 0.8113207547169812}
+cmmlu-education: {'accuracy': 76.07361963190185, 'f1': 0.7607361963190185}
+cmmlu-electrical_engineering: {'accuracy': 81.97674418604652, 'f1': 0.8197674418604651}
+cmmlu-elementary_chinese: {'accuracy': 75.39682539682539, 'f1': 0.753968253968254}
+cmmlu-elementary_commonsense: {'accuracy': 74.24242424242425, 'f1': 0.7424242424242424}
+cmmlu-elementary_information_and_technology: {'accuracy': 94.53781512605042, 'f1': 0.9453781512605042}
+cmmlu-elementary_mathematics: {'accuracy': 70.86956521739131, 'f1': 0.7086956521739132}
+cmmlu-ethnology: {'accuracy': 77.03703703703704, 'f1': 0.7703703703703704}
+cmmlu-food_science: {'accuracy': 69.93006993006993, 'f1': 0.6993006993006993}
+cmmlu-genetics: {'accuracy': 66.47727272727273, 'f1': 0.6647727272727273}
+cmmlu-global_facts: {'accuracy': 78.52348993288591, 'f1': 0.7852348993288589}
+cmmlu-high_school_biology: {'accuracy': 82.24852071005917, 'f1': 0.8224852071005917}
+cmmlu-high_school_chemistry: {'accuracy': 68.18181818181817, 'f1': 0.6818181818181818}
+cmmlu-high_school_geography: {'accuracy': 79.66101694915254, 'f1': 0.7966101694915254}
+cmmlu-high_school_mathematics: {'accuracy': 70.1219512195122, 'f1': 0.7012195121951219}
+cmmlu-high_school_physics: {'accuracy': 77.27272727272727, 'f1': 0.7727272727272727}
+cmmlu-high_school_politics: {'accuracy': 86.01398601398601, 'f1': 0.8601398601398601}
+cmmlu-human_sexuality: {'accuracy': 66.66666666666666, 'f1': 0.6666666666666666}
+cmmlu-international_law: {'accuracy': 71.89189189189189, 'f1': 0.7189189189189189}
+cmmlu-journalism: {'accuracy': 76.74418604651163, 'f1': 0.7674418604651162}
+cmmlu-jurisprudence: {'accuracy': 81.99513381995133, 'f1': 0.8199513381995134}
+cmmlu-legal_and_moral_basis: {'accuracy': 97.66355140186917, 'f1': 0.9766355140186916}
+cmmlu-logical: {'accuracy': 73.98373983739837, 'f1': 0.7398373983739838}
+cmmlu-machine_learning: {'accuracy': 72.95081967213115, 'f1': 0.7295081967213115}
+cmmlu-management: {'accuracy': 84.28571428571429, 'f1': 0.8428571428571429}
+cmmlu-marketing: {'accuracy': 84.44444444444444, 'f1': 0.8444444444444444}
+cmmlu-marxist_theory: {'accuracy': 93.65079365079364, 'f1': 0.9365079365079365}
+cmmlu-modern_chinese: {'accuracy': 58.620689655172406, 'f1': 0.5862068965517241}
+cmmlu-nutrition: {'accuracy': 78.62068965517241, 'f1': 0.7862068965517242}
+cmmlu-philosophy: {'accuracy': 77.14285714285715, 'f1': 0.7714285714285715}
+cmmlu-professional_accounting: {'accuracy': 88.57142857142857, 'f1': 0.8857142857142857}
+cmmlu-professional_law: {'accuracy': 72.03791469194313, 'f1': 0.7203791469194313}
+cmmlu-professional_medicine: {'accuracy': 76.32978723404256, 'f1': 0.7632978723404256}
+cmmlu-professional_psychology: {'accuracy': 85.34482758620689, 'f1': 0.853448275862069}
+cmmlu-public_relations: {'accuracy': 71.83908045977012, 'f1': 0.7183908045977012}
+cmmlu-security_study: {'accuracy': 88.88888888888889, 'f1': 0.8888888888888888}
+cmmlu-sociology: {'accuracy': 75.66371681415929, 'f1': 0.756637168141593}
+cmmlu-sports_science: {'accuracy': 75.15151515151514, 'f1': 0.7515151515151516}
+cmmlu-traditional_chinese_medicine: {'accuracy': 79.45945945945945, 'f1': 0.7945945945945945}
+cmmlu-virology: {'accuracy': 79.28994082840237, 'f1': 0.7928994082840237}
+cmmlu-world_history: {'accuracy': 83.22981366459628, 'f1': 0.8322981366459627}
+cmmlu-world_religions: {'accuracy': 80.625, 'f1': 0.8062499999999999}
+lukaemon_mmlu_college_biology: {'accuracy': 84.02777777777779, 'f1': 0.8402777777777778}
+lukaemon_mmlu_college_chemistry: {'accuracy': 54.0, 'f1': 0.54}
+lukaemon_mmlu_college_computer_science: {'accuracy': 77.0, 'f1': 0.7699999999999999}
+lukaemon_mmlu_college_mathematics: {'accuracy': 70.0, 'f1': 0.7}
+lukaemon_mmlu_college_physics: {'accuracy': 78.43137254901961, 'f1': 0.7843137254901961}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 65.51724137931035, 'f1': 0.6551724137931034}
+lukaemon_mmlu_astronomy: {'accuracy': 83.55263157894737, 'f1': 0.8355263157894737}
+lukaemon_mmlu_anatomy: {'accuracy': 66.66666666666666, 'f1': 0.6666666666666666}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 72.0, 'f1': 0.72}
+lukaemon_mmlu_machine_learning: {'accuracy': 62.5, 'f1': 0.625}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 77.73584905660378, 'f1': 0.7773584905660378}
+lukaemon_mmlu_global_facts: {'accuracy': 49.0, 'f1': 0.49}
+lukaemon_mmlu_management: {'accuracy': 83.49514563106796, 'f1': 0.8349514563106796}
+lukaemon_mmlu_nutrition: {'accuracy': 79.08496732026144, 'f1': 0.7908496732026143}
+lukaemon_mmlu_marketing: {'accuracy': 87.6068376068376, 'f1': 0.8760683760683761}
+lukaemon_mmlu_professional_accounting: {'accuracy': 66.66666666666666, 'f1': 0.6666666666666666}
+lukaemon_mmlu_high_school_geography: {'accuracy': 84.34343434343434, 'f1': 0.8434343434343435}
+lukaemon_mmlu_international_law: {'accuracy': 80.16528925619835, 'f1': 0.8016528925619834}
+lukaemon_mmlu_moral_scenarios: {'accuracy': 47.374301675977655, 'f1': 0.47374301675977654}
+lukaemon_mmlu_computer_security: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 84.03361344537815, 'f1': 0.8403361344537815}
+lukaemon_mmlu_professional_law: {'accuracy': 50.32594524119948, 'f1': 0.5032594524119948}
+lukaemon_mmlu_medical_genetics: {'accuracy': 89.0, 'f1': 0.89}
+lukaemon_mmlu_professional_psychology: {'accuracy': 73.8562091503268, 'f1': 0.738562091503268}
+lukaemon_mmlu_jurisprudence: {'accuracy': 77.77777777777779, 'f1': 0.7777777777777778}
+lukaemon_mmlu_world_religions: {'accuracy': 83.62573099415205, 'f1': 0.8362573099415205}
+lukaemon_mmlu_philosophy: {'accuracy': 70.09646302250803, 'f1': 0.7009646302250804}
+lukaemon_mmlu_virology: {'accuracy': 50.602409638554214, 'f1': 0.5060240963855421}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 73.89162561576354, 'f1': 0.7389162561576355}
+lukaemon_mmlu_public_relations: {'accuracy': 65.45454545454545, 'f1': 0.6545454545454545}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 82.3076923076923, 'f1': 0.823076923076923}
+lukaemon_mmlu_human_sexuality: {'accuracy': 76.33587786259542, 'f1': 0.7633587786259542}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 94.44444444444444, 'f1': 0.9444444444444444}
+lukaemon_mmlu_high_school_physics: {'accuracy': 73.50993377483444, 'f1': 0.7350993377483442}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 90.0, 'f1': 0.9}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 80.0, 'f1': 0.8000000000000002}
+lukaemon_mmlu_business_ethics: {'accuracy': 67.0, 'f1': 0.67}
+lukaemon_mmlu_moral_disputes: {'accuracy': 70.8092485549133, 'f1': 0.708092485549133}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 84.25925925925925, 'f1': 0.8425925925925926}
+lukaemon_mmlu_miscellaneous: {'accuracy': 86.84546615581098, 'f1': 0.8684546615581099}
+lukaemon_mmlu_formal_logic: {'accuracy': 57.936507936507944, 'f1': 0.5793650793650794}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 90.15544041450777, 'f1': 0.9015544041450776}
+lukaemon_mmlu_prehistory: {'accuracy': 78.39506172839506, 'f1': 0.7839506172839507}
+lukaemon_mmlu_security_studies: {'accuracy': 73.06122448979592, 'f1': 0.7306122448979592}
+lukaemon_mmlu_high_school_biology: {'accuracy': 84.19354838709677, 'f1': 0.8419354838709677}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 76.07361963190185, 'f1': 0.7607361963190185}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 78.90295358649789, 'f1': 0.7890295358649789}
+lukaemon_mmlu_professional_medicine: {'accuracy': 76.83823529411765, 'f1': 0.7683823529411765}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 88.51851851851852, 'f1': 0.8851851851851851}
+lukaemon_mmlu_college_medicine: {'accuracy': 71.09826589595376, 'f1': 0.7109826589595376}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 83.33333333333334, 'f1': 0.8333333333333334}
+lukaemon_mmlu_sociology: {'accuracy': 83.08457711442786, 'f1': 0.8308457711442786}
+lukaemon_mmlu_econometrics: {'accuracy': 61.40350877192983, 'f1': 0.6140350877192983}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 87.5229357798165, 'f1': 0.8752293577981652}
+lukaemon_mmlu_human_aging: {'accuracy': 70.85201793721974, 'f1': 0.7085201793721974}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 83.0, 'f1': 0.83}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 79.57446808510639, 'f1': 0.7957446808510639}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

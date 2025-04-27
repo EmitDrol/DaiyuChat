@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat whit Daiyu</title>
+    <title>Chat with Daiyu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -103,6 +103,33 @@
             background-color: #fff;
             box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
         }
+
+        /* 新增样式：处理 <action> 和 <thinking> 标签 */
+        .action {
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px 0;
+            animation: pulse 5s infinite;  /* 动画效果 */
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .thinking {
+            background: #f0f0f0; /* 浅灰色背景 */
+            color: #666;
+            font-style: italic;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px 0;
+        }
     </style>
     <!-- 引入 marked.js 库 -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -119,6 +146,123 @@
         const chatBox = document.getElementById('chat-box');
         const userInput = document.getElementById('user-input');
         let conversationHistory = [];
+
+        // 解析模型输出的内容，处理 <action> 和 <thinking> 标签
+        function parseModelOutput(text) {
+            const actionRegex = /<action>(.*?)<\/action>/g;
+            const thinkingRegex = /<thinking>(.*?)<\/thinking>/g;
+
+            // 替换 <action> 标签
+            text = text.replace(actionRegex, (match, p1) => {
+                return `<span class="action">[${p1}]</span>`;
+            });
+
+            // 替换 <thinking> 标签
+            text = text.replace(thinkingRegex, (match, p1) => {
+                return `<span class="thinking">(${p1})</span>`;
+            });
+
+            return text;
+        }
+
+        function appendMessage(text, sender) {
+            const messageContainer = document.createElement('div');
+            messageContainer.className = `message-container ${sender}`;
+
+            // 创建头像
+            const avatar = document.createElement('div');
+            avatar.className = 'avatar';
+
+            // 创建消息内容
+            const message = document.createElement('div');
+            message.className = 'message';
+
+            // 如果是模型的消息，解析特殊标签
+            if (sender === 'model') {
+                message.innerHTML = marked.parse(parseModelOutput(text)); // 使用 marked.js 渲染 Markdown
+            } else {
+                message.innerHTML = marked.parse(text); // 用户消息直接渲染
+            }
+
+            // 将头像和消息添加到容器
+            messageContainer.appendChild(avatar);
+            messageContainer.appendChild(message);
+            chatBox.appendChild(messageContainer);
+
+            // 滚动到底部
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        async function sendMessage() {
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            // 添加用户消息到聊天框
+            appendMessage(message, 'user');
+            conversationHistory.push({ role: 'user', content: message });
+            userInput.value = '';
+
+            try {
+                // 发送请求并处理流式响应
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ messages: conversationHistory })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                // 创建一个临时的消息容器用于流式更新
+                const tempMessageContainer = document.createElement('div');
+                tempMessageContainer.className = 'message-container model';
+                const tempMessage = document.createElement('div');
+                tempMessage.className = 'message';
+                // 添加头像
+                const avatar = document.createElement('div');
+                avatar.className = 'avatar';
+                tempMessageContainer.appendChild(avatar);
+                tempMessageContainer.appendChild(tempMessage);
+                chatBox.appendChild(tempMessageContainer);
+
+                // 处理流式数据
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let fullReply = '';
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+
+                    const chunk = decoder.decode(value, { stream: true });
+                    fullReply += chunk;
+
+                    // 更新临时消息内容
+                    tempMessage.innerHTML = marked.parse(parseModelOutput(fullReply));
+                    chatBox.scrollTop = chatBox.scrollHeight; // 滚动到底部
+                }
+
+                // 将完整的回复保存到对话历史
+                conversationHistory.push({ role: 'assistant', content: fullReply });
+            } catch (error) {
+                appendMessage(`Error: ${error.message}`, 'model');
+            }
+        }
+
+        // 按 Enter 键发送消息
+        userInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        // 页面加载时获取开场白
+        window.onload = function () {
+            fetchWelcomeMessage();
+        };
 
         // 从服务器获取开场白
         async function fetchWelcomeMessage() {
@@ -142,75 +286,6 @@
                 console.error("Failed to fetch welcome message:", error);
             }
         }
-
-        // 页面加载时获取开场白
-        window.onload = function () {
-            fetchWelcomeMessage();
-        };
-
-        function appendMessage(text, sender) {
-            const messageContainer = document.createElement('div');
-            messageContainer.className = `message-container ${sender}`;
-
-            // 创建头像
-            const avatar = document.createElement('div');
-            avatar.className = 'avatar';
-
-            // 创建消息内容
-            const message = document.createElement('div');
-            message.className = 'message';
-            message.innerHTML = marked.parse(text); // 使用 marked.js 渲染 Markdown
-
-            // 将头像和消息添加到容器
-            messageContainer.appendChild(avatar);
-            messageContainer.appendChild(message);
-            chatBox.appendChild(messageContainer);
-
-            // 滚动到底部
-            chatBox.scrollTop = chatBox.scrollHeight;
-        }
-
-        function speak(text) {
-            const utterance = new SpeechSynthesisUtterance(text);
-            speechSynthesis.speak(utterance);
-        }
-
-        async function sendMessage() {
-            const message = userInput.value.trim();
-            if (!message) return;
-
-            appendMessage(message, 'user');
-            conversationHistory.push({ role: 'user', content: message });
-            userInput.value = '';
-
-            try {
-                const response = await fetch('/chat', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ messages: conversationHistory })
-                });
-
-                const data = await response.json();
-                if (data.reply) {
-                    appendMessage(data.reply, 'model');
-                    conversationHistory.push({ role: 'assistant', content: data.reply });
-                    speak(data.reply);
-                } else {
-                    appendMessage("Error: Unable to get a reply.", 'model');
-                }
-            } catch (error) {
-                appendMessage(`Error: ${error.message}`, 'model');
-            }
-        }
-
-        // 按 Enter 键发送消息
-        userInput.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-                sendMessage();
-            }
-        });
     </script>
 </body>
 </html>
