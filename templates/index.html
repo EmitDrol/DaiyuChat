@@ -44,8 +44,8 @@
             flex-direction: row-reverse; /* 用户头像靠右 */
         }
         .avatar {
-            width: 40px;
-            height: 40px;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
             margin: 0 10px;
             background-size: cover;
@@ -161,8 +161,9 @@
             text = text.replace(thinkingRegex, (match, p1) => {
                 return `<span class="thinking">(${p1})</span>`;
             });
-
-            return text;
+            
+            // 去除text首尾的空格和换行符
+            return text.trim().replace(/\n/g, '<br>');
         }
 
         function appendMessage(text, sender) {
@@ -267,22 +268,33 @@
         // 从服务器获取开场白
         async function fetchWelcomeMessage() {
             try {
-                const response = await fetch('/welcome', {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
-                });
+                // 随机决定是否显示开场白
+                const randomChance = Math.random(); // 生成一个 0 到 1 的随机数 [[6]]
+                const showWelcomeMessage = randomChance > 0.3; // 70% 的几率显示开场白，30% 的几率不显示
 
-                const data = await response.json();
-                if (data.message) {
-                    appendMessage(data.message, 'model');
-                    conversationHistory.push({ role: 'assistant', content: data.message });
-                } else {
-                    appendMessage("Welcome! How can I assist you today?", 'model'); // 默认开场白
+                if (showWelcomeMessage) {
+                    const response = await fetch('/welcome', {
+                        method: 'GET',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                    const data = await response.json();
+                    if (data.message) {
+                        appendMessage(data.message, 'model');
+                        conversationHistory.push({ role: 'assistant', content: data.message });
+                        return; // 如果获取到开场白，直接返回
+                    }
+                }
+
+                // 默认开场白（仅在未命中随机条件或服务器无响应时显示）
+                const defaultMessage = "Welcome! How can I assist you today?";
+                if (showWelcomeMessage) {
+                    appendMessage(defaultMessage, 'model');
+                    conversationHistory.push({ role: 'assistant', content: defaultMessage });
                 }
             } catch (error) {
-                appendMessage("Welcome! How can I assist you today?", 'model'); // 默认开场白
                 console.error("Failed to fetch welcome message:", error);
             }
         }

@@ -37,13 +37,13 @@ def load_and_index_documents(data_dir: str = DATA_DIR):
         index = VectorStoreIndex.from_documents(
             documents,
             vector_store=vector_store,
-            embed_model=HuggingFaceEmbedding(model_name=EMBEDDING_MODEL)
+            embed_model=HuggingFaceEmbedding(EMBEDDING_MODEL)
         )
         
         # # 持久化索引
         # index.storage_context.persist(persist_dir=INDEX_DIR)
         # print("索引已创建并持久化。")
-        
+        print("索引已创建。")
         return index
     except Exception as e:
         raise ValueError(f"加载文档或创建索引失败: {str(e)}")
@@ -60,7 +60,7 @@ def retrieve(index, query: str, top_k: int = 5):
         # 提取检索结果的文本内容
         results = [node.text for node in retrieved_nodes]
         
-        return results
+        return enumerate(results, 1)
     except Exception as e:
         raise ValueError(f"检索失败: {str(e)}")
 
@@ -78,5 +78,5 @@ if __name__ == "__main__":
         
         # Step 4: 打印结果
         print("检索结果：")
-        for i, result in enumerate(results, 1):
+        for i, result in results:
             print(f"[[{i}]]. {result}")

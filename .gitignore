@@ -14,6 +14,7 @@ model_work/evaluation/eval_report/20250425/predictions
 
 #model
 model_work/training/dlc_launch_ft.sh
+rag/ebmodels
 
 **__pycache__**
 whiteboard.md
